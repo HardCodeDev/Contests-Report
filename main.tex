@@ -4971,6 +4971,378 @@ int main(){
 \includegraphics[width=0.95\textwidth]{OC_Tatarstan/OC_Tatarstan_result.png}\\ [1cm]
 \end{center}
 
+
+
+%----------------------------------------------------------------------------------------
+%
+%	OpenCup GP of America
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{OpenCup GrandPrix of America}
+
+\textbf{{\large Задача J - Zig Zag Nametag}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_America/OC_America_J.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <algorithm>
+
+int main(){
+    long k;
+    cin >> k;
+    long length = (k - 1) / 25 + 2;
+    
+    string s = "";
+    for (long i = 0; i < length; i++) {
+        if (i  % 2)
+            s += "z";
+        else
+            s += "a";
+    }
+    
+    if (length > 2) {
+        s[1] = (char)('n' + (k - 25 * (length - 2)) / 2);
+        long last = s.size() - 1;
+        if (s[last] == 'z' && k % 2 == 0) {
+            s[last] = 'y';
+        }
+        else if (s[last] == 'a' && k % 2 == 1) {
+            s[last] = 'b';
+        }
+    }
+    else {
+        s[0] = 'a';
+        s[1] = 'a' + k;
+    }
+    cout << s << endl;
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача K - Knight Jumps}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_America/OC_America_K.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <algorithm>
+#include <vector>
+
+int main(){
+    int n, m;
+    cin >> n >> m;
+
+    int x_num = 0;
+    int k_num = 0;
+    
+    char symb;
+    
+    vector<bool> used(n * m, false);
+    vector<vector<int> > g(n * m, vector<int>());
+    
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cin >> symb;
+            //used[i][j] = false;
+            if (symb == '#') {
+                used[i * m + j] = true;
+            }
+            else if (symb == 'K') {
+                k_num = i * m + j;
+                used[i * m + j] = true;
+            }
+            else if (symb == 'X') {
+                x_num = i * m + j;
+            }
+        }
+    }
+    
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            int to = i * m + j;
+            
+            if (i - 2 >= 0 && j - 1 >= 0)
+                g[to].push_back((i - 2) * m + (j - 1));
+            if (i - 2 >= 0 && j + 1 < m)
+                g[to].push_back((i - 2) * m + (j + 1));
+            
+            if (i - 1 >= 0 && j - 2 >= 0)
+                g[to].push_back((i - 1) * m + (j - 2));
+            if (i + 1 < n && j - 2 >= 0)
+                g[to].push_back((i + 1) * m + (j - 2));
+            
+            if (i + 2 < n && j - 1 >= 0)
+                g[to].push_back((i + 2) * m + (j - 1));
+            if (i + 2 < n && j + 1 < m)
+                g[to].push_back((i + 2) * m + (j + 1));
+            
+            if (i - 1 >= 0 && j + 2 < m)
+                g[to].push_back((i - 1) * m + (j + 2));
+            if (i + 1 < n && j + 2 < m)
+                g[to].push_back((i + 1) * m + (j + 2));
+        }
+    }
+    
+    queue<int> ways;
+    used[k_num] = true;
+    ways.push(k_num);
+
+    vector<int> d(n * m), p(n * m);
+    p[k_num] = -1;
+    
+    while (!ways.empty()) {
+        int v = ways.front();
+        ways.pop();
+        for (size_t i = 0; i < g[v].size(); ++i) {
+            int to = g[v][i];
+            if (!used[to]) {
+                used[to] = true;
+                ways.push(to);
+                d[to] = d[v] + 1;
+                p[to] = v;
+            }
+        }
+    }
+    
+    if (!used[x_num])
+        cout << "-1" << endl;
+    else {
+        vector<int> path;
+        for (int v = x_num; v!= -1; v = p[v])
+            path.push_back (v);
+        cout << path.size() - 1 << endl;
+    }    
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача M - Multiple Tom N}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_America/OC_America_M1.png}\\ [1cm]
+\includegraphics[width=0.9\textwidth]{OC_America/OC_America_M2.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <algorithm>
+#include <vector>
+
+#define LL  long long
+#define ULL unsigned long long
+
+int main() {
+	ULL n;
+	cin >> n;
+
+	vector <ULL> v1(n);
+	vector <ULL> v2(n);
+    cin.get();
+	for (ULL i = 0; i < n; i++) {
+        ULL a = 0;
+        char c;
+        while((c=cin.get())!='\n') {
+            a = a*26+(c-'A');
+        }
+		v1[i] = a;
+	}
+
+	for (ULL i = 0; i < n; i++) {
+        ULL a = 0;
+        char c;
+        while((c=cin.get())!='\n') {
+            a = a*26+(c-'A');
+        }
+        v2[i] = a;
+	}
+	
+	ULL count = 0;
+	ULL sum1 = 0;
+	ULL sum2 = 0;
+
+	for(ULL i = 0; i < n; i++) {
+		if(v1[i] == v2[i] && count == 0) {
+			cout << "1" << endl;
+			continue;
+		}
+		else {
+			sum1 += v1[i];
+			sum2 += v2[i];
+			count++;
+		}
+		
+		if(sum1 == sum2) {
+			cout << count << endl;
+			count = 0;
+			sum1 = 0;
+			sum2 = 0;
+		}
+	}
+
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача N - New Contest Director}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_America/OC_America_N.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=Perl]
+#!/usr/bin/perl
+<>;
+my %h;
+my $max = 0;
+while($a=<>) {
+	++$h{$a};
+	if ($max < $h{$a}) {
+		$max = $h{$a};
+	}
+}
+my @m = %h;
+my @r;
+while(($a = shift @m, $b = shift @m)) {
+	if ($b == $max) {
+		$a =~ s/\n//;
+		push @r, $a;
+	}
+}
+print join "\n", sort @r;
+\end{lstlisting}
+
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{OC_America/OC_America_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Vekua Cup team
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{Vekua Cup Командный этап}
+
+Так как соревнование проводилось в центре 1С, исходные коды программ не доступны. \\
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{Vekua_team/Vekua_team_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	OpenCup GP of Ural
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{OpenCup GrandPrix of Ural}
+
+\textbf{{\large Задача C - Древние ПСП}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Ural/OC_Ural_C.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=Perl]
+#!/usr/bin/perl
+$\ = "\n";
+sub func {
+	my $s = shift;
+	my $a = int ((sqrt(1+8*$s)-1)/2);
+	my $n = $s - ($a+1)*$a/2;
+	my $r = "";
+	$r = func($n) if $n != 0;
+	"(". $r .")". "()" x ($a-1) ;
+}
+my $a = <>;
+print func $a;
+\end{lstlisting}
+
+\textbf{{\large Задача F - Фокус}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Ural/OC_Ural_F.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=Perl]
+#!/usr/bin/perl
+$a = <>;
+if ($a == 0) {
+	print "-1\n";
+	exit;
+}
+@m = split "", $a;
+map{$s+=$_}@m;
+while ($s >= 9) {
+	$r .= 9;
+	$s -= 9;
+}
+$r .= $s if $s != 0;
+if ($r == $a) {
+	$r =~ s/^(\d)(\d+)(\d)$/$3$2$1/;
+}
+if ($r == $a) {
+	$r =~ s/^(\d)(\d*)$/"1".($1-1).$2/e;
+}
+if ($r > 10**9) {
+	print "-1\n";
+	exit;
+}
+print $r;
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{OC_Ural/OC_Ural_result.png}\\ [1cm]
+\end{center}
+
+
+
+
+
 %----------------------------------------------------------------------------------------
 %
 %	ЛИЧНЫЕ КОНТЕСТЫ

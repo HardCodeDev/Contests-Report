@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.26)  26 JUN 2015 23:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.26)  27 JUN 2015 00:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2375,84 +2375,241 @@ File: OC_China/OC_China_result.png Graphic file (type png)
 Package pdftex.def Info: OC_China/OC_China_result.png used on input line 4911.
 (pdftex.def)             Requested size: 486.54057pt x 26.60236pt.
  [156 <./OC_China/OC_China_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4931--4932
+Underfull \hbox (badness 10000) in paragraph at lines 4924--4925
 
  []
 
-<CT_SGAU/CT_SGAU_D.png, id=622, 816.04875pt x 840.13875pt>
+<OC_Tatarstan/OC_Tatarstan_M.png, id=622, 769.87625pt x 952.55875pt>
+File: OC_Tatarstan/OC_Tatarstan_M.png Graphic file (type png)
+ <use OC_Tatarstan/OC_Tatarstan_M.png>
+Package pdftex.def Info: OC_Tatarstan/OC_Tatarstan_M.png used on input line 4926.
+(pdftex.def)             Requested size: 460.93153pt x 570.31874pt.
+ [157 <./OC_Tatarstan/OC_Tatarstan_M.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4930--4935
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4969--4970
+
+ []
+
+<OC_Tatarstan/OC_Tatarstan_result.png, id=626, 725.71124pt x 37.13875pt>
+File: OC_Tatarstan/OC_Tatarstan_result.png Graphic file (type png)
+ <use OC_Tatarstan/OC_Tatarstan_result.png>
+Package pdftex.def Info: OC_Tatarstan/OC_Tatarstan_result.png used on input line 4971.
+(pdftex.def)             Requested size: 486.54057pt x 24.89926pt.
+ [158 <./OC_Tatarstan/OC_Tatarstan_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4984--4985
+
+ []
+
+<OC_America/OC_America_J.png, id=630, 931.48pt x 780.9175pt>
+File: OC_America/OC_America_J.png Graphic file (type png)
+ <use OC_America/OC_America_J.png>
+Package pdftex.def Info: OC_America/OC_America_J.png used on input line 4986.
+(pdftex.def)             Requested size: 460.93153pt x 386.43024pt.
+ [159 <./OC_America/OC_America_J.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4990--4995
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5031--5032
+
+ []
+
+<OC_America/OC_America_K.png, id=634, 924.45375pt x 795.97375pt>
+File: OC_America/OC_America_K.png Graphic file (type png)
+ <use OC_America/OC_America_K.png>
+Package pdftex.def Info: OC_America/OC_America_K.png used on input line 5033.
+(pdftex.def)             Requested size: 460.93153pt x 396.86852pt.
+ [160] [161 <./OC_America/OC_America_K.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5037--5042
+
+ []
+
+[162]
+Underfull \hbox (badness 10000) in paragraph at lines 5135--5136
+
+ []
+
+<OC_America/OC_America_M1.png, id=645, 923.45pt x 573.14125pt>
+File: OC_America/OC_America_M1.png Graphic file (type png)
+ <use OC_America/OC_America_M1.png>
+Package pdftex.def Info: OC_America/OC_America_M1.png used on input line 5137.
+(pdftex.def)             Requested size: 460.93153pt x 286.08017pt.
+ <OC_America/OC_America_M2.png, id=646, 844.15375pt x 353.32pt> [163]
+File: OC_America/OC_America_M2.png Graphic file (type png)
+ <use OC_America/OC_America_M2.png>
+Package pdftex.def Info: OC_America/OC_America_M2.png used on input line 5138.
+(pdftex.def)             Requested size: 460.93153pt x 192.92488pt.
+ [164 <./OC_America/OC_America_M1.png> <./OC_America/OC_America_M2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5142--5147
+
+ []
+
+[165]
+Underfull \hbox (badness 10000) in paragraph at lines 5207--5208
+
+ []
+
+<OC_America/OC_America_N.png, id=656, 920.43875pt x 789.95125pt>
+File: OC_America/OC_America_N.png Graphic file (type png)
+ <use OC_America/OC_America_N.png>
+Package pdftex.def Info: OC_America/OC_America_N.png used on input line 5209.
+(pdftex.def)             Requested size: 460.93153pt x 395.58939pt.
+ [166 <./OC_America/OC_America_N.png>] (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+Underfull \hbox (badness 10000) in paragraph at lines 5213--5218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5241--5242
+
+ []
+
+<OC_America/OC_America_result.png, id=660, 678.535pt x 38.1425pt>
+File: OC_America/OC_America_result.png Graphic file (type png)
+ <use OC_America/OC_America_result.png>
+Package pdftex.def Info: OC_America/OC_America_result.png used on input line 5243.
+(pdftex.def)             Requested size: 486.54057pt x 27.34966pt.
+ [167 <./OC_America/OC_America_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5256--5257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5258--5259
+
+ []
+
+<Vekua_team/Vekua_team_result.png, id=664, 862.22125pt x 37.13875pt>
+File: Vekua_team/Vekua_team_result.png Graphic file (type png)
+ <use Vekua_team/Vekua_team_result.png>
+Package pdftex.def Info: Vekua_team/Vekua_team_result.png used on input line 5260.
+(pdftex.def)             Requested size: 486.54057pt x 20.95679pt.
+ [168 <./Vekua_team/Vekua_team_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5273--5274
+
+ []
+
+<OC_Ural/OC_Ural_C.png, id=669, 828.09375pt x 729.72626pt>
+File: OC_Ural/OC_Ural_C.png Graphic file (type png)
+ <use OC_Ural/OC_Ural_C.png>
+Package pdftex.def Info: OC_Ural/OC_Ural_C.png used on input line 5275.
+(pdftex.def)             Requested size: 460.93153pt x 406.18315pt.
+ [169 <./OC_Ural/OC_Ural_C.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5279--5281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5299--5300
+
+ []
+
+<OC_Ural/OC_Ural_F.png, id=673, 825.0825pt x 554.07pt>
+File: OC_Ural/OC_Ural_F.png Graphic file (type png)
+ <use OC_Ural/OC_Ural_F.png>
+Package pdftex.def Info: OC_Ural/OC_Ural_F.png used on input line 5301.
+(pdftex.def)             Requested size: 460.93153pt x 309.5331pt.
+ [170 <./OC_Ural/OC_Ural_F.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5305--5307
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5337--5338
+
+ []
+
+<OC_Ural/OC_Ural_result.png, id=677, 710.655pt x 35.13126pt>
+File: OC_Ural/OC_Ural_result.png Graphic file (type png)
+ <use OC_Ural/OC_Ural_result.png>
+Package pdftex.def Info: OC_Ural/OC_Ural_result.png used on input line 5339.
+(pdftex.def)             Requested size: 486.54057pt x 24.05295pt.
+ [171 <./OC_Ural/OC_Ural_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5363--5364
+
+ []
+
+<CT_SGAU/CT_SGAU_D.png, id=681, 816.04875pt x 840.13875pt>
 File: CT_SGAU/CT_SGAU_D.png Graphic file (type png)
  <use CT_SGAU/CT_SGAU_D.png>
-Package pdftex.def Info: CT_SGAU/CT_SGAU_D.png used on input line 4933.
+Package pdftex.def Info: CT_SGAU/CT_SGAU_D.png used on input line 5365.
 (pdftex.def)             Requested size: 460.93153pt x 474.53827pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4935--4938
+Underfull \hbox (badness 10000) in paragraph at lines 5367--5370
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4935--4938
+Underfull \hbox (badness 10000) in paragraph at lines 5367--5370
 
  []
 
-[157 <./CT_SGAU/CT_SGAU_D.png>] [158]
-Underfull \hbox (badness 10000) in paragraph at lines 5002--5003
+[172 <./CT_SGAU/CT_SGAU_D.png>] [173]
+Underfull \hbox (badness 10000) in paragraph at lines 5434--5435
 
  []
 
-<CT_SGAU/CT_SGAU_F.png, id=629, 815.045pt x 517.935pt>
+<CT_SGAU/CT_SGAU_F.png, id=688, 815.045pt x 517.935pt>
 File: CT_SGAU/CT_SGAU_F.png Graphic file (type png)
  <use CT_SGAU/CT_SGAU_F.png>
-Package pdftex.def Info: CT_SGAU/CT_SGAU_F.png used on input line 5004.
+Package pdftex.def Info: CT_SGAU/CT_SGAU_F.png used on input line 5436.
 (pdftex.def)             Requested size: 460.93153pt x 292.91042pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5006--5010
+Underfull \hbox (badness 10000) in paragraph at lines 5438--5442
 
  []
 
-[159 <./CT_SGAU/CT_SGAU_F.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5025--5026
+[174 <./CT_SGAU/CT_SGAU_F.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5457--5458
 
  []
 
-<CT_SGAU/CT_SGAU_G.png, id=633, 814.04124pt x 463.7325pt>
+<CT_SGAU/CT_SGAU_G.png, id=693, 814.04124pt x 463.7325pt>
 File: CT_SGAU/CT_SGAU_G.png Graphic file (type png)
  <use CT_SGAU/CT_SGAU_G.png>
-Package pdftex.def Info: CT_SGAU/CT_SGAU_G.png used on input line 5027.
+Package pdftex.def Info: CT_SGAU/CT_SGAU_G.png used on input line 5459.
 (pdftex.def)             Requested size: 460.93153pt x 262.57542pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5029--5032
+Underfull \hbox (badness 10000) in paragraph at lines 5461--5464
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5029--5032
+Underfull \hbox (badness 10000) in paragraph at lines 5461--5464
 
  []
 
-[160 <./CT_SGAU/CT_SGAU_G.png>] [161]
-Underfull \hbox (badness 10000) in paragraph at lines 5068--5069
+[175 <./CT_SGAU/CT_SGAU_G.png>] [176]
+Underfull \hbox (badness 10000) in paragraph at lines 5500--5501
 
  []
 
-<CT_SGAU/CT_SGAU_result.png, id=640, 891.33pt x 558.085pt>
+<CT_SGAU/CT_SGAU_result.png, id=700, 891.33pt x 558.085pt>
 File: CT_SGAU/CT_SGAU_result.png Graphic file (type png)
  <use CT_SGAU/CT_SGAU_result.png>
-Package pdftex.def Info: CT_SGAU/CT_SGAU_result.png used on input line 5070.
+Package pdftex.def Info: CT_SGAU/CT_SGAU_result.png used on input line 5502.
 (pdftex.def)             Requested size: 486.54057pt x 304.63995pt.
- [162 <./CT_SGAU/CT_SGAU_result.png>] [163] (/Users/air/Desktop/Contests-Report/.texpadtmp/main.aux) ) 
+ [177 <./CT_SGAU/CT_SGAU_result.png>] [178] (/Users/air/Desktop/Contests-Report/.texpadtmp/main.aux) ) 
 Here is how much of TeX's memory you used:
- 18318 strings out of 493089
- 328917 string characters out of 6134842
- 738399 words of memory out of 5000000
- 21300 multiletter control sequences out of 15000+600000
+ 18637 strings out of 493089
+ 333536 string characters out of 6134842
+ 743331 words of memory out of 5000000
+ 21601 multiletter control sequences out of 15000+600000
  20537 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,94p,897b,1769s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb>
-Output written on /Users/air/Desktop/Contests-Report/.texpadtmp/main.pdf (164 pages, 7120055 bytes).
+Output written on /Users/air/Desktop/Contests-Report/.texpadtmp/main.pdf (179 pages, 7777535 bytes).
 PDF statistics:
- 703 PDF objects out of 1000 (max. 8388607)
- 413 compressed objects within 5 object streams
+ 762 PDF objects out of 1000 (max. 8388607)
+ 445 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 528 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 588 words of extra memory for PDF output out of 10000 (max. 10000000)
 
