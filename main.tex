@@ -2441,6 +2441,1582 @@ int main(int argc, const char * argv[]) {
 \end{center}
 
 
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces Training S02E09
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{Codeforces Training S02E09}
+
+\textbf{{\large Задача G - Graveyard}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_S02E09/CT_S02E09_G.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm>
+#include <queue>
+#include <climits>
+#include <cctype>
+#include <cmath>
+#include <fstream>
+#include <iomanip>
+#define ll long long
+#define ull unsigned long long
+using namespace std;
+int main()
+{
+    ifstream in("graveyard.in");
+    ofstream out("graveyard.out");
+    ll n, m;
+    in >> n >> m;
+    ll nm = n+m;
+    vector<double> a(n);
+    vector<double> b(nm);
+    double s = 0;
+    for(ll i=0; i<n; ++i)
+    {
+        a[i] = s;
+        s += 10000.0/n;
+    }
+    s = 0;
+    for(ll i=0; i<nm; ++i)
+    {
+        b[i] = s;
+        s += 10000.0/nm;
+    }
+    vector<bool> u(nm, 0);
+    vector<double> r(n);
+    double res = 0;
+    for(ll i=0; i<n; ++i)
+    {
+        double min = 200000.0;
+        for(ll j=0; j<nm; ++j)
+        {
+            
+            if(!u[j] && fabs(a[i]-b[j])<min)
+            {
+                u[j] = 1;
+                min = fabs(a[i]-b[j]);
+            }
+        }
+        res += min;
+    }
+    out << fixed << setprecision(4) << res;
+    in.close();
+    out.close();
+    return 0;
+}
+\end{lstlisting}
+
+
+\newpage
+\textbf{{\large Задача J - Java vs C++}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_S02E09/CT_S02E09_J.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????}
+\newpage
+\textbf{{\large Исходный код}} \\
+\begin{lstlisting}[language=C]
+#include <iostream>
+#define ll long long
+#define ull unsigned long long
+#define ERROR {out << "Error!"; return 0;}
+using namespace std;
+int main()
+{
+    ifstream in("java_c.in");
+    ofstream out("java_c.out");
+    char c;
+    bool java = 0, cpp = 0, us = 0;
+    char str[1000];
+    ll n=0;
+    while(!in.eof() && (c=in.get())!='\n')
+    {
+        if(in.eof())
+            break;
+        if(c=='_')
+        {
+            if(us || !n)
+                ERROR
+            cpp = 1;
+            us = 1;
+        }
+        else if(isupper(c))
+        {
+            if(!n)
+                ERROR
+            java = 1;
+            str[n++] = '_';
+            str[n++] = tolower(c);
+        }
+        else if(us)
+            str[n++] = toupper(c);
+        else
+            str[n++] = c;
+        if(c!='_')
+            us = 0;
+        if(java && cpp)
+            ERROR
+    }
+    str[n] = '\0';
+    if(n&&!us)
+        out << str;
+    else
+        out << "Error!";
+    in.close();
+    out.close();
+    return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача K - Kickdown}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_S02E09/CT_S02E09_J.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????}
+\newpage
+\textbf{{\large Исходный код}} \\
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <fstream>
+
+int main() {
+	ifstream in("kickdown.in");
+    ofstream out("kickdown.out");
+    string master, driven;
+    in >> master >> driven;
+    if (master.length() < driven.length()) swap(master, driven);
+    
+    int pos1 = 0;
+    while (pos1 < master.length() && !checkGears1(master, driven, pos1)) pos1++;
+    
+    int pos2 = 0;
+    while (pos2 < master.length() && !checkGears2(master, driven, pos2)) pos2++;
+    
+    int d1 = (int)(driven.length() + pos1 - master.length());
+    int diff1 = (d1 >= 0) ? d1 : 0;
+    int diff2 = pos2;
+    
+    if (diff1 < diff2) {
+        out << max(master.length(), driven.length() + pos1) << endl;
+    }
+    else {
+        out << master.length() + pos2 << endl;
+    }
+    
+    in.close();
+    out.close();
+    
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{CT_S02E09/CT_S02E09_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces Олимпиада школьников НН
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{Codeforces Олимпиада школьников Нижегородской обл.}
+
+\textbf{{\large Задача A - Выравнивание вещественных чисел}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_school_nn/CT_school_nn_A.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <cmath>
+#define ll long long
+#define ull unsigned long long
+using namespace std;
+int main()
+{
+    ll n;
+    cin >> n;
+    char num[1000][2010];
+    int logs[1000];
+    ll maxLog = 1;
+    cin.get();
+    for(ll i=0; i<n; ++i)
+    {
+        ll j=0;
+        logs[i] = 0;
+        bool pf = 0;
+        while((num[i][j]=cin.get())!='\n')
+        {
+            if(num[i][j] == '.')
+                pf = 1;
+            if(!pf)
+                ++logs[i];
+            ++j;
+        }
+        num[i][j++] = '\0';
+        if(logs[i]>maxLog)
+            maxLog = logs[i];
+    }
+    for(ll i=0; i<n; ++i)
+    {
+        for(ll j=0; j<maxLog-logs[i]; ++j)
+            cout.put('#');
+        cout << num[i] << '\n';
+    }
+    return 0;
+}
+\end{lstlisting}
+
+
+\newpage
+\textbf{{\large Задача F - Фоторамка}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_school_nn/CT_school_nn_F.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????}
+\newpage
+\textbf{{\large Исходный код}} \\
+\begin{lstlisting}[language=C]
+#include <iostream>
+using namespace std;
+int main() {
+    long long m[]={0, 0, 0, 24, 120, 360, 840, 1680, 3024, 5040, 7920, 11880, 17160, 24024, 32760, 43680, 57120, 73440, 93024, 116280};
+    int n;
+    cin >> n;
+    cout << m[n-1];
+    return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача I - Изи}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_school_nn/CT_school_nn_I.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????}
+\newpage
+\textbf{{\large Исходный код}} \\
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm>
+#include <queue>
+#include <climits>
+#include <cctype>
+#include <fstream>
+#define ll long long
+#define ull unsigned long long
+using namespace std;
+int main()
+{
+    ll n;
+    cin >> n;
+    cout << n-1;
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{CT_school_nn/CT_school_nn_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	OpenCup GP of Central Europe
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{OpenCup GrandPrix of Central Europe}
+
+\textbf{{\large Задача A - Адокат}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Central_Europe/OC_Central_Europe_A.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <fstream>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+    ll n, m;
+    ll a, b, d;
+    cin >> n >> m;
+    vector< pair<ll, ll> > maxA(m, make_pair(-1, -1)), minB(m, make_pair(-1, -1));
+    for (ll i=0; i<n; ++i) {
+        cin >> a >> b >> d;
+        --d;
+        if (maxA[d].second == -1 || maxA[d].second < a) {
+            maxA[d].second = a;
+            maxA[d].first = i;
+        }
+        if (minB[d].second == -1 || minB[d].second > b) {
+            minB[d].second = b;
+            minB[d].first = i;
+        }
+    }
+    for (ll i=0; i<m; ++i) {
+        if (minB[i].second < maxA[i].second) {
+            cout << "TAK " << minB[i].first+1 << ' ' << maxA[i].first+1 << '\n';
+        }
+        else {
+            cout << "NIE\n";
+        }
+    }
+    return 0;
+}
+
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{OC_Central_Europe/OC_Central_Europe_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces Training S02E10
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{Codeforces Training S02E10}
+
+\textbf{{\large Задача A - Abnormal Coins}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_S02E10/CT_S02E10_A.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <vector>
+#include <algorithm
+#include <iomanip>
+#define ll long long
+#define ull unsigned long long
+using namespace std;
+int main() {
+    LL n;
+    cin >> n;
+    LL count = 0;
+    LL sum = 0;
+    
+    for (LL i = 3; ; i++) {
+        sum += i;
+        if (sum > n) break;
+        count++;
+    }
+    cout << count << endl;
+    return 0;
+}
+\end{lstlisting}
+
+
+\newpage
+\textbf{{\large Задача B - Fake Coins}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_S02E10/CT_S02E10_B.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????}
+\newpage
+\textbf{{\large Исходный код}} \\
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <map>
+#include <vector>
+#define ll long long
+#define ull unsigned long long
+#define ERROR {out << "Error!"; return 0;}
+using namespace std;
+int main() {
+    map<string, int> strings;
+    string base, current = "";
+    vector<int> spos;
+    cin >> base;
+    int baseSize = (int)base.size();
+    for (int i = 1; i < baseSize; i++) {
+        for (int j = i + 1; j <= baseSize; j++) {
+            current += base[i - 1];
+            current += base[j - 1];
+            int cPos = i + j;
+            int pPos = j, temp = 0;
+            while (cPos <= baseSize) {
+                current += base[cPos - 1];
+                temp = pPos;
+                pPos = cPos;
+                cPos += temp;
+            }
+            strings[current]++;
+            current.clear();
+        }
+    }
+    
+    cout << strings.size() << endl;
+    
+    return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача G - Coin Game}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_S02E10/CT_S02E10_G.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????}
+\newpage
+\textbf{{\large Исходный код}} \\
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <vector>
+#include <map>
+#include <cmath>
+#include <algorithm>
+#include <iomanip>
+#include <list>
+#include <iterator>
+using namespace std;
+#define ll long long
+#define ull unsigned long long
+
+int main()
+{
+    char a[25001], b[25001], c;
+    int n = 0, first1 = -1, last1 = -1;
+    while((c=cin.get())!='\n' && !cin.eof())
+    {
+        if(first1 == -1 && c == '1')
+            first1 = n;
+        if(c == '1')
+            last1 = n;
+        if(cin.eof())
+            break;
+        a[n] = b[n] = c;
+        ++n;
+    }
+    a[n] = b[n] = '\0';
+    ll aCount = 0, bCount = 0;
+    for(ll i=0; i<n; ++i)
+    {
+        if(a[i] == '1')
+            continue;
+        for(ll j=i+1; j<n; ++j)
+        {
+            if(a[j] == '1')
+            {
+                swap(a[i], a[j]);
+                aCount += j-i;
+                break;
+            }
+        }
+    }
+    for(ll i=n-1; i>=0; --i)
+    {
+        if(b[i] == '1')
+            continue;
+        for(ll j=i-1; j>=0; --j)
+        {
+            if(b[j] == '1')
+            {
+                swap(b[i], b[j]);
+                bCount += i-j;
+                break;
+            }
+        }
+    }
+    if(aCount < bCount)
+        cout << aCount;
+    else
+        cout << bCount;
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{CT_S02E10/CT_S02E10_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	OpenCup GP of Europe
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{OpenCup GrandPrix of Europe}
+
+\textbf{{\large Задача E - Express As The Sum}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Europe/OC_Europe_E.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+using namespace std;
+#define ll long long
+#define ull unsigned long long
+void answer(ll n, ll l, ll r) {
+    cout << n << " = " << l;
+    for(ll i=l+1; i<=r; ++i) {
+        cout << " + " << i;
+    }
+    cout.put('\n');
+}
+int main()
+{
+    ll T;
+    cin >> T;
+    while (T--) {
+        ll n;
+        cin >> n;
+        ll t = n;
+        bool f = 0;
+        while(t!=0) {
+            if (t>1 && t&1) {
+                f = 1;
+                break;
+            }
+            t >>= 1;
+        }
+        if(!f) {
+            cout << "IMPOSSIBLE\n";
+            continue;
+        }
+        f = 0;
+        for (ll i=2; !f && i<100500; ++i) {
+            ll sum = 0;
+            ll r = n/i;
+            ll l = r-i+1;
+            if(l<1) {
+                l = 1;
+                r = l+i-1;
+            }
+            for(ll j=l; j<=r; ++j) {
+                sum += j;
+            }
+            if(sum == n) {
+                answer(n, l, r);
+                break;
+            }
+            for(ll j=r+1; j<r+i; ++j) {
+                sum += j-l;
+                if(sum == n) {
+                    answer(n, l+1, j);
+                    f = 1;
+                    break;
+                }
+                ++l;
+            }
+        }
+    }
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача F - Factory}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Europe/OC_Europe_F.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <vector>
+using namespace std;
+#define ll long long
+#define ull unsigned long long
+#define eps 0.00001
+ll min(ll a, ll b){return (a<b?a:b);}
+ll max(ll a, ll b){return (a>b?a:b);}
+
+struct Gear {
+    int x, y, r;
+};
+
+struct GearSpeed {
+    ll n, d;
+    bool dir;
+};
+int main()
+{
+    ll T;
+    cin >> T;
+    while (T--) {
+        ll n;
+        cin >> n;
+
+        vector< list<int> > m(n);
+        vector<bool> u(n, 0);
+        vector<Gear> gears(n);
+        for (ll i=0; i<n; ++i) {
+            cin >> gears[i].x >> gears[i].y >> gears[i].r;
+        }
+        for (int i=0; i<n; ++i) {
+            for (int j=i+1; j<n; ++j) {
+                double x = gears[i].x-gears[j].x;
+                double y = gears[i].y-gears[j].y;
+                if(sqrt(x*x+y*y)<=gears[i].r+gears[j].r) {
+                    m[i].insert(m[i].begin(), j);
+                    m[j].insert(m[j].begin(), i);
+                }
+            }
+        }
+        vector<GearSpeed> speed(n);
+        speed[0].n = 1;
+        speed[0].d = 1;
+        speed[0].dir = 0;
+        queue<int> q;
+        q.push(0);
+        u[0] = 1;
+        while (!q.empty()) {
+            int a = q.front();
+            q.pop();
+            list<int>::iterator it = m[a].begin();
+            for (; it!=m[a].end(); ++it) {
+                int b = *it;
+                if(u[b])
+                    continue;
+                u[b] = 1;
+                speed[b].n = speed[a].n * gears[a].r;
+                speed[b].d = speed[a].d * gears[b].r;
+                speed[b].dir = !speed[a].dir;
+                ll u = speed[b].n;
+                ll v = speed[b].d;
+                ll temp;
+                while (v != 0) {
+                    temp = u % v;
+                    u = v;
+                    v = temp;
+                }
+                speed[b].n /= u;
+                speed[b].d /= u;
+                q.push(b);
+            }
+        }
+        for (ll i=0; i<n; ++i) {
+            if(!u[i])
+                cout << "not moving\n";
+            else {
+                cout << speed[i].n;
+                if(speed[i].d != 1) {
+                    cout << '/' << speed[i].d;
+                }
+                cout.put(' ');
+                if(speed[i].dir) {
+                    cout << "counterclockwise\n";
+                }
+                else {
+                    cout << "clockwise\n";
+                }
+            }
+        }
+    }
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача K - Keyboard Troubles}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Europe/OC_Europe_K.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iomanip>
+#include <limits>
+#include <iostream>
+#include <algorithm>
+
+#define LL  long long
+#define ULL unsigned long long
+#define EPS 1e-11
+
+#define more_speed ios_base::sync_with_stdio(false);
+
+using namespace std;
+
+bool g(int x, int y) {
+
+    if (x == y) return true;
+
+    if (x == 1) {
+        return true;
+    }
+    else if (x == 2) {
+        if (y == 3 || y == 5 || y == 6 || y == 8 || y == 9 || y == 0) return true;
+    }
+    else if (x == 3) {
+        if (y == 6 || y == 9) return true;
+    }
+    else if (x == 4) {
+        if (y >= 4 || y == 0) return true;
+    }
+    else if (x == 5) {
+        if (y == 6 || y == 8 || y == 9 || y == 0) return true;
+    }
+    else if (x == 6) {
+        if (y == 9) return true;
+    }
+    else if (x == 7) {
+        if (y >= 7 || y == 0) return true;
+    }
+    else if (x == 8) {
+        if (y == 9 || y == 0) return true;
+    }
+    return false;
+}
+
+int main() {
+
+    more_speed
+
+    int z[] = {0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,0,1,1,0,0,0,1,0,0,1,0,0,1,1,0,0,0,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,0,1,1,0,0,0,1,0,0,1,0,0,1,1,0,0,0,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,1,1,0,1,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1};
+
+    int t;
+    cin >> t;
+
+    for (int i = 0; i < t; i++) {
+        int n;
+        cin >> n;
+        if (z[n] == 1) {
+            cout << n << endl;
+        }
+        else {
+            int y = n;
+            int x = n;
+            while (z[x] == 0) {
+                x++;
+            }
+            while (z[y] == 0) {
+                y--;
+            }
+            if (n - y > x - n) {
+                cout << x << endl;
+            }
+            else {
+                cout << y << endl;
+            }
+        }
+    }
+
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача K - Allo}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Europe/OC_Europe_N.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <vector>
+using namespace std;
+#define ll long long
+#define ull unsigned long long
+ll min(ll a, ll b){return (a<b?a:b);}
+ll max(ll a, ll b){return (a>b?a:b);}
+int main()
+{
+    ll n;
+    vector < stack< pair<ll, int> > > vars(26);
+    int scope = 0;
+    cin >> n;
+    char str[20];
+    for (int i=0; i<n; ++i) {
+        cin >> str;
+        if(str[0] == '{') {
+            ++scope;
+        }
+        else if(str[0] == '}') {
+            for (int i=0; i<26; ++i) {
+                if(!vars[i].empty() && vars[i].top().second == scope) {
+                    vars[i].pop();
+                }
+            }
+            --scope;
+        }
+        else if(str[1] == '=') {
+            int c1 = str[0]-'a';
+            ll a;
+            if(isalpha(str[2])) {
+                int c2 = str[2]-'a';
+                a = vars[c2].top().first;
+                int c1Scope = vars[c1].top().second;
+                vars[c1].pop();
+                vars[c1].push(make_pair(a, c1Scope));
+            }
+            else {
+                a = 0;
+                for (int i=2; str[i]!='\0'; ++i)
+                    a = a*10+str[i]-'0';
+            }
+            int c1Scope = vars[c1].top().second;
+            vars[c1].pop();
+            vars[c1].push(make_pair(a, c1Scope));
+        }
+        else if(!strcmp(str, "int")) {
+            cin >> str;
+            int c;
+            c = str[0]-'a';
+            vars[c].push(make_pair(-1, scope));
+        }
+        else if(!strcmp(str, "print")) {
+            cin >> str;
+            int c = str[0]-'a';
+            cout << vars[c].top().first << '\n';
+        }
+    }
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача O - Game}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Europe/OC_Europe_O.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <vector>
+using namespace std;
+#define ll long long
+#define ull unsigned long long
+ll min(ll a, ll b){return (a<b?a:b);}
+ll max(ll a, ll b){return (a>b?a:b);}
+int main()
+{
+    ll T;
+    cin >> T;
+    cin.get();
+    while (T--) {
+        vector<bool> nums(10, 0);
+        char c;
+        while((c=cin.get())!='\n' && !cin.eof())
+        {
+            if(cin.eof())
+                break;
+            nums[c-'0'] = 1;
+        }
+        bool f = 0;
+        for(ll i=0; i<10; ++i)
+        {
+            if(!nums[i])
+            {
+                f = 1;
+                cout << i;
+            }
+        }
+        if(!f)
+            cout << "allo";
+        cout << '\n';
+            
+    }
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{OC_Europe/OC_Europe_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	OpenCup GP of Peterhof
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{OpenCup GrandPrix of Peterhof}
+
+\textbf{{\large Задача H - Некратчайший путь}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Peterhof/OC_Peterhof_H1.png}\\ [1cm]
+\includegraphics[width=0.9\textwidth]{OC_Peterhof/OC_Peterhof_H2.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <vector>
+#include <map>
+using namespace std;
+#define ll long long
+#define ull unsigned long long
+#define eps 0.00001
+ll min(ll a, ll b){return (a<b?a:b);}
+ll max(ll a, ll b){return (a>b?a:b);}
+
+vector < vector<char> > paths;
+vector<char> path;
+size_t __min;
+
+void foo(char map[4][4], int x, int y) {
+    if (x == 3 && y == 3) {
+        if (path.size() < __min) {
+            __min = path.size();
+        }
+        paths.push_back(path);
+    }
+    if (x<3 && map[y][x+1] == '.') {
+        path.push_back('R');
+        map[y][x] = 'X';
+        foo(map, x+1, y);
+        map[y][x] = '.';
+        path.pop_back();
+    }
+    if (x>0 && map[y][x-1] == '.') {
+        path.push_back('L');
+        map[y][x] = 'X';
+        foo(map, x-1, y);
+        map[y][x] = '.';
+        path.pop_back();
+    }
+    map[y][x] = '.';
+    if (y<3 && map[y+1][x] == '.') {
+        path.push_back('D');
+        map[y][x] = 'X';
+        foo(map, x, y+1);
+        map[y][x] = '.';
+        path.pop_back();
+    }
+    map[y][x] = '.';
+    if (y>0 && map[y-1][x] == '.') {
+        path.push_back('U');
+        map[y][x] = 'X';
+        foo(map, x, y-1);
+        map[y][x] = '.';
+        path.pop_back();
+    }
+}
+
+int main()
+{
+    char map[4][4];
+    bool e = 1;
+    while (e) {
+        for (int i=0; i<4; ++i) {
+            for (int j=0; j<4; ++j) {
+                map[i][j] = cin.get();
+            }
+            cin.get();
+        }
+        __min = 100500;
+        foo(map, 0, 0);
+        bool f = 0;
+        for (int i=0; i<paths.size(); ++i) {
+            if (paths[i].size() != __min) {
+                for (int j=0; j<paths[i].size(); ++j) {
+                    cout.put(paths[i][j]);
+                }
+                f = 1;
+                break;
+            }
+        }
+        if (!f) {
+            cout << -1;
+        }
+        cout.put('\n');
+        for (int i=0; i<5; ++i) {
+            cin.get();
+            if (cin.eof()) {
+                e = 0;
+                break;
+            }
+        }
+        paths.clear();
+        path.clear();
+    }
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{OC_Peterhof/OC_Peterhof_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	OpenCup GP of Japan
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{OpenCup GrandPrix of Japan}
+
+\textbf{{\large Задача K - Beads}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Japan/OC_Japan_K.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+
+using namespace std;
+
+long min_cyclic_shift (string s) {
+    s += s;
+    long n = (long) s.length();
+    long i = 0, ans = 0;
+    while (i < n/2) {
+        ans = i;
+        long j = i + 1, k = i;
+        while (j < n && s[k] <= s[j]) {
+            if (s[k] < s[j])
+                k = i;
+            else
+                ++k;
+            ++j;
+        }
+        while (i <= k)  i += j - k;
+    }
+    return ans;
+}
+
+int main(int argc, const char * argv[]) {
+    long n;
+    string s;
+    cin >> n >> s;
+    long answer = min_cyclic_shift(s);
+    cout << answer + 1 << endl;
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача L - The Maximum Sum}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Japan/OC_Japan_L.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iomanip>
+#include <limits>
+#include <iostream>
+#include <algorithm>
+
+int main() {
+    int n, M;
+	cin >> n >> M;
+
+	vector <int> num;
+	int temp;
+	for (int i = 0; i < n; i++) {
+		cin >> temp;
+		num.push_back(temp);
+	}
+
+	int max_sum = 0;
+	for(int i = 0; i < n; i++)
+		for(int j = i + 1; j < n; j++) {
+			temp = num[i] + num[j];
+			if(temp <= M && temp > max_sum)
+				max_sum = temp;
+		}
+
+	cout << max_sum << endl;
+    cin >> n;
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача L - The Maximum Sum}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Japan/OC_Japan_L.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iomanip>
+#include <limits>
+#include <iostream>
+#include <algorithm>
+
+int main() {
+    int n, M;
+	cin >> n >> M;
+
+	vector <int> num;
+	int temp;
+	for (int i = 0; i < n; i++) {
+		cin >> temp;
+		num.push_back(temp);
+	}
+
+	int max_sum = 0;
+	for(int i = 0; i < n; i++)
+		for(int j = i + 1; j < n; j++) {
+			temp = num[i] + num[j];
+			if(temp <= M && temp > max_sum)
+				max_sum = temp;
+		}
+
+	cout << max_sum << endl;
+    cin >> n;
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача M - Spellcheck}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Japan/OC_Japan_M.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+    long T;
+    cin >> T;
+    char aStr[100], bStr[100];
+    cin.get();
+    while (T--) {
+        char c;
+        long a = 0, aN = 0, bN = 0, res = 0;
+        while (c = cin.get()) {
+            if (c == ' ' || c == '\n') {
+                if (a&1) {
+                    if (!strcmp("u", bStr) || !strcmp("ur", bStr) || strstr(bStr, "lol") != NULL) {
+                        ++res;
+                    }
+                    else if((!strcmp("would", aStr) || !strcmp("should", aStr)) && !strcmp("of", bStr)) {
+                        ++res;
+                    }
+                    aN = 0;
+                }
+                else {
+                    if (!strcmp("u", aStr) || !strcmp("ur", aStr) || strstr(aStr, "lol") != NULL) {
+                        ++res;
+                    }
+                    else if(a && (!strcmp("would", bStr) || !strcmp("should", bStr)) && !strcmp("of", aStr)) {
+                        ++res;
+                    }
+                    bN = 0;
+                }
+                if (c == '\n') {
+                    break;
+                }
+                ++a;
+                continue;
+            }
+            if (a&1) {
+                bStr[bN++] = c;
+                bStr[bN] = '\0';
+            }
+            else {
+                aStr[aN++] = c;
+                aStr[aN] = '\0';
+            }
+        }
+        cout << res << '\n';
+    }
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача N - Bluetooth}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Japan/OC_Japan_N.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iomanip>
+#include <limits>
+#include <iostream>
+#include <algorithm>
+
+
+double dist(const pair<int, int> &a, const pair<int, int> &b) {
+    double x, y;
+    x = (a.first - b.first);
+    y = (a.second - b.second);
+    x *= x;
+    y *= y;
+    return sqrt(x + y);
+}
+
+int main() {
+
+    more_speed
+    int n, d;
+    cin >> n >> d;
+    vector<pair<int, int> > points(n);
+    for (int i = 0; i < n; i++) {
+        cin >> points[i].first >> points[i].second;
+    }
+
+    vector<vector<int> > g(n, vector<int>());
+
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            if (i != j) {
+                double dis = dist(points[i], points[j]);
+                if (dis <= d) {
+                    g[i].push_back(j);
+                }
+            }
+        }
+    }
+
+    int s = 0;
+
+    queue<int> q;
+    q.push(s);
+    vector<bool> used (n);
+    used[s] = true;
+    while (!q.empty()) {
+        int v = q.front();
+        q.pop();
+        for (size_t i = 0; i < g[v].size(); ++i) {
+            int to = g[v][i];
+            if (!used[to]) {
+                if (to == n - 1) {
+                    cout << "y" << endl;
+                    return 0;
+                }
+                used[to] = true;
+                q.push (to);
+            }
+        }
+    }
+
+    cout << "n" << endl;
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{OC_Japan/OC_Japan_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	OpenCup GP Northern
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{OpenCup Northern GrandPrix}
+
+\textbf{{\large Задача K - Kill The PSU}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Northern/OC_Northern_K1.png}\\ [1cm]
+\includegraphics[width=0.9\textwidth]{OC_Northern/OC_Northern_K2.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iomanip>
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <fstream>
+
+#define LL  long long
+#define ULL unsigned long long
+using namespace std;
+
+ifstream in("killthepsu.in");
+ofstream out("killthepsu.out");
+
+class item {
+public:
+    string name;
+    virtual void message() = 0;
+};
+
+class cat1 : public item {
+public:
+    void message() {
+        out << "wake " << name << endl;
+    }
+    cat1(string n) {
+        name = n;
+    }
+};
+
+class cat2 : public item {
+public:
+    bool load;
+    void message() {
+        if (load) {
+            out << "unload ";
+            load = false;
+        }
+        else {
+            out << "load ";
+            load = true;
+        }
+        out << name << endl;
+    }
+    cat2(string n) {
+        name = n;
+        load = false;
+    }
+};
+
+int reserve = 20;
+bool nextIter = false;
+
+class cat3 : public item {
+public:
+    int power;
+    void message() {
+        if (reserve) {
+            reserve -= 10;
+            out << "power fail on " << name << endl;
+            return;
+        }
+        power -= 10;
+        if (power > 10) {
+            out << "power fail on " << name << endl;
+        }
+        else if (power <= 10) {
+            out << "buy the new PSU" << endl;
+            nextIter = true;
+        }
+    }
+    cat3(string n) {
+        power = 100;
+        name = n;
+    }
+};
+
+int main() {
+    int t;
+    in >> t;
+
+    for (int k = 0; k < t; k++) {
+        reserve = 20;
+        map<string, item *> system;
+        int a, b, c, d;
+        in >> a >> b >> c >> d;
+        string name;
+        in.get();
+
+        for (int i = 0; i < a; i++) {
+            getline(in, name);
+            item *newItem = new cat1(name);
+            system[name] = newItem;
+            //cout << i << " " << name << endl;
+        }
+
+        for (int i = 0; i < b; i++) {
+            getline(in, name);
+            item *newItem = new cat2(name);
+            system[name] = newItem;
+            //cout << i << " " << name << endl;
+        }
+
+        for (int i = 0; i < c; i++) {
+            getline(in, name);
+            item *newItem = new cat3(name);
+            system[name] = newItem;
+            //cout << i << " " << name << endl;
+        }
+
+        for (int i = 0; i < d; i++) {
+            getline(in, name);
+            if (!nextIter) {
+                map<string, item *>::iterator current = system.find(name);
+                if (current != system.end())
+                    current->second->message();
+            }
+        }
+        nextIter = false;
+    }
+
+    in.close();
+    out.close();
+
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача M - Мозаика}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Northern/OC_Northern_M.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iomanip>
+#include <limits>
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    ifstream in("mosaic.in");
+    ofstream out("mosaic.out");
+
+	int N, M;
+	in >> M >> N;
+	int answ;
+
+	if(N < 3 || M < 3) {
+		out << "0" << endl;
+		return 0;
+	}
+	if((N - 2)*(M - 2) % 2 == 0)
+		answ = (N - 2)*(M - 2) / 2;
+	else
+		answ = (N - 2)*(M - 2) / 2 + 1;
+
+	out << answ << endl;
+
+	int k = 2;
+	for(int i = 2; i < M; i++) {
+		for(int j = k; j < N; j+=2) {
+			out << (i - 1)*N + j << " ";
+		}
+		if(k == 2)
+			k = 3;
+		else k = 2;
+	}
+
+    in.close();
+    out.close();
+
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{OC_Northern/OC_Northern_result.png}\\ [1cm]
+\end{center}
+
+
+
 %----------------------------------------------------------------------------------------
 %
 %	ЛИЧНЫЕ КОНТЕСТЫ
