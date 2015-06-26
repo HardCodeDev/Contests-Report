@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.26)  26 JUN 2015 19:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.26)  26 JUN 2015 23:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2175,109 +2175,284 @@ Underfull \hbox (badness 10000) in paragraph at lines 3825--3830
  []
 
 [128] [129]
-Underfull \hbox (badness 10000) in paragraph at lines 3958--3959
+Underfull \hbox (badness 10000) in paragraph at lines 3955--3956
 
  []
 
 <OC_Northern/OC_Northern_M.png, id=519, 924.45375pt x 853.1875pt>
 File: OC_Northern/OC_Northern_M.png Graphic file (type png)
  <use OC_Northern/OC_Northern_M.png>
-Package pdftex.def Info: OC_Northern/OC_Northern_M.png used on input line 3960.
+Package pdftex.def Info: OC_Northern/OC_Northern_M.png used on input line 3957.
 (pdftex.def)             Requested size: 460.93153pt x 425.39499pt.
  [130 <./OC_Northern/OC_Northern_M.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3964--3969
+Underfull \hbox (badness 10000) in paragraph at lines 3961--3966
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4013--4014
+Underfull \hbox (badness 10000) in paragraph at lines 4010--4011
 
  []
 
 <OC_Northern/OC_Northern_result.png, id=523, 664.4825pt x 38.1425pt>
 File: OC_Northern/OC_Northern_result.png Graphic file (type png)
  <use OC_Northern/OC_Northern_result.png>
-Package pdftex.def Info: OC_Northern/OC_Northern_result.png used on input line 4015.
+Package pdftex.def Info: OC_Northern/OC_Northern_result.png used on input line 4012.
 (pdftex.def)             Requested size: 486.54057pt x 27.92876pt.
  [131 <./OC_Northern/OC_Northern_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4037--4038
+Underfull \hbox (badness 10000) in paragraph at lines 4025--4026
 
  []
 
-<CT_SGAU/CT_SGAU_D.png, id=527, 816.04875pt x 840.13875pt>
+<OC_Karelia/OC_Karelia_I.png, id=527, 853.1875pt x 723.70375pt>
+File: OC_Karelia/OC_Karelia_I.png Graphic file (type png)
+ <use OC_Karelia/OC_Karelia_I.png>
+Package pdftex.def Info: OC_Karelia/OC_Karelia_I.png used on input line 4027.
+(pdftex.def)             Requested size: 460.93153pt x 390.98193pt.
+ [132 <./OC_Karelia/OC_Karelia_I.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4031--4036
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4070--4071
+
+ []
+
+<OC_Karelia/OC_Karelia_J.png, id=532, 852.18375pt x 435.6275pt>
+File: OC_Karelia/OC_Karelia_J.png Graphic file (type png)
+ <use OC_Karelia/OC_Karelia_J.png>
+Package pdftex.def Info: OC_Karelia/OC_Karelia_J.png used on input line 4072.
+(pdftex.def)             Requested size: 460.93153pt x 235.62752pt.
+ [133 <./OC_Karelia/OC_Karelia_J.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4076--4081
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4112--4113
+
+ []
+
+<OC_Karelia/OC_Karelia_K.png, id=536, 752.8125pt x 925.4575pt>
+File: OC_Karelia/OC_Karelia_K.png Graphic file (type png)
+ <use OC_Karelia/OC_Karelia_K.png>
+Package pdftex.def Info: OC_Karelia/OC_Karelia_K.png used on input line 4114.
+(pdftex.def)             Requested size: 460.93153pt x 566.66058pt.
+ [134] [135 <./OC_Karelia/OC_Karelia_K.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4118--4123
+
+ []
+
+[136]
+Underfull \hbox (badness 10000) in paragraph at lines 4231--4232
+
+ []
+
+<OC_Karelia/OC_Karelia_L1.png, id=546, 750.805pt x 616.3025pt>
+File: OC_Karelia/OC_Karelia_L1.png Graphic file (type png)
+ <use OC_Karelia/OC_Karelia_L1.png>
+Package pdftex.def Info: OC_Karelia/OC_Karelia_L1.png used on input line 4233.
+(pdftex.def)             Requested size: 460.93153pt x 378.36081pt.
+ <OC_Karelia/OC_Karelia_L2.png, id=547, 681.54625pt x 460.72125pt> [137]
+File: OC_Karelia/OC_Karelia_L2.png Graphic file (type png)
+ <use OC_Karelia/OC_Karelia_L2.png>
+Package pdftex.def Info: OC_Karelia/OC_Karelia_L2.png used on input line 4234.
+(pdftex.def)             Requested size: 460.93153pt x 311.59207pt.
+ [138 <./OC_Karelia/OC_Karelia_L1.png> <./OC_Karelia/OC_Karelia_L2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4238--4243
+
+ []
+
+[139]
+Underfull \hbox (badness 10000) in paragraph at lines 4313--4314
+
+ []
+
+<OC_Karelia/OC_Karelia_result.png, id=558, 620.3175pt x 39.14626pt>
+File: OC_Karelia/OC_Karelia_result.png Graphic file (type png)
+ <use OC_Karelia/OC_Karelia_result.png>
+Package pdftex.def Info: OC_Karelia/OC_Karelia_result.png used on input line 4315.
+(pdftex.def)             Requested size: 486.54057pt x 30.70358pt.
+ [140 <./OC_Karelia/OC_Karelia_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4328--4329
+
+ []
+
+<OC_Udmurtia/OC_Udmurtia_A1.png, id=562, 799.98875pt x 956.57375pt>
+File: OC_Udmurtia/OC_Udmurtia_A1.png Graphic file (type png)
+ <use OC_Udmurtia/OC_Udmurtia_A1.png>
+Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_A1.png used on input line 4330.
+(pdftex.def)             Requested size: 460.93153pt x 551.14954pt.
+ <OC_Udmurtia/OC_Udmurtia_A2.png, id=563, 749.80125pt x 397.485pt>
+File: OC_Udmurtia/OC_Udmurtia_A2.png Graphic file (type png)
+ <use OC_Udmurtia/OC_Udmurtia_A2.png>
+Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_A2.png used on input line 4331.
+(pdftex.def)             Requested size: 460.93153pt x 244.35175pt.
+ [141 <./OC_Udmurtia/OC_Udmurtia_A1.png>] [142 <./OC_Udmurtia/OC_Udmurtia_A2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4335--4340
+
+ []
+
+[143] [144] [145] [146]
+Underfull \hbox (badness 10000) in paragraph at lines 4602--4603
+
+ []
+
+<OC_Udmurtia/OC_Udmurtia_K.png, id=583, 855.195pt x 742.775pt>
+File: OC_Udmurtia/OC_Udmurtia_K.png Graphic file (type png)
+ <use OC_Udmurtia/OC_Udmurtia_K.png>
+Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_K.png used on input line 4604.
+(pdftex.def)             Requested size: 460.93153pt x 400.33316pt.
+ [147 <./OC_Udmurtia/OC_Udmurtia_K.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4608--4613
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4647--4648
+
+ []
+
+<OC_Udmurtia/OC_Udmurtia_L.png, id=587, 849.1725pt x 676.5275pt>
+File: OC_Udmurtia/OC_Udmurtia_L.png Graphic file (type png)
+ <use OC_Udmurtia/OC_Udmurtia_L.png>
+Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_L.png used on input line 4649.
+(pdftex.def)             Requested size: 460.93153pt x 367.21883pt.
+ [148] [149 <./OC_Udmurtia/OC_Udmurtia_L.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4653--4658
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4697--4698
+
+ []
+
+<OC_Udmurtia/OC_Udmurtia_M.png, id=595, 803.0pt x 427.5975pt>
+File: OC_Udmurtia/OC_Udmurtia_M.png Graphic file (type png)
+ <use OC_Udmurtia/OC_Udmurtia_M.png>
+Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_M.png used on input line 4699.
+(pdftex.def)             Requested size: 460.93153pt x 245.44907pt.
+ [150] [151 <./OC_Udmurtia/OC_Udmurtia_M.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4703--4708
+
+ []
+
+[152] [153]
+Underfull \hbox (badness 10000) in paragraph at lines 4854--4855
+
+ []
+
+<OC_Udmurtia/OC_Udmurtia_result.png, id=609, 677.53125pt x 37.13875pt>
+File: OC_Udmurtia/OC_Udmurtia_result.png Graphic file (type png)
+ <use OC_Udmurtia/OC_Udmurtia_result.png>
+Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_result.png used on input line 4856.
+(pdftex.def)             Requested size: 486.54057pt x 26.67073pt.
+ [154 <./OC_Udmurtia/OC_Udmurtia_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4869--4870
+
+ []
+
+<OC_China/OC_China_N.png, id=613, 987.69pt x 591.20876pt>
+File: OC_China/OC_China_N.png Graphic file (type png)
+ <use OC_China/OC_China_N.png>
+Package pdftex.def Info: OC_China/OC_China_N.png used on input line 4871.
+(pdftex.def)             Requested size: 460.93153pt x 275.90155pt.
+ [155 <./OC_China/OC_China_N.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4875--4880
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4909--4910
+
+ []
+
+<OC_China/OC_China_result.png, id=617, 697.60625pt x 38.1425pt>
+File: OC_China/OC_China_result.png Graphic file (type png)
+ <use OC_China/OC_China_result.png>
+Package pdftex.def Info: OC_China/OC_China_result.png used on input line 4911.
+(pdftex.def)             Requested size: 486.54057pt x 26.60236pt.
+ [156 <./OC_China/OC_China_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4931--4932
+
+ []
+
+<CT_SGAU/CT_SGAU_D.png, id=622, 816.04875pt x 840.13875pt>
 File: CT_SGAU/CT_SGAU_D.png Graphic file (type png)
  <use CT_SGAU/CT_SGAU_D.png>
-Package pdftex.def Info: CT_SGAU/CT_SGAU_D.png used on input line 4039.
+Package pdftex.def Info: CT_SGAU/CT_SGAU_D.png used on input line 4933.
 (pdftex.def)             Requested size: 460.93153pt x 474.53827pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4041--4044
+Underfull \hbox (badness 10000) in paragraph at lines 4935--4938
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4041--4044
+Underfull \hbox (badness 10000) in paragraph at lines 4935--4938
 
  []
 
-[132 <./CT_SGAU/CT_SGAU_D.png>] [133]
-Underfull \hbox (badness 10000) in paragraph at lines 4108--4109
+[157 <./CT_SGAU/CT_SGAU_D.png>] [158]
+Underfull \hbox (badness 10000) in paragraph at lines 5002--5003
 
  []
 
-<CT_SGAU/CT_SGAU_F.png, id=535, 815.045pt x 517.935pt>
+<CT_SGAU/CT_SGAU_F.png, id=629, 815.045pt x 517.935pt>
 File: CT_SGAU/CT_SGAU_F.png Graphic file (type png)
  <use CT_SGAU/CT_SGAU_F.png>
-Package pdftex.def Info: CT_SGAU/CT_SGAU_F.png used on input line 4110.
+Package pdftex.def Info: CT_SGAU/CT_SGAU_F.png used on input line 5004.
 (pdftex.def)             Requested size: 460.93153pt x 292.91042pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4112--4116
+Underfull \hbox (badness 10000) in paragraph at lines 5006--5010
 
  []
 
-[134 <./CT_SGAU/CT_SGAU_F.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4131--4132
+[159 <./CT_SGAU/CT_SGAU_F.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5025--5026
 
  []
 
-<CT_SGAU/CT_SGAU_G.png, id=539, 814.04124pt x 463.7325pt>
+<CT_SGAU/CT_SGAU_G.png, id=633, 814.04124pt x 463.7325pt>
 File: CT_SGAU/CT_SGAU_G.png Graphic file (type png)
  <use CT_SGAU/CT_SGAU_G.png>
-Package pdftex.def Info: CT_SGAU/CT_SGAU_G.png used on input line 4133.
+Package pdftex.def Info: CT_SGAU/CT_SGAU_G.png used on input line 5027.
 (pdftex.def)             Requested size: 460.93153pt x 262.57542pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4135--4138
+Underfull \hbox (badness 10000) in paragraph at lines 5029--5032
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4135--4138
+Underfull \hbox (badness 10000) in paragraph at lines 5029--5032
 
  []
 
-[135 <./CT_SGAU/CT_SGAU_G.png>] [136]
-Underfull \hbox (badness 10000) in paragraph at lines 4174--4175
+[160 <./CT_SGAU/CT_SGAU_G.png>] [161]
+Underfull \hbox (badness 10000) in paragraph at lines 5068--5069
 
  []
 
-<CT_SGAU/CT_SGAU_result.png, id=546, 891.33pt x 558.085pt>
+<CT_SGAU/CT_SGAU_result.png, id=640, 891.33pt x 558.085pt>
 File: CT_SGAU/CT_SGAU_result.png Graphic file (type png)
  <use CT_SGAU/CT_SGAU_result.png>
-Package pdftex.def Info: CT_SGAU/CT_SGAU_result.png used on input line 4176.
+Package pdftex.def Info: CT_SGAU/CT_SGAU_result.png used on input line 5070.
 (pdftex.def)             Requested size: 486.54057pt x 304.63995pt.
- [137 <./CT_SGAU/CT_SGAU_result.png>] [138] (/Users/air/Desktop/Contests-Report/.texpadtmp/main.aux) ) 
+ [162 <./CT_SGAU/CT_SGAU_result.png>] [163] (/Users/air/Desktop/Contests-Report/.texpadtmp/main.aux) ) 
 Here is how much of TeX's memory you used:
- 18074 strings out of 493089
- 324988 string characters out of 6134842
+ 18318 strings out of 493089
+ 328917 string characters out of 6134842
  738399 words of memory out of 5000000
- 21073 multiletter control sequences out of 15000+600000
+ 21300 multiletter control sequences out of 15000+600000
  20537 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,94p,897b,1769s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb>
-Output written on /Users/air/Desktop/Contests-Report/.texpadtmp/main.pdf (139 pages, 6184427 bytes).
+Output written on /Users/air/Desktop/Contests-Report/.texpadtmp/main.pdf (164 pages, 7120055 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
- 358 compressed objects within 4 object streams
+ 703 PDF objects out of 1000 (max. 8388607)
+ 413 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 458 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 528 words of extra memory for PDF output out of 10000 (max. 10000000)
 

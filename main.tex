@@ -3920,21 +3920,18 @@ int main() {
             getline(in, name);
             item *newItem = new cat1(name);
             system[name] = newItem;
-            //cout << i << " " << name << endl;
         }
 
         for (int i = 0; i < b; i++) {
             getline(in, name);
             item *newItem = new cat2(name);
             system[name] = newItem;
-            //cout << i << " " << name << endl;
         }
 
         for (int i = 0; i < c; i++) {
             getline(in, name);
             item *newItem = new cat3(name);
             system[name] = newItem;
-            //cout << i << " " << name << endl;
         }
 
         for (int i = 0; i < d; i++) {
@@ -4016,6 +4013,963 @@ int main() {
 \end{center}
 
 
+
+%----------------------------------------------------------------------------------------
+%
+%	OpenCup GP of Karelia
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{OpenCup GrandPrix of Karelia}
+
+\textbf{{\large Задача I - Jam}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Karelia/OC_Karelia_I.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <algorithm>
+
+int main() {
+    ifstream in("jam.in");
+
+    int T;
+    in >> T;
+
+    while (T--) {
+        int m, zashli, vishli;
+        long ans = 0;
+        long buf = 0;
+        in >> m;
+        for (int i = 0; i < m; i++) {
+            in >> zashli >> vishli;
+            zashli += buf;
+            int diff = zashli - vishli;
+            if (diff < 0) {
+                ans += diff * (-1);
+                buf = 0;
+            }
+            else {
+                buf = diff;
+            }
+        }
+        cout << ans << endl;
+    }
+    in.close();
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача J - King of Guess}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Karelia/OC_Karelia_J.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <algorithm>
+
+int main() {
+    ifstream in("kingofguess.in");
+	int X;
+	int N;
+	int Y;
+	int mid;
+	int step = 0;
+
+	in >> N >> X >> Y;
+
+	while(true) {
+		step++;
+		mid = (X + Y)/2;
+		if(mid == N) {
+			cout << step << endl;
+			//cin >> N;
+			return 0;
+		}
+		if(mid > N)
+			Y = mid;
+		if(mid < N)
+			X = mid;
+	}
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача K - Lesson}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Karelia/OC_Karelia_K.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+using namespace std;
+#define ll long long
+#define ull unsigned long long
+#define eps 0.00001
+ll min(ll a, ll b){return (a<b?a:b);}
+ll max(ll a, ll b){return (a>b?a:b);}
+
+int main()
+{
+    ifstream in("lesson.in");
+
+    long T;
+    in >> T;
+    in.get();
+    const string names[] = {"Sail", "Frigate", "Cruiser", "Dreadnought"};
+    while (T--) {
+        ll n;
+        in >> n;
+        in.get();
+        char mapA[10][10], mapB[10][10];
+        vector< pair<int, int> > A(4, make_pair(0, 0)), B(4, make_pair(0, 0));
+        for(ll i=0; i<n; ++i) {
+            for (ll j=0; j<n; ++j) {
+                mapA[i][j] = in.get();
+                if (mapA[i][j] != '.')
+                    ++A[mapA[i][j]-'0'-1].first;
+            }
+            in.get();
+        }
+        for(ll i=0; i<n; ++i) {
+            for (ll j=0; j<n; ++j) {
+                mapB[i][j] = in.get();
+                if (mapB[i][j] != '.')
+                    ++B[mapB[i][j]-'0'-1].first;
+            }
+            in.get();
+        }
+        vector< pair<ll, ll> > movesA(n*n), movesB(n*n);
+        for (ll i=0; i<n*n; ++i) {
+            ll x, y;
+            in >> y >> x;
+            movesA[i] = make_pair(y - 1, x - 1);
+        }
+        for (ll i=0; i<n*n; ++i) {
+            ll x, y;
+            in >> y >> x;
+            movesB[i] = make_pair(y - 1, x - 1);
+        }
+        ll shipsA = 4, shipsB = 4;
+        bool win = 0;
+        for (ll moveA = 0, moveB = 0; moveA < n*n && moveB < n*n && !win;) {
+            ll y, x;
+            bool f = 1;
+            while (f) {
+                f = 0;
+                x = movesA[moveA].second;
+                y = movesA[moveA].first;
+                ++moveA;
+                if (mapB[y][x] != '.') {
+                    ++B[mapB[y][x]-'0'-1].second;
+                    if (B[mapB[y][x]-'0'-1].second == B[mapB[y][x]-'0'-1].first) {
+                        cout << "Alice sank Bob's " << names[B[mapB[y][x]-'0'-1].first-1] << '\n';
+                        f = 1;
+                        --shipsB;
+                        if (!shipsB) {
+                            cout << "Alice\n";
+                            win = 1;
+                            break;
+                        }
+                    }
+                }
+            }
+            if (win) {
+                break;
+            }
+            f = 1;
+            while (f) {
+                f = 0;
+                x = movesB[moveB].second;
+                y = movesB[moveB].first;
+                ++moveB;
+                if (mapA[y][x] != '.') {
+                    ++A[mapA[y][x]-'0'-1].second;
+                    if (A[mapA[y][x]-'0'-1].second == A[mapA[y][x]-'0'-1].first) {
+                        cout << "Bob sank Alice's " << names[A[mapA[y][x]-'0'-1].first-1] << '\n';
+                        f = 1;
+                        --shipsA;
+                        if (!shipsA) {
+                            cout << "Bob\n";
+                            win = 1;
+                            break;
+                        }
+                    }
+                }
+            }
+            if (win) {
+                break;
+            }
+        }
+    }
+
+    in.close();
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача L - Maze}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Karelia/OC_Karelia_L1.png}\\ [1cm]
+\includegraphics[width=0.9\textwidth]{OC_Karelia/OC_Karelia_L2.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+using namespace std;
+#define ll long long
+#define ull unsigned long long
+#define eps 0.00001
+ll min(ll a, ll b){return (a<b?a:b);}
+ll max(ll a, ll b){return (a>b?a:b);}
+
+int main()
+{
+    ifstream in("maze.in");
+
+    long T;
+    in >> T;
+    in.get();
+    while (T--) {
+
+        char map[210][210];
+        for (ll i=0; i<210; ++i) {
+            for (ll j=0; j<210; ++j) {
+                map[i][j] = 'X';
+            }
+        }
+        ll maxX = 0, maxY = 0, minX = 0, minY = 0, x = 0, y = 0;
+        int dir = 0;
+        char c;
+        while((c = in.get()) != '\n') {
+            if (c == 'B') {
+                if (dir == 0) dir = 2;
+                else if (dir == 1) dir = 3;
+                else if (dir == 2) dir = 0;
+                else if (dir == 3) dir = 1;
+            }
+            else if (c == 'R') {
+                if (dir == 0) dir = 3;
+                else if (dir == 1) dir = 0;
+                else if (dir == 2) dir = 1;
+                else if (dir == 3) dir = 2;
+            }
+            else if (c == 'L') {
+                if (dir == 0) dir = 1;
+                else if (dir == 1) dir = 2;
+                else if (dir == 2) dir = 3;
+                else if (dir == 3) dir = 0;
+            }
+            map[x+105][y+105] = '.';
+            if (dir == 0) ++x;
+            else if (dir == 1) --y;
+            else if (dir == 2) --x;
+            else ++y;
+            if (x > maxX) maxX = x;
+            else if(x < minX) minX = x;
+            if (y > maxY) maxY = y;
+            else if(y < minY) minY = y;
+        }
+        cout << maxY - minY + 3 << ' ' << maxX - minX + 2 << '\n';
+        for (ll i=minY-1; i<maxY+2; ++i) {
+            for (ll j=minX; j<maxX+2; ++j) {
+                cout.put(map[j+105][i+105]);
+            }
+            cout.put('\n');
+        }
+    }
+
+    in.close();
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{OC_Karelia/OC_Karelia_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	OpenCup GP of Udmurtia
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{OpenCup GrandPrix of Udmurtia}
+
+\textbf{{\large Задача A - Коллекционеры}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Udmurtia/OC_Udmurtia_A1.png}\\ [1cm]
+\includegraphics[width=0.9\textwidth]{OC_Udmurtia/OC_Udmurtia_A2.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <algorithm>
+
+typedef enum {
+    BLACK,
+    WHITE,
+    GREEN,
+    YELLOW,
+    BLUE,
+    RED,
+    ORANGE,
+    PURPLE
+} color;
+
+typedef enum {
+    DOT,
+    ARABIC,
+    ROMAN,
+} numberType;
+
+typedef struct {
+    color col;
+    numberType num;
+    int value;
+} cubeFace;
+
+color parseColor(char col) {
+    if (col == 'B') return BLACK;
+    else if (col == 'W') return WHITE;
+    else if (col == 'G') return GREEN;
+    else if (col == 'Y') return YELLOW;
+    else if (col == 'S') return BLUE;
+    else if (col == 'R') return RED;
+    else if (col == 'O') return ORANGE;
+    else return PURPLE;
+}
+
+int parseDots() {
+    int value;
+    string dots;
+    in >> dots;
+    value = (int)dots.size();
+    return value;
+}
+
+int parseArabic() {
+    int value;
+    in >> value;
+    return value;
+}
+
+int parseRoman() {
+    string roman;
+    in >> roman;
+    if (roman == "I") return 1;
+    else if (roman == "II") return 2;
+    else if (roman == "III") return 3;
+    else if (roman == "IV") return 4;
+    else if (roman == "V") return 5;
+    else return 6;
+}
+
+int parseValue(numberType num) {
+    if (num == DOT) return parseDots();
+    else if (num == ARABIC) return parseArabic();
+    else return parseRoman();
+}
+
+numberType recognizeNumberType(char num) {
+    if (num == '.') return DOT;
+    else if (isdigit(num)) return ARABIC;
+    else return ROMAN;
+}
+
+bool john(cubeFace f1, cubeFace f2, cubeFace f3) {
+    if (f1.num == DOT && f1.num == f2.num && f2.num == f3.num)
+        return true;
+    return false;
+}
+
+bool david(cubeFace f1, cubeFace f2, cubeFace f3) {
+    if (f1.num != ROMAN && f2.num != ROMAN && f3.num != ROMAN)
+        return true;
+    return false;
+}
+
+bool peter(cubeFace f1, cubeFace f2, cubeFace f3) {
+    if (f1.col == WHITE && f1.col == f2.col && f2.col == f3.col)
+        return true;
+    return false;
+}
+
+bool robert(cubeFace f1, cubeFace f2, cubeFace f3) {
+    if ((f1.col == BLACK || f1.col == WHITE) &&
+        (f2.col == BLACK || f2.col == WHITE) &&
+        (f3.col == BLACK || f3.col == WHITE))
+        return true;
+    return false;
+}
+
+bool mark(cubeFace f1, cubeFace f2, cubeFace f3) {
+    if (f1.value % 2 == 0 && f1.col != BLACK)
+        return false;
+    if (f1.value % 2 == 1 && f1.col != WHITE)
+        return false;
+    if (f2.value % 2 == 0 && f2.col != BLACK)
+        return false;
+    if (f2.value % 2 == 1 && f2.col != WHITE)
+        return false;
+    if (f3.value % 2 == 0 && f3.col != BLACK)
+        return false;
+    if (f3.value % 2 == 1 && f3.col != WHITE)
+        return false;
+    return true;
+}
+
+bool paul(cubeFace f1, cubeFace f2, cubeFace f3) {
+    if (f1.value == 2 || f1.value == 3 || f1.value == 5) {
+        if (f1.num != ARABIC)
+            return false;
+    }
+    if (f2.value == 2 || f2.value == 3 || f2.value == 5) {
+        if (f2.num != ARABIC)
+            return false;
+    }
+    if (f3.value == 2 || f3.value == 3 || f3.value == 5) {
+        if (f3.num != ARABIC)
+            return false;
+    }
+    if (f1.num == ARABIC) {
+        if (f1.value == 1 || f1.value == 4 || f1.value == 6) {
+            return false;
+        }
+    }
+    if (f2.num == ARABIC) {
+        if (f2.value == 1 || f2.value == 4 || f2.value == 6) {
+            return false;
+        }
+    }
+    if (f3.num == ARABIC) {
+        if (f3.value == 1 || f3.value == 4 || f3.value == 6) {
+            return false;
+        }
+    }
+    return true;
+}
+
+bool patrick(cubeFace f1, cubeFace f2, cubeFace f3) {
+    if (f1.col == f2.col && f2.col == f3.col) {
+        if (f1.col != BLACK && f1.col != WHITE)
+            return true;
+    }
+    return false;
+}
+
+bool jack(cubeFace f1, cubeFace f2, cubeFace f3) {
+    if (f1.num == ROMAN && f1.col != YELLOW)
+        return false;
+    if (f2.num == ROMAN && f2.col != YELLOW)
+        return false;
+    if (f3.num == ROMAN && f3.col != YELLOW)
+        return false;
+    return true;
+}
+
+bool maxx(cubeFace f1, cubeFace f2, cubeFace f3) {
+    if (f1.col != f2.col && f1.col != f3.col && f2.col != f3.col)
+        return true;
+    return false;
+}
+
+bool alex(cubeFace f1, cubeFace f2, cubeFace f3) {
+    if (f1.num == f2.num && f1.col != f2.col)
+        return false;
+    if (f1.num != f2.num && f1.col == f2.col)
+        return false;
+
+    if (f1.num == f3.num && f1.col != f3.col)
+        return false;
+    if (f1.num != f3.num && f1.col == f3.col)
+        return false;
+
+    if (f2.num == f3.num && f2.col != f3.col)
+        return false;
+    if (f2.num != f3.num && f2.col == f3.col)
+        return false;
+
+    return true;
+}
+
+int main() {
+
+    char col, num;
+
+    // FACE 1
+    cubeFace face1;
+    col = in.get();
+    in.get();
+
+    num = in.get();
+    in.unget();
+
+    face1.col = parseColor(col);
+    face1.num = recognizeNumberType(num);
+    face1.value = parseValue(face1.num);
+    in.get();
+
+    // FACE 2
+    cubeFace face2;
+    col = in.get();
+    in.get();
+
+    num = in.get();
+    in.unget();
+
+    face2.col = parseColor(col);
+    face2.num = recognizeNumberType(num);
+    face2.value = parseValue(face2.num);
+    in.get();
+
+    // FACE 3
+    cubeFace face3;
+    col = in.get();
+    in.get();
+
+    num = in.get();
+    in.unget();
+
+    face3.col = parseColor(col);
+    face3.num = recognizeNumberType(num);
+    face3.value = parseValue(face3.num);
+    in.get();
+
+    if (john(face1, face2, face3))
+        out << "John ";
+    if (david(face1, face2, face3))
+        out << "David ";
+    if (peter(face1, face2, face3))
+        out << "Peter ";
+    if (robert(face1, face2, face3))
+        out << "Robert ";
+    if (mark(face1, face2, face3))
+        out << "Mark ";
+    if (paul(face1, face2, face3))
+        out << "Paul ";
+    if (patrick(face1, face2, face3))
+        out << "Patrick ";
+    if (jack(face1, face2, face3))
+        out << "Jack ";
+    if (maxx(face1, face2, face3))
+        out << "Max ";
+    if (alex(face1, face2, face3))
+        out << "Alex ";
+
+    in.close();
+    out.close();
+
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача K - Data Mining}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Udmurtia/OC_Udmurtia_K.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <algorithm>
+
+int main() {
+    ifstream in("input.txt");
+    ofstream out("output.txt");
+
+    long T;
+    in >> T;
+    while (T--) {
+        long dev, runs, execParallel, execCurrent;
+        in >> dev >> runs >> execCurrent >> execParallel;
+        long keepTime, rewriteTime;
+        keepTime = runs * execCurrent;
+        rewriteTime = dev + runs * execParallel;
+        if (keepTime < rewriteTime) {
+            out << "Keep" << endl;
+        }
+        else if (keepTime > rewriteTime) {
+            out << "Rewrite" << endl;
+        }
+        else {
+            out << "Flip a Coin" << endl;
+        }
+    }
+
+    in.close();
+    out.close();
+
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача L - Performance}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Udmurtia/OC_Udmurtia_L.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <algorithm>
+
+typedef struct {
+    long gear;
+    long a, b, c;
+} eq;
+
+int main() {
+    ifstream in("input.txt");
+    ofstream out("output.txt");
+
+    int T;
+    in >> T;
+    while (T--) {
+        long maxGear = 0;
+        double maxValue = -1000000;
+        int n;
+        in >> n;
+        for (int i = 1; i <= n; i++) {
+            long a, b, c;
+            in >> a >> b >> c;
+            double max = (-1) * (((b * b) - (4 * (-a) * c)) / (4 * (-a)));
+            if (max > maxValue) {
+                maxValue = max;
+                maxGear = i;
+            }
+        }
+        out << maxGear << endl;
+    }
+
+    in.close();
+    out.close();
+
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача M - Tic-tac-toe}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Udmurtia/OC_Udmurtia_M.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+using namespace std;
+#define ll long long
+#define ull unsigned long long
+#define eps 0.00001
+ll min(ll a, ll b){return (a<b?a:b);}
+ll max(ll a, ll b){return (a>b?a:b);}
+
+struct Point{
+    int x, y;
+};
+
+int check(char map[3][3]) {
+    int winner = 2;
+    for (int i=0; i<3; ++i) {
+        bool oFH = 1, xFH = 1, oFV = 1, xFV = 1;
+        for (int j=0; j<3; ++j) {
+            if (map[i][j] != 'o') {
+                oFH = 0;
+            }
+            if (map[i][j] != 'x') {
+                xFH = 0;
+            }
+            if (map[j][i] != 'o') {
+                oFV = 0;
+            }
+            if (map[j][i] != 'x') {
+                xFV = 0;
+            }
+        }
+        if (oFH || oFV) {
+            winner = 1;
+        }
+        else if (xFH || xFV) {
+            winner = 0;
+        }
+    }
+    bool oFD1 = 1, xFD1 = 1, oFD2 = 1, xFD2 = 1;
+    for (int i=0; i<3; ++i) {
+        if (map[i][i] != 'o') {
+            oFD1 = 0;
+        }
+        if (map[i][i] != 'x') {
+            xFD1 = 0;
+        }
+        if (map[i][2-i] != 'o') {
+            oFD2 = 0;
+        }
+        if (map[i][2-i] != 'x') {
+            xFD2 = 0;
+        }
+    }
+
+    if (oFD1 || oFD2) {
+        winner = 1;
+    }
+    else if (xFD1 || xFD2) {
+        winner = 0;
+    }
+    return winner;
+}
+int main()
+{
+    ifstream in("input.txt");
+    ofstream out("output.txt");
+
+    Point freeCell[2];
+    int n = 0;
+    int xN = 0, oN = 0;
+    char map[3][3];
+    for (int i=0; i<3; ++i) {
+        for (int j=0; j<3; ++j) {
+            map[i][j] = in.get();
+            if (map[i][j] == '.') {
+                freeCell[n].x = j;
+                freeCell[n].y = i;
+                ++n;
+            }
+            if (map[i][j] == 'x') {
+                ++xN;
+            }
+            else if (map[i][j] == 'o') {
+                ++oN;
+            }
+        }
+        in.get();
+    }
+    char firstPlayer, secondPlayer;
+    if (oN < xN) {
+        firstPlayer = 'o';
+        secondPlayer = 'x';
+    }
+    else {
+        firstPlayer = 'x';
+        secondPlayer = 'o';
+    }
+    map[freeCell[0].y][freeCell[0].x] = firstPlayer;
+    int winner = check(map);
+    float pX = 0, pO = 0;
+    if (firstPlayer == 'o' && winner == 1 || firstPlayer == 'x' && winner == 0) {
+        pO += 1;
+    }
+    else {
+        map[freeCell[1].y][freeCell[1].x] = secondPlayer;
+        winner = check(map);
+        if (firstPlayer == 'o' && winner == 0 || firstPlayer == 'x' && winner == 1) {
+            pX += 1;
+        }
+    }
+
+    map[freeCell[0].y][freeCell[0].x] = '.';
+    map[freeCell[1].y][freeCell[1].x] = firstPlayer;
+    winner = check(map);
+    if (firstPlayer == 'o' && winner == 1 || firstPlayer == 'x' && winner == 0) {
+        pO += 1;
+    }
+    else {
+        map[freeCell[0].y][freeCell[0].x] = secondPlayer;
+        winner = check(map);
+        if (firstPlayer == 'o' && winner == 0 || firstPlayer == 'x' && winner == 1) {
+            pX += 1;
+        }
+    }
+
+    if (pO > pX) {
+        if (firstPlayer == 'o')
+            out << "o";
+        else
+            out << "x";
+    }
+    else if (pO < pX) {
+        if (secondPlayer == 'x')
+            out << "x";
+        else
+            out << "o";
+    }
+    else {
+        out << "tie";
+    }
+    in.close();
+    out.close();
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{OC_Udmurtia/OC_Udmurtia_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	OpenCup GP of China
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{OpenCup GrandPrix of China}
+
+\textbf{{\large Задача N - Ordered Sequences}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_China/OC_China_N.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+using namespace std;
+#define ll long long
+#define ull unsigned long long
+#define eps 0.00001
+ll min(ll a, ll b){return (a<b?a:b);}
+ll max(ll a, ll b){return (a>b?a:b);}
+
+int main()
+{
+    int T;
+    cin >> T;
+    cin.get();
+    while (T--) {
+        ull a = 0;
+        char c;
+        while ((c=cin.get())!='\n') {
+            a <<= 1;
+            if (c == 'B') {
+                a |= 1;
+            }
+        }
+        cout << a << '\n';
+    }
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{OC_China/OC_China_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	OpenCup GP of Tatarstan
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{OpenCup GrandPrix of Tatarstan}
+
+\textbf{{\large Задача M - The Dress}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Tatarstan/OC_Tatarstan_M.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <algorithm>
+
+int main(){
+    int n;
+    cin >> n;
+    int humans = 0;
+    int aliens = 0;
+    int fuckers = 0;
+    int total = n;
+    string answer;
+    cin.get();
+
+    while (n--) {
+        getline(cin, answer);
+        if (answer.find("blue") != -1 && answer.find("black") != -1) {
+            humans++;
+        }
+        else if (answer.find("gold") != -1 && answer.find("white") != -1) {
+            aliens++;
+        }
+        else {
+            fuckers++;
+        }
+    }
+
+    cout << setprecision(10) << (double)humans / total * 100 << endl;
+    cout << setprecision(10) << (double)aliens / total * 100 << endl;
+    cout << setprecision(10) << (double)fuckers / total * 100 << endl;
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{OC_Tatarstan/OC_Tatarstan_result.png}\\ [1cm]
+\end{center}
 
 %----------------------------------------------------------------------------------------
 %
