@@ -1,0 +1,2609 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{article}
+%\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{fullpage}
+\usepackage{multicol,multirow}
+\usepackage{tabularx}
+\usepackage{ulem}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{titlesec}
+
+\usepackage{longtable}
+\usepackage{ltxtable}
+
+\usepackage{listings}
+\usepackage{color}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    %backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+\usepackage{geometry}
+\geometry{top=2cm}
+\geometry{bottom=2cm}
+\geometry{left=1.5cm}
+\geometry{right=1.5cm}
+
+
+\begin{document}
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+ 
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\large Московский Авиационный Институт\\(национальный исследовательский университет)}\\[1.5cm] % Name of your university/college
+
+
+
+%----------------------------------------------------------------------------------------
+%	LOGO SECTION
+%----------------------------------------------------------------------------------------
+
+\includegraphics[width=0.25\textwidth]{mai_logo.png}\\[1cm]
+% Include a department/university logo - this will require the graphicx package
+ 
+%----------------------------------------------------------------------------------------
+
+\vspace{40px}
+
+\textsc{\Large Отчет по индивидуальному учебному плану}\\[0.5cm] % Major heading such as course name
+%\textsc{\large Алгоритмы на графах}\\[0.5cm] % Minor heading such as course title
+
+
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Алгоритмы на графах}\\[0.4cm] % Title of your document
+\HRule \\[1.5cm]
+
+
+
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Студенты:}\\
+%John \textsc{Smith} % Your name
+Макаров Никита\\Якименко Антон
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Руководитель:} \\
+%Dr. James \textsc{Smith} % Supervisor's Name
+Зайцев В.Е.
+\end{flushright}
+\end{minipage}\\[2cm]
+
+%----------------------------------------------------------------------------------------
+%	DATE SECTION
+%----------------------------------------------------------------------------------------
+
+%{\large \today}\\[2cm] % Date, change the \today to a set date if you want to be precise
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+
+
+%----------------------------------------------------------------------------------------
+%	СОДЕРЖАНИЕ
+%----------------------------------------------------------------------------------------
+\tableofcontents
+\newpage
+
+
+
+%----------------------------------------------------------------------------------------
+%	ЛИЧНЫЕ ОТЧЕТЫ
+%----------------------------------------------------------------------------------------
+\section{Личные отчеты}
+
+% Мой отчет
+Отчет о работе студента Макарова Н.А. по индивидуальному учебному плану в V-VI семестрах 2014-2015 учебного года.
+
+% Таблица - часть 1
+\begin{table}[ht!]
+\centering
+\label{my-tab1}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+
+% Заголовки столбцов
+№ & 
+Дата & 
+Контест & 
+\begin{tabular}[c]{@{}c@{}}Место\\ проведения\end{tabular} & 
+\begin{tabular}[c]{@{}c@{}}Кол-во\\ участников\end{tabular} & 
+\begin{tabular}[c]{@{}c@{}}Решено\\ задач\end{tabular} & 
+\begin{tabular}[c]{@{}c@{}}Задач на\\ участника\end{tabular} \\ \hline
+
+% Строки таблицы
+1 & 18.09.2014 & Codeforces Round 267 Div 2 & Дом & 1 & 2 & 2 \\ \hline
+
+2 & 21.09.2014 & Codeforces Round 268 Div 2 & Дом & 1 & 2 & 2 \\ \hline
+
+3 & 22.09.2014 & \begin{tabular}[c]{@{}c@{}}Codeforces Отборочный контест\\ СГАУ на 1/4 ACM-ICPC\end{tabular} & Дом & 1 & 3 & 3 \\ \hline
+
+4 & 25.09.2014 & Codeforces Training S02E03 & МАИ & 3 & 3 & 1 \\ \hline
+
+5 & 28.09.2014 & Codeforces Round 270 Div 2 & Дом & 1 & 2 & 2 \\ \hline
+
+6 & 02.10.2014 & Codeforces Training S02E04 & МАИ & 3 & 2 & 0.66 \\ \hline
+
+7 & 05.10.2014 & \begin{tabular}[c]{@{}c@{}}XV Открытая Всесибирская\\ Олимпиада по\\ Программированию\end{tabular} & МАИ & 3 & 1 & 0.33 \\ \hline
+
+8 & 09.10.2014 & Codeforces Training S02E05 & МАИ & 3 & 4 & 1.33 \\ \hline
+
+9 & 16.10.2014 & Codeforces Round 273 Div 2 & Дом & 1 & 2 & 2 \\ \hline
+
+10 & 17.10.2014 & Codeforces Training S02E06 & МАИ & 3 & 0 & 0 \\ \hline
+
+11 & 18.10.2014 & \begin{tabular}[c]{@{}c@{}}Codeforces Тренировка СПбГУ\\ графы и DFS\end{tabular} & Дом & 3 & 2 & 0.66 \\ \hline
+
+12 & 19.10.2014 & OpenCup GP of SPb. Div 2 & МАИ & 3 & 1 & 0.33 \\ \hline
+
+13 & 20.10.2014 & Codeforces Round 274 Div 2 & МАИ & 1 & 3 & 3 \\ \hline
+
+14 & 23.10.2014 & \begin{tabular}[c]{@{}c@{}}Codeforces Самарский\\Аэрокосмический Лицей\\ тренировка №1\end{tabular} & Дом & 2 & 1 & 0.5 \\ \hline
+
+15 & 23.10.2014 & \begin{tabular}[c]{@{}c@{}}Codeforces ACM, NEERC,\\ Восточный четвертьфинал\end{tabular} & Дом & 3 & 4 & 1.33 \\ \hline
+
+16 & 24.10.2014 & Codeforces Round 275 Div 2 & Дом & 1 & 1 & 1 \\ \hline
+
+17 & 25.10.2014 & \begin{tabular}[c]{@{}c@{}}Codeforces ACM, NEERC,\\ Южный четвертьфинал\end{tabular} & Дом & 3 & 3 & 1 \\ \hline
+
+18 & 26.10.2014 & ACM-ICPC 1/4 Final & МГУ & 3 & 3 & 1 \\ \hline
+
+19 & 30.10.2014 & Codeforces Training S02E07 & МАИ & 3 & 2 & 0.66 \\ \hline
+
+20 & 01.11.2014 & Codeforces Crypto Cup & Дом & 3 & 9 & 3 \\ \hline
+
+21 & 02.11.2014 & OpenCup GP of Siberia Div 2 & МАИ & 2 & 3 & 1.5 \\ \hline
+
+22 & 06.11.2014 & Codeforces Training S02E08 & МАИ & 3 & 2 & 0.66 \\ \hline
+
+23 & 13.11.2014 & Codeforces Training S02E09 & МАИ & 3 & 3 & 1 \\ \hline
+
+24 & 15.11.2014 & \begin{tabular}[c]{@{}c@{}}Codeforces Олимпиада\\ школьников\\ Нижегородской области\end{tabular} & Дом & 3 & 3 & 1 \\ \hline
+
+25 & 16.11.2014 & \begin{tabular}[c]{@{}c@{}}OpenCup GP\\ of Central Europe. Div 2\end{tabular} & МАИ & 3 & 1 & 0.33 \\ \hline
+
+26 & 20.11.2014 & Codeforces Training S02E10 & МАИ & 3 & 3 & 1 \\ \hline
+
+27 & 23.11.2014 & OpenCup GP of Europe Div 2 & МАИ & 3 & 5 & 1.66 \\ \hline
+
+28 & 14.12.2014 & OpenCup GP of Peterhof Div 2 & МАИ & 3 & 1 & 0.33 \\ \hline
+
+29 & 01.02.2015 & OpenCup GP of Japan Div 2 & МАИ & 3 & 4 & 1.33 \\ \hline
+
+30 & 08.02.2015 & OpenCup Northern GP Div 2 & МАИ & 3 & 2 & 0.66 \\ \hline
+
+31 & 15.02.2015 & OpenCup GP of Karelia Div 2 & МАИ & 3 & 4 & 1.33 \\ \hline
+
+\end{tabular}
+\end{table}
+
+Продолжение таблицы.
+% Таблица - часть 2
+\begin{table}[ht!]
+\centering
+%\caption{My caption}
+\label{my-tab2}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+
+% Заголовки столбцов
+№ & 
+Дата & 
+Контест & 
+\begin{tabular}[c]{@{}c@{}}Место\\ проведения\end{tabular} & 
+\begin{tabular}[c]{@{}c@{}}Кол-во\\ участников\end{tabular} & 
+\begin{tabular}[c]{@{}c@{}}Решено\\ задач\end{tabular} & 
+\begin{tabular}[c]{@{}c@{}}Задач на\\ участника\end{tabular} \\ \hline
+
+% Строки таблицы
+32 & 22.02.2015 & OpenCup GP of Udmurtia Div 2 & МАИ & 3 & 4 & 1.33 \\ \hline
+
+33 & 01.03.2015 & OpenCup GP of China Div 2 & МАИ & 3 & 1 & 0.33 \\ \hline
+
+34 & 08.02.2015 & OpenCup GP of Tatarstan Div 2 & МАИ & 3 & 1 & 0.33 \\ \hline
+
+35 & 07.03.2015 & VK Cup 2015 Квалификация & Дом & 2 & 2 & 1 \\ \hline
+
+36 & 21.03.2015 & VK Cup 2015 Раунд 1 & Дом & 2 & 2 & 1 \\ \hline
+
+37 & 29.03.2015 & OpenCup Gp of America Div 2 & МАИ & 3 & 4 & 1.33 \\ \hline
+
+38 & 18.04.2015 & Vekua Cup Личный этап & МФТИ-1С & 1 & 1 & 1 \\ \hline
+
+39 & 19.04.2015 & Vekua Cup Командный этап & МФТИ-1С & 3 & 3 & 1 \\ \hline
+
+40 & 26.04.2015 & OpenCup GP of Ural Div 2 & МАИ & 2 & 2 & 1 \\ \hline
+
+41 & 31.05.2105 & Mail.ru RCC Квалификация & Дом & 1 & 1 & 1 \\ \hline
+
+\end{tabular}
+\end{table}
+
+Итого: 41 контест, 47 решенных задач.
+\newpage
+
+% Отчет Антона
+
+Отчет о работе студента Якименко А.В. по индивидуальному учебному плану в V-VI семестрах 2014-2015 учебного года.
+
+
+
+\newpage
+%----------------------------------------------------------------------------------------
+%	КОМАНДНЫЕ КОНТЕСТЫ
+%----------------------------------------------------------------------------------------
+\section{Журнал по командным контестам}
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces Training S02E03
+%
+%----------------------------------------------------------------------------------------
+\subsection{Codeforces Training S02E03}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{CT_S02E03/CT_S02E03_result.png}\\ [1cm]
+\end{center}
+
+\newpage
+\textbf{{\large Задача B - Best Compression Ever}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_S02E03/CT_S02E03_B.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+Решение довольно простое. Можно заметить, что если логарифм по основаню 2 числа n меньше или равен b, то ответ yes, иначе ответ no.
+\newpage
+\textbf{{\large Исходный код}} \\
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    
+    unsigned long long n;
+    int b;
+    cin >> n >> b;
+    
+    if ((int)log2((double)n) <= b) {
+        cout << "yes" << endl;
+    }
+    else {
+        cout << "no" << endl;
+    }
+
+    return 0;
+}
+\end{lstlisting}
+
+
+\newpage
+\textbf{{\large Задача E - Event Planning}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_S02E03/CT_S02E03_E.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????}
+\newpage
+\textbf{{\large Исходный код}} \\
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <vector>
+
+#define ll long long
+using namespace std;
+
+int main () {
+    ll N,B,H,W,p,a;
+    ll min_cost = 5000000;
+
+    cin >> N >> B >> H >> W;
+
+    for (ll i = 0; i < H; i++) {
+        cin >> p;
+            for (ll k = 0; k < W; k++) {
+                cin >> a;
+                if((a >= N) && (p * N <= B) && (p * N <= min_cost))
+                    min_cost = p * N;
+            }
+    }
+    if(min_cost < 5000000)
+        cout << min_cost << endl;
+    else cout << "stay home" << endl;
+
+
+    return 0;
+}
+\end{lstlisting}
+
+
+\newpage
+\textbf{{\large Задача K - Best Cow Line}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_S02E03/CT_S02E03_K.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????}
+\newpage
+\textbf{{\large Исходный код}} \\
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <cmath>
+#include <vector>
+#include <stack>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    vector<char> cows(n);
+    char symb;
+    
+    for (int i = 0; i < n; i++) {
+        cin >> symb;
+        cows[i] = symb;
+    }
+    
+    vector<char> newLine;
+    int cowsInOldLine = n;
+    int begin = 0;
+    int end   = n - 1;
+    int tempBegin = begin;
+    int tempEnd   = end;
+    
+    while (cowsInOldLine) {
+        tempBegin = begin;
+        tempEnd   = end;
+        if (cows[begin] == cows[end]) {
+            while (cows[tempBegin] == cows[tempEnd]) {
+                tempBegin++;
+                tempEnd--;
+                if (tempBegin > tempEnd || tempBegin == tempEnd) {
+                    tempBegin = begin;
+                    tempEnd = end;
+                    break;
+                }
+            }
+        }
+        if (cows[tempBegin] < cows[tempEnd]) {
+            newLine.push_back(cows[begin]);
+            begin++;
+        }
+        else {
+            newLine.push_back(cows[end]);
+            end--;
+        }
+        cowsInOldLine--;
+    }
+    for (int i = 0; i < n; i++) {
+        cout << newLine[i];
+        if ((i + 1) % 80 == 0) cout << endl;
+    }
+    cout << endl;
+    return 0;
+}
+\end{lstlisting}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces Training S02E04
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{Codeforces Training S02E04}
+
+{\Huge у Антона}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	XV Открытая Всесибирская олимпиада по программированию им И.В. Поттосина
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{XV Открытая Всесибирская олимпиада по программированию им И.В. Поттосина}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{Siberia/Siberia_result.png}\\ [1cm]
+\end{center}
+
+%\newpage
+\textbf{{\large Задача 2 - Копировальный аппарат}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{Siberia/Siberia_1.png}\\ [1cm]
+\includegraphics[width=0.6\textwidth]{Siberia/Siberia_2.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+Задача на реализацию. Нужно считать входные данные в двумерный массив символов, затем пройтись по всем элементам и запомнить наибольшие позиции, на которых находятся решетки. \\ \\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <algorithm>
+#include <cmath>
+
+#include <sstream>
+#include <fstream>
+
+#define LL  long long
+
+using namespace std;
+
+int main() {
+    ifstream in;
+    ofstream out;
+    in.open("input.txt");
+    out.open("output.txt");
+    
+    LL a, b;
+    in >> a >> b;
+    char pic[a + 1][b + 1];
+    LL XMax = 0;
+    LL YMax = 0;
+    
+    for (LL i = 1; i <= a; i++) {
+        for (LL j = 1; j <= b; j++) {
+            in >> pic[i][j];
+            if (pic[i][j] == '#' && j > XMax) XMax = j;
+            if (pic[i][j] == '#' && i > YMax) YMax = i;
+        }
+        in.get();
+    }
+    LL n, y, x;
+    in >> n;
+    for (LL i = 1; i <= n; i++) {
+        in >> y >> x;
+        if (y >= YMax && x >= XMax) {
+            out << i << endl;
+            return 0;
+        }
+    }
+    in.close();
+    out.close();
+    
+    return 0;
+}
+\end{lstlisting}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces Training S02E05
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{Codeforces Training S02E05}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{CT_S02E05/CT_S02E05_result.png}\\ [1cm]
+\end{center}
+
+\newpage
+\textbf{{\large Задача A - Walking around Berhattan}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_S02E05/CT_S02E05_A1.png}\\ [1cm]
+\includegraphics[width=0.9\textwidth]{CT_S02E05/CT_S02E05_A2.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <algorithm>
+#include <iomanip>
+#include <vector>
+#include <sstream>
+#include <fstream>
+#define LL  long long
+
+using namespace std;
+
+enum dtype {
+    UP,
+    DOWN,
+    LEFT,
+    RIGHT,
+};
+
+int main() {
+    ifstream in;
+    ofstream out;
+    in.open("input.txt");
+    out.open("output.txt");
+
+    LL n, m;
+    LL answer = 0;
+    in >> n >> m;
+    char t;
+    in.get();
+    
+    vector< vector<int> > map(n + 2, vector<int>(m + 2, 0));
+    vector< vector<bool> > used(n + 2, vector<bool>(m + 2, false));
+    
+    for (LL i = 1; i <= n; i++) {
+        for (LL j = 1; j <= m; j++) {
+            t = in.get();
+            map[i][j] = t - '0';
+        }
+        in.get();
+    }
+    
+    int x = 1, y = 1;
+    dtype dir = RIGHT; // last dir
+
+    while ((t = in.get()) != EOF) {
+        if (t == 'M') {
+            if (dir == RIGHT) {
+ 				answer += map[x][y];
+                answer += map[x - 1][y];
+            	if (!used[x][y]) {
+                	map[x][y] /= 2;
+                	used[x][y] = true;
+                }
+                if (!used[x - 1][y]) {
+                	map[x - 1][y] /= 2;
+                	used[x - 1][y] = true;
+                }
+                y++;
+            }
+            else if (dir == LEFT) {
+            	answer += map[x][y - 1];
+                answer += map[x - 1][y - 1];
+            	if (!used[x][y - 1]) {
+            		map[x][y - 1] /= 2;
+            		used[x][y - 1] = true;
+            	}
+            	if (!used[x - 1][y - 1]) {
+            		map[x - 1][y - 1] /= 2;
+                	used[x - 1][y - 1] = true;
+            	}
+                y--;
+            }
+            else if (dir == UP) {
+                answer += map[x - 1][y - 1];
+                answer += map[x - 1][y];
+                if (!used[x - 1][y - 1]) {
+                	map[x - 1][y - 1] /= 2;
+                	used[x - 1][y - 1] = true;
+                }
+                if (!used[x - 1][y]) {
+                	map[x - 1][y] /= 2;
+                	used[x - 1][y] = true;
+                }
+                x--;
+            }
+            else if (dir == DOWN) {
+                answer += map[x][y];
+                answer += map[x][y - 1];
+                if (!used[x][y]) {
+                	map[x][y] /= 2;
+                	used[x][y] = true;
+                }
+                if (!used[x][y - 1]) {
+                	map[x][y - 1] /= 2;
+               		used[x][y - 1] = true;
+                }
+                x++;
+            }
+            
+        }
+        else if (t == 'R') {
+            if (dir == UP) dir = RIGHT;
+            else if (dir == DOWN) dir = LEFT;
+            else if (dir == LEFT) dir = UP;
+            else dir = DOWN;
+        }
+        else if (t == 'L'){
+            if (dir == UP) dir = LEFT;
+            else if (dir == DOWN) dir = RIGHT;
+            else if (dir == LEFT) dir = DOWN;
+            else dir = UP;
+        }
+    }
+    out << answer << endl;
+    in.close();
+    out.close();
+    return 0;
+}
+\end{lstlisting}
+
+
+\newpage
+\textbf{{\large Задача G - Plural Form of Nouns}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_S02E05/CT_S02E05_G.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????}
+\newpage
+\textbf{{\large Исходный код}} \\
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <sstream>
+#include <fstream>
+#define LL  long long
+
+using namespace std;
+
+int main() {
+    ifstream in;
+    ofstream out;
+    in.open("input.txt");
+    out.open("output.txt");
+
+    LL n;
+    string s;
+    
+    in >> n;
+    
+    for (LL i = 0; i < n; i++) {
+        in >> s;
+        size_t l = s.size() - 1;
+        if ((s[l] == 'h' && s[l - 1] == 'c') || s[l] == 's' || s[l] == 'x' || s[l] == 'o') {
+            out << s;
+            out << "es" << endl;
+        }
+        else if (s[l] == 'f') {
+            for (size_t j = 0; j < l; j++) {
+                out << s[j];
+            }
+            out << "ves" << endl;
+        }
+        else if (s[l] == 'e' && s[l - 1] == 'f') {
+            for (size_t j = 0; j < l - 1; j++) {
+                out << s[j];
+            }
+            out << "ves" << endl;
+        }
+        else if (s[l] == 'y') {
+            for (size_t j = 0; j < l; j++) {
+                out << s[j];
+            }
+            out << "ies" << endl;
+        }
+        else {
+            out << s << "s" << endl;
+        }
+    }
+    
+    in.close();
+    out.close();
+    
+    return 0;
+}
+\end{lstlisting}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces Training S02E06
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{Codeforces Training S02E06}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{CT_S02E06/CT_S02E06_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Тренировка СПбГУ B #3 Поиск кратчайшего пути и DFS
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{Тренировка СПбГУ Поиск кратчайшего пути и DFS}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{SPBGU_GRAPHS/SPBGU_GRAPHS_result.png}\\ [1cm]
+\end{center}
+
+\newpage
+\textbf{{\large Задача C - Флойд}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{SPBGU_GRAPHS/SPBGU_GRAPHS_C.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+В задаче требуется найти кратчайшие пути между всеми парами вершин и представить их матрицей смежности. Ее можно решить используя алгоритм Флойда-Уоршелла за $O(n^3)$. \\ 
+\\
+\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iomanip>
+#include <iostream>
+#include <algorithm>
+#include <fstream>
+
+using namespace std;
+
+int main() {
+    
+    more_speed
+    ifstream in("floyd.in");
+    ofstream out("floyd.out");
+    
+    int n;
+    in >> n;
+    vector<vector<int> > m(n, vector<int>(n, 0));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            in >> m[i][j];
+        }
+    }
+    
+    for (int k = 0; k < n; k++) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                m[i][j] = min(m[i][j], m[i][k] + m[k][j]);
+            }
+        }
+    }
+    
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            out << m[i][j];
+            if (j < n - 1) out << " ";
+            else out << endl;
+        }
+    }
+
+    in.close();
+    out.close();
+    
+    return 0;
+}
+\end{lstlisting}
+
+
+\newpage
+\textbf{{\large Задача D - Поиск цикла}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{SPBGU_GRAPHS/SPBGU_GRAPHS_D.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+Задача решается поиском в глубину. Нужно сделать серию поисков в глубину, заходя в новую вершину будем красить ее в серый цвет, а выходя в черный. Если заходим в серую вершину, то цикл найден. \\
+%\newpage
+\textbf{{\large Исходный код}} \\
+\begin{lstlisting}[language=C]
+#include <iomanip>
+#include <iostream>
+#include <algorithm>
+#include <fstream>
+
+vector<set<LL> > g;
+vector<char> color;
+vector<LL> p;
+LL cycle_st, cycle_end;
+
+bool dfs (LL v) {
+    color[v] = 1;
+    for (set<LL>::iterator i = g[v].begin(); i != g[v].end(); i++) {
+        LL to = *i;
+        if (color[to] == 0) {
+            p[to] = v;
+            if (dfs(to)) return true;
+        }
+        else if (color[to] == 1){
+            cycle_st = to;
+            cycle_end = v;
+            return true;
+        }
+    }
+    color[v] = 2;
+    return false;
+}
+
+using namespace std;
+int main() {
+    
+    more_speed
+    ifstream in("cycle.in");
+    ofstream out("cycle.out");
+    
+    LL n, m, f, t;
+    in >> n >> m;
+    g.resize(n);
+    
+    for (LL i = 0; i < m; i++) {
+        in >> f >> t;
+        g[f - 1].insert(t - 1);
+    }
+    
+    p.assign(n, -1);
+    color.assign(n, 0);
+    cycle_st = -1;
+    for (LL i = 0; i < n; i++) {
+        if (dfs(i)) break;
+    }
+    if (cycle_st == -1) {
+        out << "NO" << endl;
+    }
+    else {
+        out << "YES" << endl;
+        vector<LL> cycle;
+        for (LL v = cycle_end; v != cycle_st; v = p[v]) {
+            cycle.push_back(v);
+        }
+        cycle.push_back(cycle_st);
+        reverse(cycle.begin(), cycle.end());
+        for (size_t i = 0; i < cycle.size(); i++) {
+            out << cycle[i] + 1 << " ";
+        }
+        out << endl;
+    }
+    in.close();
+    out.close();
+    
+    return 0;
+}
+\end{lstlisting}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	OpenCup GP of SPb
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{OpenCup GrandPrix of SPb.}
+
+\textbf{{\large Задача А - Барабашка}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_SPB/OC_SPB_A1.png}\\ [1cm]
+\includegraphics[width=0.9\textwidth]{OC_SPB/OC_SPB_A2.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+Задача на реализацию. Нужно считать строки и каждой строке сопоставить правильное сочетание цвета и предмета по заданым в условии правилам. Сначала определим, какие сочетания уже имеются в предложении, затем проверим, есть ли среди них корректные, если есть, то это ответ, иначе нужно выбрать любое правильное сочетание. \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iomanip>
+#include <iostream>
+#include <algorithm>
+
+bool isChar(char c) {
+    return (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z');
+}
+
+int num(string s) {
+    if      (s == "white" || s == "barabashka") return 0;
+    else if (s == "blue"  || s == "book")       return 1;
+    else if (s == "red"   || s == "chair")      return 2;
+    else if (s == "gray"  || s == "mouse")      return 3;
+    else return 4;
+}
+ 
+int main() {
+    ifstream in("barabashka.in");
+    ofstream out("barabashka.out");
+    
+    string white = "white",
+           blue  = "blue",
+           red   = "red",
+           gray  = "gray",
+           green = "green";
+    string barab = "barabashka",
+           book  = "book",
+           chair = "chair",
+           mouse = "mouse",
+           bottle = "bottle";
+    
+    string current;
+    string firstColor, firstObject;
+    string secondColor, secondObject;
+    bool needFirstColor, needFirstObject;
+    bool needSecondColor, needSecondObject;
+    bool complete;
+    
+    
+    for (int i = 0; i < 5; i++) {
+        char cSymb = in.get();
+        bool used[5] = {false};
+        needFirstColor   = true;
+        needFirstObject  = false;
+        needSecondColor  = false;
+        needSecondObject = false;
+        complete         = false;
+        
+        while (cSymb != '0') {
+            while (cSymb != ' ' && isChar(cSymb)) {
+                current += tolower(cSymb);
+                cSymb = in.get();
+            }
+            if (needFirstColor) {
+                if (current == white)      { firstColor = white; needFirstObject = true; needFirstColor = false; }
+                else if (current == blue)  { firstColor = blue;  needFirstObject = true; needFirstColor = false; }
+                else if (current == red)   { firstColor = red;   needFirstObject = true; needFirstColor = false; }
+                else if (current == gray)  { firstColor = gray;  needFirstObject = true; needFirstColor = false; }
+                else if (current == green) { firstColor = green; needFirstObject = true; needFirstColor = false; }
+            }
+            else if (needFirstObject) {
+                if (current == barab)       { firstObject = barab;  needSecondColor = true; needFirstObject = false; }
+                else if (current == book)   { firstObject = book;   needSecondColor = true; needFirstObject = false; }
+                else if (current == chair)  { firstObject = chair;  needSecondColor = true; needFirstObject = false; }
+                else if (current == mouse)  { firstObject = mouse;  needSecondColor = true; needFirstObject = false; }
+                else if (current == bottle) { firstObject = bottle; needSecondColor = true; needFirstObject = false; }
+            }
+            else if (needSecondColor) {
+                if (current == white)      { secondColor = white; needSecondObject = true; needSecondColor = false; }
+                else if (current == blue)  { secondColor = blue;  needSecondObject = true; needSecondColor = false; }
+                else if (current == red)   { secondColor = red;   needSecondObject = true; needSecondColor = false; }
+                else if (current == gray)  { secondColor = gray;  needSecondObject = true; needSecondColor = false; }
+                else if (current == green) { secondColor = green; needSecondObject = true; needSecondColor = false; }
+            }
+            else if (needSecondObject) {
+                if (current == barab)       { secondObject = barab;  complete = true; needSecondObject = false; }
+                else if (current == book)   { secondObject = book;   complete = true; needSecondObject = false; }
+                else if (current == chair)  { secondObject = chair;  complete = true; needSecondObject = false; }
+                else if (current == mouse)  { secondObject = mouse;  complete = true; needSecondObject = false; }
+                else if (current == bottle) { secondObject = bottle; complete = true; needSecondObject = false; }
+            }
+            if (complete) {
+                cSymb = '0';
+                used[num(firstColor)] = true;
+                used[num(firstObject)] = true;
+                used[num(secondColor)] = true;
+                used[num(secondObject)] = true;
+                
+                if ((firstColor == white && firstObject == barab) ||
+                    (secondColor == white && secondObject == barab)) { out << white << " " << "Barabashka" << endl; }
+                
+                else if ((firstColor == blue && firstObject == book) ||
+                         (secondColor == blue && secondObject == book)) { out << blue << " " << book << endl; }
+                
+                else if ((firstColor == red && firstObject == chair) ||
+                         (secondColor == red && secondObject == chair)) { out << red << " " << chair << endl; }
+                
+                else if ((firstColor == gray && firstObject == mouse) ||
+                         (secondColor == gray && secondObject == mouse)) { out << gray << " " << mouse << endl; }
+                
+                else if ((firstColor == green && firstObject == bottle) ||
+                         (secondColor == green && secondObject == bottle)) { out << green << " " << bottle << endl; }
+                
+                else {
+                    for (int j = 0; j < 5; j++) {
+                        if (!used[j]) {
+                            if (j == 0) { out << white << " " << "Barabashka" << endl; }
+                            else if (j == 1) { out << blue << " " << book << endl; }
+                            else if (j == 2) { out << red << " " << chair << endl; }
+                            else if (j == 3) { out << gray << " " << mouse << endl; }
+                            else             { out << green << " " << bottle << endl; }
+                            break;
+                        }
+                    }
+                }
+                
+                
+            }
+            current.clear();
+            if (cSymb != '\0') cSymb = in.get();
+        }
+    }
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{OC_SPB/OC_SPB_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Самарский Международный Аэрокосмический Лицей, тренировка №1
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{Самарский Международный Аэрокосмический Лицей, тренировка №1}
+
+\textbf{{\large Задача D - Пивной вор}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_SAMARA/CT_SAMARA_D.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+В этой задаче нужно отсортировать массив стоимостей по убыванию и сложить первые $k$ чисел. Это и будет ответом. \\ 
+\\
+\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <fstream>
+
+using namespace std;
+
+int main() {
+	long n, k;
+	ifstream in("input.txt");
+	ofstream out("output.txt");
+	in >> n >> k;
+	vector<long long> v(n);
+	for (long i = 0; i < n; i++) {
+		in >> v[i];
+	}
+	sort(v.begin(), v.end(), greater<long long>());
+	long long answer = 0;
+	for (long i = 0; i < k && i < v.size(); i++) {
+		answer += v[i];
+	}
+	out << answer << endl;
+	in.close();
+	out.close();
+	return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{CT_SAMARA/CT_SAMARA_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces ACM Восточный четвертьфинал
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{Codeforces ACM-ICPC Восточный четвертьфинал}
+
+\textbf{{\large Задача A - About Grisha N.}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_ACM_EAST/CT_ACM_EAST_A.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <fstream>
+
+using namespace std;
+
+int main() {
+	long n, k;
+	ifstream in("input.txt");
+	ofstream out("output.txt");
+	in >> n >> k;
+	vector<long long> v(n);
+	for (long i = 0; i < n; i++) {
+		in >> v[i];
+	}
+	sort(v.begin(), v.end(), greater<long long>());
+	long long answer = 0;
+	for (long i = 0; i < k && i < v.size(); i++) {
+		answer += v[i];
+	}
+	out << answer << endl;
+	in.close();
+	out.close();
+	return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача D - Zhenya moves from the dormitory}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_ACM_EAST/CT_ACM_EAST_D1.png}\\ [1cm]
+\includegraphics[width=0.5\textwidth]{CT_ACM_EAST/CT_ACM_EAST_D2.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <fstream>
+
+using namespace std;
+
+typedef struct {
+    long money;
+    long ad;
+    int num;
+}frd;
+
+typedef struct {
+    long rooms;
+    long price;
+    long ad;
+    int num;
+}apartment;
+
+bool cmp_ap(const apartment &a1, const apartment &a2) {
+    return a1.ad > a2.ad;
+}
+
+bool cmp_fr(const frd &f1, const frd &f2) {
+    return f1.ad > f2.ad;
+}
+
+int find_good_ap(const vector<apartment> &a, long money1, long money2) {
+    for (int i = 0; i < a.size(); i++) {
+        long price_for_each = a[i].price / 2;
+        if (a[i].price % 2 == 1) {
+            price_for_each++;
+        }
+        if (money1 >= price_for_each && money2 >= price_for_each && a[i].rooms == 2)
+            return i;
+    }
+    return -1;
+}
+
+int main() {
+    long money, ad1, ad2;
+    long n, m;
+    cin >> money >> ad1 >> ad2;
+    cin >> n;
+    vector<frd> fr(n);
+    for (int i = 0; i < n; i++) {
+        cin >> fr[i].money >> fr[i].ad;
+        fr[i].num = i + 1;
+    }
+    cin >> m;
+    vector<apartment> ap(m);
+    long max_ad_in_1room = -1, max_ad_in_2room = -1;
+    int  in_1room_num = -1, in_2room_num = -1;
+    bool can_buy_alone = false;
+    for (int i = 0; i < m; i++) {
+        cin >> ap[i].rooms >> ap[i].price >> ap[i].ad;
+        ap[i].num = i + 1;
+        if (ap[i].rooms == 1) {
+            if (money >= ap[i].price && ad1 + ap[i].ad > max_ad_in_1room) {
+                max_ad_in_1room = ad1 + ap[i].ad;
+                in_1room_num = i + 1;
+            }
+        }
+        else {
+            if (money >= ap[i].price && ad2 + ap[i].ad > max_ad_in_2room) {
+                max_ad_in_2room = ad2 + ap[i].ad;
+                in_2room_num = i + 1;
+            }
+        }
+    }
+    sort(ap.begin(), ap.end(), cmp_ap);
+    int ans_ap = -1, ans_fr = -1;
+    long max_ad_tog = -1;
+    int found_ap = -1;
+    for (int i = 0; i < n; i++) {
+        found_ap = find_good_ap(ap, money, fr[i].money);
+        if (found_ap != -1) {
+            long cur_ad = fr[i].ad + ap[found_ap].ad;
+            if (cur_ad > max_ad_tog) {
+                ans_ap = ap[found_ap].num;
+                ans_fr = fr[i].num;
+                max_ad_tog = cur_ad;
+            }
+        }
+    }
+    
+    long alone = 0, whereAlone = 0;
+    if (max_ad_in_1room != -1 || max_ad_in_2room != -1) {
+        if (max_ad_in_1room > max_ad_in_2room) {
+            alone = max_ad_in_1room;
+            whereAlone = in_1room_num;
+        }
+        else {
+            alone = max_ad_in_2room;
+            whereAlone = in_2room_num;
+        }
+        can_buy_alone = true;
+    }
+    
+    if (found_ap == -1 && !can_buy_alone) {
+        cout << "Forget about apartments. Live in the dormitory." << endl;
+        return 0;
+    }
+    
+    if (alone > max_ad_tog)
+        cout << "You should rent the apartment #" << whereAlone << " alone." << endl;
+    else
+        cout << "You should rent the apartment #" << ans_ap << " with the friend #" << ans_fr << "." << endl;
+        
+    return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача I - Traffic Jam in Flower Town}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_ACM_EAST/CT_ACM_EAST_I.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <deque>
+
+using namespace std;
+
+int main() 
+{
+    deque <char> south;
+    deque <char> north;
+
+    char temp;
+    int time = 0;
+    temp = cin.get();
+    while(temp != '\n'){
+        south.push_back(temp);
+        temp = cin.get();
+    }
+    temp = cin.get();
+    while(temp != '\n'){
+        north.push_back(temp);
+        temp = cin.get();
+    }
+    char s, n;
+    while(south.size() > 0 && north.size() > 0){
+        s = south[0];
+        n = north[0];
+        time++;
+        if(s == 'R' && n == 'L')
+            south.pop_front();
+        else if(s == 'L' && n == 'R')
+            north.pop_front();
+         else if(s == 'L' && n == 'F')
+            north.pop_front();
+         else if(s == 'F' && n == 'L')
+            south.pop_front();
+         else {
+            south.pop_front();
+            north.pop_front();
+         }
+    }
+    
+    if(south.size() > 0)
+        time += south.size();
+    if(north.size() > 0)
+        time += north.size();
+
+    cout << time << endl;
+    return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача L - Donald is a postman}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_ACM_EAST/CT_ACM_EAST_L.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    int n;
+    cin >> n;
+    string name;
+    int state = 1;
+    int answer = 0;
+    for (int i = 0; i < n; i++) {
+        cin >> name;
+        char t = name[0];
+        if (state == 1) {
+            if (t == 'B' || t == 'M' || t == 'S') {
+                answer++;
+                state = 2;
+            }
+            else if (t == 'D' || t == 'J' || t == 'K' || t == 'T' || t == 'W' || t == 'G') {
+                answer += 2;
+                state = 3;
+            }
+        }
+        else if (state == 2) {
+            if (t == 'A' || t == 'P' || t == 'O' || t == 'R') {
+                answer++;
+                state = 1;
+            }
+            else if (t == 'D' || t == 'J' || t == 'K' || t == 'T' || t == 'W' || t == 'G') {
+                answer++;
+                state = 3;
+            }
+                
+        }
+        else {
+            if (t == 'A' || t == 'P' || t == 'O' || t == 'R') {
+                answer += 2;
+                state = 1;
+            }
+            else if (t == 'B' || t == 'M' || t == 'S') {
+                answer++;
+                state = 2;
+            }
+        }
+    }
+    
+    cout << answer << endl;
+    return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{CT_ACM_EAST/CT_ACM_EAST_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces ACM Южный четвертьфинал
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{Codeforces ACM-ICPC Южный четвертьфинал}
+
+\textbf{{\large Задача D - Data Center}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_ACM_WEST/CT_ACM_WEST_D.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <fstream>
+
+using namespace std;
+
+typedef struct {
+    LL num;
+    ULL cap;
+    short low;
+} server;
+
+bool cmp_low(const server &a, const server &b) {
+    return a.low > b.low;
+}
+
+bool cmp_cap(const server &a, const server &b) {
+    if (a.cap == b.cap) return a.low > b.low;
+    return a.cap > b.cap;
+}
+
+int main() {
+    LL n;
+    ULL m;
+    cin >> n >> m;
+    vector<server> s(n);
+    for (LL i = 0; i < n; i++) {
+        s[i].num = i + 1;
+        cin >> s[i].cap;
+        cin >> s[i].low;
+    }
+    
+    sort(s.begin(), s.end(), cmp_cap);
+    LL ind = 0;
+    ULL curr_cap = 0;
+    LL count = 0;
+
+    while (curr_cap < m) {
+        curr_cap += s[ind].cap;
+        if (s[ind].low) count++;
+        ind++;
+    }
+    
+    ULL rem = curr_cap - m;
+    
+    if (rem == 0) {
+        cout << ind << " ";
+        cout << count << endl;
+        for (LL i = 0; i < ind; i++) {
+            cout << s[i].num << " ";
+        }
+        cout << endl;
+        return 0;
+    }
+    
+    for (LL i = ind - 1; i >= 0; i--) {
+        if (!s[i].low && rem > 0) {
+            bool azaza = false;
+            for (LL j = ind; j < n; j++) {
+                if (s[j].low && (s[j].cap + rem >= s[i].cap)) {
+                    rem -= s[i].cap - s[j].cap;
+                    swap(s[i], s[j]);
+                    count++;
+                    azaza = true;
+                    break;
+                }
+            }
+            if (!azaza) break;
+        }
+        else if (rem == 0) break;
+    }
+    
+    cout << ind << " " << count << endl;
+    for (LL i = 0; i < ind; i++) {
+        cout << s[i].num << " ";
+    }
+    cout << endl;;
+	return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача I - Sales in GameStore}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_ACM_WEST/CT_ACM_WEST_I.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+bool compare(const int &a, const int &b)
+{
+    return a<b;
+}
+int main(int argc, const char * argv[]) {
+    vector<int> p(2001);
+    int n;
+    cin >> n;
+    for(int i=0; i<n; ++i)
+        cin >> p[i];
+    sort(p.begin(), p.begin()+n);
+    int sum = 0;
+    int i=0;
+    while(i<n-1 && sum+p[i]<=p[n-1])
+        sum += p[i++];
+    cout << i+1;
+    return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача M - Variable Shadowing}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_ACM_WEST/CT_ACM_WEST_M1.png}\\ [1cm]
+\includegraphics[width=0.9\textwidth]{CT_ACM_WEST/CT_ACM_WEST_M2.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+typedef struct {
+    char ch;
+    int line;
+    int sym;
+} var;
+int main() {
+    int f,n;
+    cin >> n;
+    vector <stack <var> > all_alph(26);
+    stack <var> curr;
+    char temp;
+    int symbol = 0;
+    var to_put;
+    temp = cin.get();
+    for (int i = 1; i <= n; i++){
+        temp = cin.get();
+        symbol = 1;
+        while(temp != '\n') {
+            if(temp == '}') {
+                to_put = curr.top();
+                curr.pop();
+                while (to_put.ch != '{') {
+                    all_alph[to_put.ch - 97].pop();
+                    to_put = curr.top();
+                    curr.pop();
+                }
+            }
+            else if(temp == '{') {
+                to_put.ch = temp;
+                to_put.sym = symbol;
+                to_put.line = i;
+                curr.push(to_put);
+            }
+            else if (temp != ' '){
+                to_put.sym = symbol;
+                to_put.line = i;
+                to_put.ch = temp;
+                curr.push(to_put);
+                if(all_alph[temp - 97].size() != 0)
+                    cout << to_put.line << ":" << to_put.sym 
+                    << ": warning: shadowed declaration of "<< to_put.ch 
+                    << ", the shadowed position is " << all_alph[temp - 97].top().line
+                    << ":" << all_alph[temp - 97].top().sym << endl;
+                all_alph[temp - 97].push(to_put);
+            }
+            
+            temp = cin.get();
+            symbol++;
+        }
+    }
+    return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{CT_ACM_WEST/CT_ACM_WEST_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	ACM 1/4 Final
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{ACM-ICPC Московский четвертьфинал}
+
+Так как соревнование проводилось в МГУ, то турнирная таблица с результатами и исходные коды программ не доступны. \\
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces Training S02E07
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{Codeforces Training S02E07}
+
+\textbf{{\large Задача C - Will It Stop?}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_S02E07/CT_S02E07_C.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+using namespace std;
+int main()
+{
+    unsigned long long a;
+    cin >> a;
+    while(!(a%2))a/=2;
+    if(a==1)
+        cout << "TAK";
+    else
+        cout << "NIE";
+    return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача H - Afternoon Tea}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_S02E07/CT_S02E07_H.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int n;
+    cin >> n;
+    if(n==1)
+    {
+        cout << "HM";
+        return 0;
+    }
+    cin.get();
+    char c;
+    long double hDrunked = 0, mDrunked = 0;
+    hDrunked = mDrunked = (1-pow(0.5, n))*0.5;
+    for(int i=0; i<n-1; ++i)
+    {
+        c=cin.get();
+        if(c=='H')
+            hDrunked += (1-pow(0.5, n-i-1))*0.5;
+        else
+            mDrunked += (1-pow(0.5, n-i-1))*0.5;
+    }
+    if(hDrunked>mDrunked)
+        cout << "H";
+    else if(hDrunked<mDrunked)
+        cout << "M";
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{CT_S02E07/CT_S02E07_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces Crypto Cup
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{Codeforces Crypto Cup 1.0}
+
+\textbf{{\large Задача B - :-P}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_B.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <cmath>
+#include <vector>
+using namespace std;
+int main(int argc, const char * argv[]) {
+    char str[100001];
+    long p, len;
+    while((str[len]=cin.get())!='\n') ++len;
+    str[len] = '\0';
+    cin >> p;
+    vector< vector <char> > v(p);
+    long vSize = len/p, r = len%p;
+    for(long i=r; i<p; ++i) {
+        v[i].resize(vSize);
+    }
+    for(long i=0; i<r; ++i) {
+        v[i].resize(vSize+1);
+    }
+    for(long i=0, k=0; i<p; ++i) {
+        for(long j=0; j<v[i].size(); ++j, ++k) {
+            v[i][j] = str[k];
+        }
+    }
+    for(long i=0; i<len; ++i) {
+        cout.put(v[i%p][i/p]);
+    }
+    return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача C - Pgkpxumgs}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_C.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <cstdio>
+using namespace std;
+int main() {
+	char cur, prev;
+	cout.put(prev = cin.get());
+	while ((cur = cin.get()) != '\n') {
+		if ((int)(cur - prev) < 0) cout << (char)(cur - prev + '{');
+		else cout << (char)(cur - prev + 'a');
+		prev = cur;
+ 	}
+	return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача H - Peace of AmericaReunion}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_H.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+using namespace std;
+int main() {
+	vector<long> v(26);
+	long length = 0;
+	for (int i = 0; i < 26; i++) {
+		cin >> v[i];
+		length += v[i];
+	}
+	vector<char> answer(length);
+	long pos;
+	int nextSymb = -1;
+	for (int i = 0; i < 26; i++) {
+		if (v[i]) {
+			nextSymb = i;
+			break;
+		}
+	}
+	for (long i = 0; i < length; i++) {
+		cin >> pos;
+		if (!v[nextSymb]) {
+			for (int i = nextSymb; i < 26; i++) {
+				if (v[i]) {
+					nextSymb = i;
+					break;
+				}
+			}
+		}
+		answer[--pos] = (char)(nextSymb + 'a');
+		v[nextSymb]--;
+	}
+	for (auto n : answer) cout << n;
+
+	return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача I - Peace of AmericanPie}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_I.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+using namespace std;
+int main() {
+	int byte = 0;
+	int spow = 256;
+	int collected = 0;
+	char currentBit;
+	while ((currentBit = cin.get()) != '\n') {
+		cin.unget();
+		while (collected < 8) {
+			currentBit = cin.get();
+			byte += (currentBit - '0') * spow;
+			spow /= 2;
+			collected++;
+		}
+		cout << (char)(byte / 2);
+		byte = 0;
+		spow = 256;
+		collected = 0;
+	}
+	return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача J - Common}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_J.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+using namespace std;
+int main() {
+	char t;
+	while ((t = cin.get()) != '\n') {
+		switch (t) {
+			case 'a':
+				cout << "n";
+				break;
+			case 'b':
+				cout << "h";
+				break;
+			case 'c':
+				cout << "r";
+				break;
+			case 'd':
+				cout << "x";
+				break;
+			case 'e':
+				cout << "k";
+				break;
+			case 'f':
+				cout << "e";
+				break;
+			case 'g':
+				cout << "y";
+				break;
+			case 'h':
+				cout << "o";
+				break;
+			case 'i':
+				cout << "q"; 
+				break;
+			case 'j':
+				cout << "m";
+				break;
+			case 'k':
+				cout << "j";
+				break;
+			case 'l':
+				cout << "b";
+				break;
+			case 'm':
+				cout << "d";
+				break;
+			case 'n':
+				cout << "u";
+				break;
+			case 'o':
+				cout << "v";
+				break;
+			case 'p':
+				cout << "a";
+				break;
+			case 'q':
+				cout << "p";
+				break;
+			case 'r':
+				cout << "w";
+				break;
+			case 's':
+				cout << "g";
+				break;
+			case 't':
+				cout << "z";
+				break;
+			case 'u':
+				cout << "f";
+				break;
+			case 'v':
+				cout << "i";
+				break;
+			case 'w':
+				cout << "c";
+				break;
+			case 'x':
+				cout << "s";
+				break;
+			case 'y':
+				cout << "t";
+				break;
+			case 'z':
+				cout << "l";
+				break;
+		}
+	}
+	return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача M - oPlus}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_M.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+using namespace std;
+int main() {
+	long n;
+	int curr, sum;
+	cin >> n;
+	for (long i = 0; i < n; i++) {
+		cin >> curr;
+		if (curr % 2) sum = 400;
+		else sum = 398;
+		cout << (char)(sum - curr - 112);
+	}
+	return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача N - tirnaoeumPt}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_N.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int m[] = {0, 1, 16, 17, 8, 9, 24, 25, 2, 3, 18, 19, 10, 11, 22, 23, 4,  5,  20, 21, 12, 13, 22, 23, 6,  7,  22, 23, 14, 15};
+    int n, d;
+    cin >> n;
+    for(int i=0; i<n; ++i)
+    {
+        cin >> d;
+        cout.put(m[d]+'a');
+    }
+    return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача Q - Peace of bzjd}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_Q.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char temp;
+    temp = cin.get();
+    while (temp != '\n' && temp != EOF) {
+        if (temp == 'z') 
+            temp = 'a';
+        else temp++;
+        cout << temp;
+        temp = cin.get();
+    }
+    return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача R - 6227020800}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_R.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <algorithm>
+#include <deque>
+#include <cstdio>
+using namespace std;
+void p(string s) {
+	cout << s << endl;
+}
+int gcd(int a, int b){
+    if (b == 0)
+        return a;
+    return gcd(b, a%b);
+}
+int main() {
+	char t;
+	while ((t = cin.get()) != '\n') {
+		t -= 13;
+		if (t < 'a') {
+			cout << (char)('z' - ('a' - t) + 1);
+		}
+		else {
+			cout << t;
+		}
+	}
+	return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{CT_Crypto/CT_Crypto_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	OpenCup GP of Siberia
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{OpenCup GrandPrix of Siberia}
+
+\textbf{{\large Задача 12 - Construction of Chand Baori}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Siberia/OC_Siberia_12.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+using namespace std;
+#define ULL unsigned long long
+int main(int argc, const char * argv[]) {
+    ULL n, m;
+    cin >> n >> m;
+    ULL res = 1;
+    for(int i=2; i<=n*2; i+=2)
+    {
+        res *= i;
+    }
+    if(res<m)
+        cout << "Nope";
+    else
+        cout << "Harshat Mata";
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача 13 - Sum}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Siberia/OC_Siberia_13.png}\\ [1cm]
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <fstream>
+#include <cmath>
+#include <vector>
+using namespace std;
+#define ULL unsigned long long
+#define LL long long
+int main(int argc, const char * argv[]) {
+    ifstream in("input.txt");
+    ofstream out("output.txt");
+    ULL a, k, p;
+    cin >> a >> k >> p;
+    ULL sum = 0, prev = 1;
+    for(ULL i = 0; i<k; ++i)
+    {
+        prev = (prev*a)%p;
+        sum += prev;
+    }
+    cout << sum;
+    out.close();
+    in.close();
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача 14 - Coinquerors}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{OC_Siberia/OC_Siberia_14_1.png}\\ [1cm]
+\includegraphics[width=0.9\textwidth]{OC_Siberia/OC_Siberia_14_2.png}\\ [1cm]
+
+\end{center}
+\newpage
+
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <fstream>
+#include <cmath>
+#include <vector>
+using namespace std;
+#define ULL unsigned long long
+#define LL long long
+#define eps 0.0001
+struct player
+{
+    char name[256];
+    LL x, y, r;
+};
+int main(int argc, const char * argv[]) {
+    ifstream in("input.txt");
+    ofstream out("output.txt");
+    ULL T;
+    in >> T;
+    double pi81 = M_PI/81, pi2 = M_PI*2;
+    for(ULL TT = 0; TT<T; ++TT)
+    {
+        ULL n;
+        in >> n;
+        vector<player> pl(n);
+        for(int i=0; i<n; ++i)
+        {
+            in >> pl[i].name >> pl[i].x >> pl[i].y >> pl[i].r;
+        }
+        ULL maxInd = -1, max = 0, forTie = -1;
+        for(int i=0; i<n; ++i)
+        {
+            ULL count = 0;
+            LL rr = pl[i].r*pl[i].r;
+            for(int j=0; j<n; ++j)
+            {
+                for(double pi = 0; pi<=pi2; pi += pi81)
+                {
+                    double x = (pl[j].r-eps)*cos(pi);
+                    double y = (pl[j].r-eps)*sin(pi);
+                    if((pl[j].x-pl[i].x+x)*(pl[j].x-pl[i].x+x)+(pl[j].y-pl[i].y+y)*(pl[j].y-pl[i].y+y)<=rr)
+                    {
+                        ++count;
+                        break;
+                    }
+                }
+            }
+            if(count > max)
+            {
+                max = count;
+                maxInd = i;
+                forTie = -1;
+            }
+            else if(count == max)
+            {
+                max = count;
+                forTie = maxInd;
+                maxInd = i;
+            }
+        }
+        if(maxInd == -1 || forTie != -1)
+            out << "TIE" << '\n';
+        else
+            out << pl[maxInd].name << '\n';
+    }
+    out.close();
+    in.close();
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{OC_Siberia/OC_Siberia_result.png}\\ [1cm]
+\end{center}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces Training S02E08
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{Codeforces Training S02E08}
+
+\textbf{{\large Задача G - Growling Gears}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_S02E08/CT_S02E08_G1.png}\\ [1cm]
+\includegraphics[width=0.9\textwidth]{CT_S02E08/CT_S02E08_G2.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+%\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <algorithm>
+
+#include <fstream>
+
+using namespace std;
+
+int main() {
+    int k;
+    cin >> k;
+    int n, a, b, c;
+    double max_T = -1000000;
+    int max_T_num;
+    double temp;
+
+    for(int i = 0; i < k; i++) {
+        cin >> n;
+        for(int j = 1; j <= n; j++) {
+            cin >> a >> b >> c;
+            temp = (b * b) / (4 * a) + c;
+            if(temp > max_T) {
+                max_T = temp;
+                max_T_num = j;
+            }
+        }
+        cout << max_T_num << endl;
+        max_T = -1000000;
+    }
+	int q;
+	cin >> q;
+    return 0;
+}
+\end{lstlisting}
+
+
+\newpage
+\textbf{{\large Задача J - Jury Jeopardy}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_S02E08/CT_S02E08_J1.png}\\ [1cm]
+\includegraphics[width=0.9\textwidth]{CT_S02E08/CT_S02E08_J2.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????}
+\newpage
+\textbf{{\large Исходный код}} \\
+\begin{lstlisting}[language=C]
+#include <iostream>
+using namespace std;
+int main(int argc, const char * argv[]) {
+    long T;
+    cin >> T;
+    cout << T << '\n';
+    char map[201][201];
+    cin.get();
+    while(T--)
+    {
+        for(long i=0; i<201; ++i)
+            for(long j=0; j<201; ++j)
+                map[i][j] = '#';
+        char c;
+        long x, y, minX, minY, maxX, maxY;
+        maxX = maxY = minX = minY = x = y = 100;
+        int dir = 0;
+        while((c=cin.get())!='\n')
+        {
+            switch(dir)
+            {
+                case 0:
+                    if(c=='R')
+                        dir = 3;
+                    else if(c=='L')
+                        dir = 1;
+                    else if(c=='B')
+                        dir = 2;
+                    break;
+                case 1:
+                    if(c=='R')
+                        dir = 0;
+                    else if(c=='L')
+                        dir = 2;
+                    else if(c=='B')
+                        dir = 3;
+                    break;
+                case 2:
+                    if(c=='R')
+                        dir = 1;
+                    else if(c=='L')
+                        dir = 3;
+                    else if(c=='B')
+                        dir = 0;
+                    break;
+                case 3:
+                    if(c=='R')
+                        dir = 2;
+                    else if(c=='L')
+                        dir = 0;
+                    else if(c=='B')
+                        dir = 1;
+                    break;
+            }
+            switch(dir)
+            {
+                case 0:
+                    ++x;
+                    if(x>maxX)
+                        maxX = x;
+                    break;
+                case 1:
+                    --y;
+                    if(y<minY)
+                        minY = y;
+                    break;
+                case 2:
+                    --x;
+                    if(x<minX)
+                        minX = x;
+                    break;
+                case 3:
+                    ++y;
+                    if(y>maxY)
+                        maxY = y;
+                    break;
+            }
+            map[x][y] = '.';
+        }
+        cout << maxY-minY+3 << ' ' << maxX-minX+2 << '\n';
+        for(long i = minY-1; i<=maxY+1; ++i)
+        {
+            for(long j = minX; j<=maxX+1; ++j)
+                cout.put(map[j][i]);
+            cout.put('\n');
+        }
+    }
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{CT_S02E05/CT_S02E05_result.png}\\ [1cm]
+\end{center}
+
+
+%----------------------------------------------------------------------------------------
+%
+%	ЛИЧНЫЕ КОНТЕСТЫ
+%
+%----------------------------------------------------------------------------------------
+
+\newpage
+\section{Журнал по личным контестам Макарова Н.А.}
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces Отборочный контест СГАУ на четвертьфинал ACM ICPC
+%
+%----------------------------------------------------------------------------------------
+
+\subsection{Codeforces Отборочный контест СГАУ на четвертьфинал ACM-ICPC}
+
+\textbf{{\large Задача D - Игрушечные солдатики}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_SGAU/CT_SGAU_D.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#define ll unsigned long long
+
+using namespace std;
+
+int main() {
+ll n, m;
+    ll remColor = 0;
+    ll currentSoldier, currentColor, answer = 0;
+    bool sameColors = true;
+    cin >> n;
+    vector<ll> soldiers(n + 1);
+    for (ll i = 1; i <= n; i++) {
+        cin >> soldiers[i];
+        if (i == 1) remColor = soldiers[i];
+        else if (soldiers[i] != remColor) sameColors = false;
+    }
+    if (sameColors) {
+        cout << "0" << endl;
+        return 0;
+    }
+    cin >> m;
+    sameColors = true;
+    bool flag = true;
+    
+    for (ll i = 0; i < m; i++) {
+        sameColors = false;
+        flag = true;
+        cin >> currentSoldier >> currentColor;
+        soldiers[currentSoldier] = currentColor;
+        if (i == 0) remColor = currentColor;
+        if (currentColor == remColor) {
+            for (ll j = 1; j <= n; j++) {
+                if (soldiers[j] != remColor) {
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) sameColors = true;
+        }
+        if (sameColors) {
+            answer = i + 1;
+            break;
+        }
+        remColor = currentColor;
+    }
+    
+    if (sameColors) {
+        cout << answer << endl;
+    }
+    else {
+        cout << "-1" << endl;
+    }
+    
+	return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача F - Два конверта}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_SGAU/CT_SGAU_F.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    long long b, c;
+    cin >> b >> b >> c;
+    if (c > b) cout << "Stay with this envelope" << endl;
+    else cout << "Take another envelope" << endl;
+    return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача G - Задача о размене монет}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{CT_SGAU/CT_SGAU_G.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+{\Huge ???????????????????} \\ 
+\\
+\newpage
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <cmath>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    unsigned long long n, s, startIndex, coinsNeeded = 0;
+    cin >> n >> s;
+    vector<unsigned long long> k(n + 1);
+    k[0] = 1;
+    startIndex = n;
+    for (unsigned long long i = 1; i <= n; i++) {
+        cin >> k[i];
+        if (k[i] * k[i - 1] > s) {
+            startIndex = i - 1;
+            break;
+        }
+        k[i] *= k[i - 1];
+    }
+    for (unsigned long long i = startIndex; ; i--) {
+        coinsNeeded += s / k[i];
+        s %= k[i];
+        if (s == 0 || i == 0)
+            break;
+    }
+    cout << coinsNeeded << endl;
+    return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{CT_SGAU/CT_SGAU_result.png}\\ [1cm]
+\end{center}
+
+
+
+\newpage
+\section{Журнал по личным контестам Якименко А.В.}
+
+
+\end{document}
