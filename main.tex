@@ -305,7 +305,7 @@
 \includegraphics[width=0.9\textwidth]{CT_S02E03/CT_S02E03_B.png}\\ [1cm]
 \end{center}
 \textbf{{\large Алгоритм}} \\
-Решение довольно простое. Можно заметить, что если логарифм по основаню 2 числа n меньше или равен b, то ответ yes, иначе ответ no.
+Решение довольно простое. Можно заметить, что если логарифм по основаню 2 числа n меньше или равен b, то ответ yes, иначе ответ no. Cложность $O(1)$.
 \newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
@@ -379,7 +379,7 @@ int main () {
 \includegraphics[width=0.9\textwidth]{CT_S02E03/CT_S02E03_K.png}\\ [1cm]
 \end{center}
 \textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????}
+Для решения этой задачи нужно чтобы построить последовательность букв по заданным правилам. Будем смотреть на первую и последнюю буквы и брать лексикографически наименьую. Если буквы совпадают, то надо посмотреть следующие буквы до первого несовпадения и взять букву с той стороны, с которой несовпавшая буква оказалась лексикографически меньше. Сложность $O(n)$.
 \newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
@@ -549,7 +549,7 @@ int main() {
 \includegraphics[width=0.9\textwidth]{CT_S02E05/CT_S02E05_A2.png}\\ [1cm]
 \end{center}
 \textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
+Задача на реализацию. Нужно построить матрицу заданного размера и симулировать передвижение между элементами, записывая изменения. Сложность алгоритма $O(nm)$. \\ 
 \\
 %\newpage
 \textbf{{\large Исходный код}}
@@ -680,7 +680,7 @@ int main() {
 \includegraphics[width=0.9\textwidth]{CT_S02E05/CT_S02E05_G.png}\\ [1cm]
 \end{center}
 \textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????}
+Задача на реализацию. Нужно считать слова и в зависимости от окончания изменить его на нужное. Сложность $O(n)$.
 \newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
@@ -1131,36 +1131,21 @@ int main() {
 \includegraphics[width=0.9\textwidth]{CT_ACM_EAST/CT_ACM_EAST_A.png}\\ [1cm]
 \end{center}
 \textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
+Для решения задачи достаточно увидеть закономерность, что если $f > 6$, то ответ будет $YES$, иначе ответ будет $NO$. Сложность, очевидно, $O(1)$.\\ 
 \\
-\newpage
 \textbf{{\large Исходный код}}
 \begin{lstlisting}[language=C]
 #include <iostream>
-#include <vector>
-#include <algorithm>
-#include <fstream>
-
 using namespace std;
 
-int main() {
-	long n, k;
-	ifstream in("input.txt");
-	ofstream out("output.txt");
-	in >> n >> k;
-	vector<long long> v(n);
-	for (long i = 0; i < n; i++) {
-		in >> v[i];
-	}
-	sort(v.begin(), v.end(), greater<long long>());
-	long long answer = 0;
-	for (long i = 0; i < k && i < v.size(); i++) {
-		answer += v[i];
-	}
-	out << answer << endl;
-	in.close();
-	out.close();
-	return 0;
+int main(int argc, const char * argv[]) {
+    int f;
+    cin >> f;
+    if(f>6)
+        cout << "YES";
+    else
+        cout << "NO";
+    return 0;
 }
 \end{lstlisting}
 
@@ -1171,12 +1156,11 @@ int main() {
 \includegraphics[width=0.5\textwidth]{CT_ACM_EAST/CT_ACM_EAST_D2.png}\\ [1cm]
 \end{center}
 \textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
+Для решения задачи сразу при считывании найдем лучшеие однокомнатные и двухкомнатные квартиры по комфорту, если Женя будет жить один. Затем отсортируем все квартиры по комфорту и для каждого друга Жени будем подбирать лучший вариант при совместной покупке. После этого сравним найденные варианты и выберем лучший. Сложность алгоритма $O(n^2)$.\\
 \\
 \newpage
 \textbf{{\large Исходный код}}
 \begin{lstlisting}[language=C]
-
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -1359,7 +1343,7 @@ int main()
 \includegraphics[width=0.9\textwidth]{CT_ACM_EAST/CT_ACM_EAST_L.png}\\ [1cm]
 \end{center}
 \textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
+Задача на реализацию. Нужно симулировать перемещение между состояниями в зависимости от первой буквы имени. Сложность $O(n)$.\\ 
 \\
 \newpage
 \textbf{{\large Исходный код}}
@@ -1437,7 +1421,7 @@ int main()
 \includegraphics[width=0.9\textwidth]{CT_ACM_WEST/CT_ACM_WEST_D.png}\\ [1cm]
 \end{center}
 \textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
+Сначала отсортируем сервера по объему памяти. Наберем необходимое количество серверов и сравним набранную память с минимальным объемом. Если разница равна $0$, то ответ найден. Иначе будем пытаться поменять сервера с высоким напряжением на сервера с низким напряжением. Сложность $O(n^2)$.\\ 
 \\
 \newpage
 \textbf{{\large Исходный код}}
@@ -1566,7 +1550,7 @@ int main(int argc, const char * argv[]) {
 \includegraphics[width=0.9\textwidth]{CT_ACM_WEST/CT_ACM_WEST_M2.png}\\ [1cm]
 \end{center}
 \textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
+Задачу можно решить с помощью стека и вектора стеков. Предупреждение нужно выводить когда новая переменная пытается попасть в стек, который не пуст, это значит уже была объявлена переменная с таким же именем. Когда появляется закрывающая скобка убираем все до открывающей. \\ 
 \\
 \newpage
 \textbf{{\large Исходный код}}
@@ -1742,8 +1726,6 @@ int main()
 \begin{center}
 \includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_B.png}\\ [1cm]
 \end{center}
-\textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
 
 \textbf{{\large Исходный код}}
 \begin{lstlisting}[language=C]
@@ -1782,8 +1764,6 @@ int main(int argc, const char * argv[]) {
 \begin{center}
 \includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_C.png}\\ [1cm]
 \end{center}
-\textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
 
 \textbf{{\large Исходный код}}
 \begin{lstlisting}[language=C]
@@ -1807,8 +1787,6 @@ int main() {
 \begin{center}
 \includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_H.png}\\ [1cm]
 \end{center}
-\textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
 
 \textbf{{\large Исходный код}}
 \begin{lstlisting}[language=C]
@@ -1853,9 +1831,7 @@ int main() {
 \textbf{{\large Задача I - Peace of AmericanPie}} \\
 \begin{center}
 \includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_I.png}\\ [1cm]
-\end{center}
-\textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
+\end{center} 
 
 \textbf{{\large Исходный код}}
 \begin{lstlisting}[language=C]
@@ -1888,8 +1864,6 @@ int main() {
 \begin{center}
 \includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_J.png}\\ [1cm]
 \end{center}
-\textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
 
 \textbf{{\large Исходный код}}
 \begin{lstlisting}[language=C]
@@ -1988,8 +1962,6 @@ int main() {
 \begin{center}
 \includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_M.png}\\ [1cm]
 \end{center}
-\textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
 
 \textbf{{\large Исходный код}}
 \begin{lstlisting}[language=C]
@@ -2014,8 +1986,6 @@ int main() {
 \begin{center}
 \includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_N.png}\\ [1cm]
 \end{center}
-\textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
 
 \textbf{{\large Исходный код}}
 \begin{lstlisting}[language=C]
@@ -2041,8 +2011,6 @@ int main()
 \begin{center}
 \includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_Q.png}\\ [1cm]
 \end{center}
-\textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
 
 \textbf{{\large Исходный код}}
 \begin{lstlisting}[language=C]
@@ -2070,8 +2038,6 @@ int main()
 \begin{center}
 \includegraphics[width=0.9\textwidth]{CT_Crypto/CT_Crypto_R.png}\\ [1cm]
 \end{center}
-\textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
 
 \textbf{{\large Исходный код}}
 \begin{lstlisting}[language=C]
@@ -2584,15 +2550,35 @@ int main()
 \newpage
 \textbf{{\large Задача K - Kickdown}} \\
 \begin{center}
-\includegraphics[width=0.9\textwidth]{CT_S02E09/CT_S02E09_J.png}\\ [1cm]
+\includegraphics[width=0.9\textwidth]{CT_S02E09/CT_S02E09_K.png}\\ [1cm]
 \end{center}
 \textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????}
+Для решения этой задачи нужно подвигать шестеренки влево и вправо, проверить совпадение и выбрать ответ с наибольшим совпадением.
 \newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
 #include <iostream>
 #include <fstream>
+
+bool checkGears1(string master, string driven, int pos) {
+    for (int i = 0; pos < master.length() && i < driven.length(); i++) {
+        if (master[pos] == driven[i])
+            if (master[pos] == '2')
+                return false;
+        pos++;
+    }
+    return true;
+}
+
+bool checkGears2(string master, string driven, int pos) {
+    for (int i = 0; i < master.length() && pos < driven.length(); i++) {
+        if (master[i] == driven[pos])
+            if (master[i] == '2')
+                return false;
+        pos++;
+    }
+    return true;
+}
 
 int main() {
 	ifstream in("kickdown.in");
@@ -2697,7 +2683,7 @@ int main()
 \includegraphics[width=0.9\textwidth]{CT_school_nn/CT_school_nn_F.png}\\ [1cm]
 \end{center}
 \textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????}
+В этой задаче можно заметить закономерность и предпосчитать ответ, так как всего может быть 20 различных входных данных. Таким образом, сложность составляет $O(1)$.
 \newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
@@ -2718,7 +2704,7 @@ int main() {
 \includegraphics[width=0.9\textwidth]{CT_school_nn/CT_school_nn_I.png}\\ [1cm]
 \end{center}
 \textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????}
+В задаче просто нужно вывести $n - 1$.
 \newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
