@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.26)  27 JUN 2015 20:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.26)  27 JUN 2015 23:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1040,1750 +1040,1827 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--298
 
  []
 
-<CT_S02E03/CT_S02E03_result.png, id=31, 888.31876pt x 521.95pt>
+<CT_S02E03/CT_S02E03_result.png, id=32, 888.31876pt x 521.95pt>
 File: CT_S02E03/CT_S02E03_result.png Graphic file (type png)
  <use CT_S02E03/CT_S02E03_result.png>
 Package pdftex.def Info: CT_S02E03/CT_S02E03_result.png used on input line 299.
 (pdftex.def)             Requested size: 486.54057pt x 285.87077pt.
- [5 <./CT_S02E03/CT_S02E03_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
-
- []
-
-<CT_S02E03/CT_S02E03_B.png, id=36, 609.27625pt x 685.56125pt>
+ [5 <./CT_S02E03/CT_S02E03_result.png>] <CT_S02E03/CT_S02E03_B.png, id=37, 609.27625pt x 685.56125pt>
 File: CT_S02E03/CT_S02E03_B.png Graphic file (type png)
  <use CT_S02E03/CT_S02E03_B.png>
-Package pdftex.def Info: CT_S02E03/CT_S02E03_B.png used on input line 305.
+Package pdftex.def Info: CT_S02E03/CT_S02E03_B.png used on input line 306.
 (pdftex.def)             Requested size: 460.93153pt x 518.65736pt.
  [6 <./CT_S02E03/CT_S02E03_B.png>] (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 310--311
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
-
- []
-
-<CT_S02E03/CT_S02E03_E.png, id=48, 602.25pt x 760.8425pt>
+[7] <CT_S02E03/CT_S02E03_E.png, id=49, 602.25pt x 760.8425pt>
 File: CT_S02E03/CT_S02E03_E.png Graphic file (type png)
  <use CT_S02E03/CT_S02E03_E.png>
-Package pdftex.def Info: CT_S02E03/CT_S02E03_E.png used on input line 339.
+Package pdftex.def Info: CT_S02E03/CT_S02E03_E.png used on input line 344.
 (pdftex.def)             Requested size: 460.93153pt x 582.33286pt.
  [8 <./CT_S02E03/CT_S02E03_E.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 362.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 370.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 362.
- [9]
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
-
- []
-
-<CT_S02E03/CT_S02E03_K.png, id=57, 695.59875pt x 777.90625pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 370.
+ [9] <CT_S02E03/CT_S02E03_K.png, id=57, 695.59875pt x 777.90625pt>
 File: CT_S02E03/CT_S02E03_K.png Graphic file (type png)
  <use CT_S02E03/CT_S02E03_K.png>
-Package pdftex.def Info: CT_S02E03/CT_S02E03_K.png used on input line 379.
+Package pdftex.def Info: CT_S02E03/CT_S02E03_K.png used on input line 388.
 (pdftex.def)             Requested size: 460.93153pt x 515.47319pt.
  [10 <./CT_S02E03/CT_S02E03_K.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
  []
 
 [11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 467--468
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
 
  []
 
 <Siberia/Siberia_result.png, id=68, 792.9625pt x 54.2025pt>
 File: Siberia/Siberia_result.png Graphic file (type png)
  <use Siberia/Siberia_result.png>
-Package pdftex.def Info: Siberia/Siberia_result.png used on input line 469.
+Package pdftex.def Info: Siberia/Siberia_result.png used on input line 483.
 (pdftex.def)             Requested size: 486.54057pt x 33.25783pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--474
-
- []
-
-<Siberia/Siberia_1.png, id=69, 844.15375pt x 596.2275pt>
+ [13 <./Siberia/Siberia_result.png>] <Siberia/Siberia_1.png, id=72, 844.15375pt x 596.2275pt>
 File: Siberia/Siberia_1.png Graphic file (type png)
  <use Siberia/Siberia_1.png>
-Package pdftex.def Info: Siberia/Siberia_1.png used on input line 475.
+Package pdftex.def Info: Siberia/Siberia_1.png used on input line 490.
 (pdftex.def)             Requested size: 460.93153pt x 325.56073pt.
- <Siberia/Siberia_2.png, id=70, 843.15pt x 543.02875pt>
+ <Siberia/Siberia_2.png, id=73, 843.15pt x 543.02875pt>
 File: Siberia/Siberia_2.png Graphic file (type png)
  <use Siberia/Siberia_2.png>
-Package pdftex.def Info: Siberia/Siberia_2.png used on input line 476.
+Package pdftex.def Info: Siberia/Siberia_2.png used on input line 491.
 (pdftex.def)             Requested size: 307.2929pt x 197.90968pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 478--482
-
- []
-
-[13 <./Siberia/Siberia_result.png> <./Siberia/Siberia_1.png> <./Siberia/Siberia_2.png>] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 540--541
+ [14 <./Siberia/Siberia_1.png> <./Siberia/Siberia_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 499--500
 
  []
 
-<CT_S02E05/CT_S02E05_result.png, id=77, 890.32625pt x 483.8075pt>
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 559--560
+
+ []
+
+<CT_S02E05/CT_S02E05_result.png, id=80, 890.32625pt x 483.8075pt>
 File: CT_S02E05/CT_S02E05_result.png Graphic file (type png)
  <use CT_S02E05/CT_S02E05_result.png>
-Package pdftex.def Info: CT_S02E05/CT_S02E05_result.png used on input line 542.
+Package pdftex.def Info: CT_S02E05/CT_S02E05_result.png used on input line 561.
 (pdftex.def)             Requested size: 486.54057pt x 264.38963pt.
- [15 <./CT_S02E05/CT_S02E05_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 546--547
-
- []
-
-<CT_S02E05/CT_S02E05_A1.png, id=81, 659.46375pt x 817.0525pt>
+ [16 <./CT_S02E05/CT_S02E05_result.png>] <CT_S02E05/CT_S02E05_A1.png, id=84, 659.46375pt x 817.0525pt>
 File: CT_S02E05/CT_S02E05_A1.png Graphic file (type png)
  <use CT_S02E05/CT_S02E05_A1.png>
-Package pdftex.def Info: CT_S02E05/CT_S02E05_A1.png used on input line 548.
+Package pdftex.def Info: CT_S02E05/CT_S02E05_A1.png used on input line 568.
 (pdftex.def)             Requested size: 460.93153pt x 571.09756pt.
- <CT_S02E05/CT_S02E05_A2.png, id=82, 660.4675pt x 273.02pt>
+ <CT_S02E05/CT_S02E05_A2.png, id=85, 660.4675pt x 273.02pt>
 File: CT_S02E05/CT_S02E05_A2.png Graphic file (type png)
  <use CT_S02E05/CT_S02E05_A2.png>
-Package pdftex.def Info: CT_S02E05/CT_S02E05_A2.png used on input line 549.
+Package pdftex.def Info: CT_S02E05/CT_S02E05_A2.png used on input line 569.
 (pdftex.def)             Requested size: 460.93153pt x 190.54196pt.
- [16 <./CT_S02E05/CT_S02E05_A1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 551--556
+ [17 <./CT_S02E05/CT_S02E05_A1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 574--575
 
  []
 
-[17 <./CT_S02E05/CT_S02E05_A2.png>] [18] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 678--679
+
+Underfull \hbox (badness 10000) in paragraph at lines 576--577
 
  []
 
-<CT_S02E05/CT_S02E05_G.png, id=96, 658.46pt x 598.235pt>
+[18 <./CT_S02E05/CT_S02E05_A2.png>] [19] [20] <CT_S02E05/CT_S02E05_G.png, id=99, 658.46pt x 598.235pt>
 File: CT_S02E05/CT_S02E05_G.png Graphic file (type png)
  <use CT_S02E05/CT_S02E05_G.png>
-Package pdftex.def Info: CT_S02E05/CT_S02E05_G.png used on input line 680.
+Package pdftex.def Info: CT_S02E05/CT_S02E05_G.png used on input line 702.
 (pdftex.def)             Requested size: 460.93153pt x 418.77989pt.
- [20 <./CT_S02E05/CT_S02E05_G.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 685--686
+ [21 <./CT_S02E05/CT_S02E05_G.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 710--711
 
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 752--753
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 777--778
 
  []
 
-<CT_S02E06/CT_S02E06_result.png, id=103, 889.3225pt x 447.6725pt>
+<CT_S02E06/CT_S02E06_result.png, id=106, 889.3225pt x 447.6725pt>
 File: CT_S02E06/CT_S02E06_result.png Graphic file (type png)
  <use CT_S02E06/CT_S02E06_result.png>
-Package pdftex.def Info: CT_S02E06/CT_S02E06_result.png used on input line 754.
+Package pdftex.def Info: CT_S02E06/CT_S02E06_result.png used on input line 779.
 (pdftex.def)             Requested size: 486.54057pt x 244.91592pt.
- [22 <./CT_S02E06/CT_S02E06_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 767--768
+ [23 <./CT_S02E06/CT_S02E06_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 792--793
 
  []
 
-<SPBGU_GRAPHS/SPBGU_GRAPHS_result.png, id=107, 891.33pt x 252.945pt>
+<SPBGU_GRAPHS/SPBGU_GRAPHS_result.png, id=110, 891.33pt x 252.945pt>
 File: SPBGU_GRAPHS/SPBGU_GRAPHS_result.png Graphic file (type png)
  <use SPBGU_GRAPHS/SPBGU_GRAPHS_result.png>
-Package pdftex.def Info: SPBGU_GRAPHS/SPBGU_GRAPHS_result.png used on input line 769.
+Package pdftex.def Info: SPBGU_GRAPHS/SPBGU_GRAPHS_result.png used on input line 794.
 (pdftex.def)             Requested size: 486.54057pt x 138.07422pt.
- [23 <./SPBGU_GRAPHS/SPBGU_GRAPHS_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 773--774
+ [24 <./SPBGU_GRAPHS/SPBGU_GRAPHS_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 798--799
 
  []
 
-<SPBGU_GRAPHS/SPBGU_GRAPHS_C.png, id=111, 643.40375pt x 359.3425pt>
+<SPBGU_GRAPHS/SPBGU_GRAPHS_C.png, id=115, 643.40375pt x 359.3425pt>
 File: SPBGU_GRAPHS/SPBGU_GRAPHS_C.png Graphic file (type png)
  <use SPBGU_GRAPHS/SPBGU_GRAPHS_C.png>
-Package pdftex.def Info: SPBGU_GRAPHS/SPBGU_GRAPHS_C.png used on input line 775.
+Package pdftex.def Info: SPBGU_GRAPHS/SPBGU_GRAPHS_C.png used on input line 800.
 (pdftex.def)             Requested size: 460.93153pt x 257.43787pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 777--780
+Underfull \hbox (badness 10000) in paragraph at lines 802--805
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 777--780
+Underfull \hbox (badness 10000) in paragraph at lines 802--805
 
  []
 
-[24 <./SPBGU_GRAPHS/SPBGU_GRAPHS_C.png>] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 830--831
+[25 <./SPBGU_GRAPHS/SPBGU_GRAPHS_C.png>] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 855--856
 
  []
 
-<SPBGU_GRAPHS/SPBGU_GRAPHS_D.png, id=120, 640.3925pt x 361.35pt>
+<SPBGU_GRAPHS/SPBGU_GRAPHS_D.png, id=123, 640.3925pt x 361.35pt>
 File: SPBGU_GRAPHS/SPBGU_GRAPHS_D.png Graphic file (type png)
  <use SPBGU_GRAPHS/SPBGU_GRAPHS_D.png>
-Package pdftex.def Info: SPBGU_GRAPHS/SPBGU_GRAPHS_D.png used on input line 832.
+Package pdftex.def Info: SPBGU_GRAPHS/SPBGU_GRAPHS_D.png used on input line 857.
 (pdftex.def)             Requested size: 460.93153pt x 260.0891pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 834--838
+Underfull \hbox (badness 10000) in paragraph at lines 859--863
 
  []
 
-[26 <./SPBGU_GRAPHS/SPBGU_GRAPHS_D.png>] [27]
-Underfull \hbox (badness 10000) in paragraph at lines 922--923
+[27 <./SPBGU_GRAPHS/SPBGU_GRAPHS_D.png>] [28]
+Underfull \hbox (badness 10000) in paragraph at lines 947--948
 
  []
 
-<OC_SPB/OC_SPB_A1.png, id=127, 836.12375pt x 704.6325pt>
+<OC_SPB/OC_SPB_A1.png, id=130, 836.12375pt x 704.6325pt>
 File: OC_SPB/OC_SPB_A1.png Graphic file (type png)
  <use OC_SPB/OC_SPB_A1.png>
-Package pdftex.def Info: OC_SPB/OC_SPB_A1.png used on input line 924.
+Package pdftex.def Info: OC_SPB/OC_SPB_A1.png used on input line 949.
 (pdftex.def)             Requested size: 460.93153pt x 388.45224pt.
- <OC_SPB/OC_SPB_A2.png, id=128, 830.10126pt x 360.34625pt>
+ <OC_SPB/OC_SPB_A2.png, id=131, 830.10126pt x 360.34625pt>
 File: OC_SPB/OC_SPB_A2.png Graphic file (type png)
  <use OC_SPB/OC_SPB_A2.png>
-Package pdftex.def Info: OC_SPB/OC_SPB_A2.png used on input line 925.
+Package pdftex.def Info: OC_SPB/OC_SPB_A2.png used on input line 950.
 (pdftex.def)             Requested size: 460.93153pt x 200.088pt.
- [28 <./OC_SPB/OC_SPB_A1.png> <./OC_SPB/OC_SPB_A2.png>] (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+ [29 <./OC_SPB/OC_SPB_A1.png> <./OC_SPB/OC_SPB_A2.png>] (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
-Underfull \hbox (badness 10000) in paragraph at lines 929--934
+Underfull \hbox (badness 10000) in paragraph at lines 954--959
 
  []
 
-[29] [30]
-Underfull \hbox (badness 10000) in paragraph at lines 1061--1062
+[30] [31]
+Underfull \hbox (badness 10000) in paragraph at lines 1086--1087
 
  []
 
-<OC_SPB/OC_SPB_result.png, id=139, 704.6325pt x 48.18pt>
+<OC_SPB/OC_SPB_result.png, id=142, 704.6325pt x 48.18pt>
 File: OC_SPB/OC_SPB_result.png Graphic file (type png)
  <use OC_SPB/OC_SPB_result.png>
-Package pdftex.def Info: OC_SPB/OC_SPB_result.png used on input line 1063.
+Package pdftex.def Info: OC_SPB/OC_SPB_result.png used on input line 1088.
 (pdftex.def)             Requested size: 486.54057pt x 33.26773pt.
- [31 <./OC_SPB/OC_SPB_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1076--1077
+ [32 <./OC_SPB/OC_SPB_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1101--1102
 
  []
 
-<CT_SAMARA/CT_SAMARA_D.png, id=143, 819.06pt x 489.83pt>
+<CT_SAMARA/CT_SAMARA_D.png, id=146, 819.06pt x 489.83pt>
 File: CT_SAMARA/CT_SAMARA_D.png Graphic file (type png)
  <use CT_SAMARA/CT_SAMARA_D.png>
-Package pdftex.def Info: CT_SAMARA/CT_SAMARA_D.png used on input line 1078.
+Package pdftex.def Info: CT_SAMARA/CT_SAMARA_D.png used on input line 1103.
 (pdftex.def)             Requested size: 460.93153pt x 275.66322pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1080--1083
+Underfull \hbox (badness 10000) in paragraph at lines 1105--1108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1080--1083
+Underfull \hbox (badness 10000) in paragraph at lines 1105--1108
 
  []
 
-[32 <./CT_SAMARA/CT_SAMARA_D.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1114--1115
+[33 <./CT_SAMARA/CT_SAMARA_D.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1139--1140
 
  []
 
-<CT_SAMARA/CT_SAMARA_result.png, id=147, 888.31876pt x 253.94875pt>
+<CT_SAMARA/CT_SAMARA_result.png, id=150, 888.31876pt x 253.94875pt>
 File: CT_SAMARA/CT_SAMARA_result.png Graphic file (type png)
  <use CT_SAMARA/CT_SAMARA_result.png>
-Package pdftex.def Info: CT_SAMARA/CT_SAMARA_result.png used on input line 1116.
+Package pdftex.def Info: CT_SAMARA/CT_SAMARA_result.png used on input line 1141.
 (pdftex.def)             Requested size: 486.54057pt x 139.08711pt.
- [33 <./CT_SAMARA/CT_SAMARA_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1129--1130
+ [34 <./CT_SAMARA/CT_SAMARA_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1154--1155
 
  []
 
-<CT_ACM_EAST/CT_ACM_EAST_A.png, id=151, 815.045pt x 465.74pt>
+<CT_ACM_EAST/CT_ACM_EAST_A.png, id=154, 815.045pt x 465.74pt>
 File: CT_ACM_EAST/CT_ACM_EAST_A.png Graphic file (type png)
  <use CT_ACM_EAST/CT_ACM_EAST_A.png>
-Package pdftex.def Info: CT_ACM_EAST/CT_ACM_EAST_A.png used on input line 1131.
+Package pdftex.def Info: CT_ACM_EAST/CT_ACM_EAST_A.png used on input line 1156.
 (pdftex.def)             Requested size: 460.93153pt x 263.39232pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1133--1137
+Underfull \hbox (badness 10000) in paragraph at lines 1158--1162
 
  []
 
-[34 <./CT_ACM_EAST/CT_ACM_EAST_A.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1153--1154
+[35 <./CT_ACM_EAST/CT_ACM_EAST_A.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1178--1179
 
  []
 
-<CT_ACM_EAST/CT_ACM_EAST_D1.png, id=155, 657.45625pt x 691.58376pt>
+<CT_ACM_EAST/CT_ACM_EAST_D1.png, id=158, 657.45625pt x 691.58376pt>
 File: CT_ACM_EAST/CT_ACM_EAST_D1.png Graphic file (type png)
  <use CT_ACM_EAST/CT_ACM_EAST_D1.png>
-Package pdftex.def Info: CT_ACM_EAST/CT_ACM_EAST_D1.png used on input line 1155.
+Package pdftex.def Info: CT_ACM_EAST/CT_ACM_EAST_D1.png used on input line 1180.
 (pdftex.def)             Requested size: 460.93153pt x 484.86511pt.
- <CT_ACM_EAST/CT_ACM_EAST_D2.png, id=156, 617.30624pt x 393.47pt>
+ <CT_ACM_EAST/CT_ACM_EAST_D2.png, id=159, 617.30624pt x 393.47pt>
 File: CT_ACM_EAST/CT_ACM_EAST_D2.png Graphic file (type png)
  <use CT_ACM_EAST/CT_ACM_EAST_D2.png>
-Package pdftex.def Info: CT_ACM_EAST/CT_ACM_EAST_D2.png used on input line 1156.
+Package pdftex.def Info: CT_ACM_EAST/CT_ACM_EAST_D2.png used on input line 1181.
 (pdftex.def)             Requested size: 256.07481pt x 163.22696pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1158--1161
+Underfull \hbox (badness 10000) in paragraph at lines 1183--1186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1158--1161
+Underfull \hbox (badness 10000) in paragraph at lines 1183--1186
 
  []
 
-[35 <./CT_ACM_EAST/CT_ACM_EAST_D1.png> <./CT_ACM_EAST/CT_ACM_EAST_D2.png>] [36] [37] [38]
-Underfull \hbox (badness 10000) in paragraph at lines 1279--1280
+[36 <./CT_ACM_EAST/CT_ACM_EAST_D1.png> <./CT_ACM_EAST/CT_ACM_EAST_D2.png>] [37] [38] [39]
+Underfull \hbox (badness 10000) in paragraph at lines 1304--1305
 
  []
 
-<CT_ACM_EAST/CT_ACM_EAST_I.png, id=170, 661.47125pt x 666.49pt>
+<CT_ACM_EAST/CT_ACM_EAST_I.png, id=173, 661.47125pt x 666.49pt>
 File: CT_ACM_EAST/CT_ACM_EAST_I.png Graphic file (type png)
  <use CT_ACM_EAST/CT_ACM_EAST_I.png>
-Package pdftex.def Info: CT_ACM_EAST/CT_ACM_EAST_I.png used on input line 1281.
+Package pdftex.def Info: CT_ACM_EAST/CT_ACM_EAST_I.png used on input line 1306.
 (pdftex.def)             Requested size: 460.93153pt x 464.4245pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1283--1286
+Underfull \hbox (badness 10000) in paragraph at lines 1308--1311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1283--1286
+Underfull \hbox (badness 10000) in paragraph at lines 1308--1311
 
  []
 
-[39 <./CT_ACM_EAST/CT_ACM_EAST_I.png>] [40]
-Underfull \hbox (badness 10000) in paragraph at lines 1341--1342
+[40 <./CT_ACM_EAST/CT_ACM_EAST_I.png>] [41]
+Underfull \hbox (badness 10000) in paragraph at lines 1366--1367
 
  []
 
-<CT_ACM_EAST/CT_ACM_EAST_L.png, id=177, 658.46pt x 709.65125pt>
+<CT_ACM_EAST/CT_ACM_EAST_L.png, id=180, 658.46pt x 709.65125pt>
 File: CT_ACM_EAST/CT_ACM_EAST_L.png Graphic file (type png)
  <use CT_ACM_EAST/CT_ACM_EAST_L.png>
-Package pdftex.def Info: CT_ACM_EAST/CT_ACM_EAST_L.png used on input line 1343.
+Package pdftex.def Info: CT_ACM_EAST/CT_ACM_EAST_L.png used on input line 1368.
 (pdftex.def)             Requested size: 460.93153pt x 496.77414pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1345--1348
+Underfull \hbox (badness 10000) in paragraph at lines 1370--1373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1345--1348
+Underfull \hbox (badness 10000) in paragraph at lines 1370--1373
 
  []
 
-[41 <./CT_ACM_EAST/CT_ACM_EAST_L.png>] [42]
-Underfull \hbox (badness 10000) in paragraph at lines 1404--1405
+[42 <./CT_ACM_EAST/CT_ACM_EAST_L.png>] [43]
+Underfull \hbox (badness 10000) in paragraph at lines 1429--1430
 
  []
 
-<CT_ACM_EAST/CT_ACM_EAST_result.png, id=185, 890.32625pt x 522.95375pt>
+<CT_ACM_EAST/CT_ACM_EAST_result.png, id=188, 890.32625pt x 522.95375pt>
 File: CT_ACM_EAST/CT_ACM_EAST_result.png Graphic file (type png)
  <use CT_ACM_EAST/CT_ACM_EAST_result.png>
-Package pdftex.def Info: CT_ACM_EAST/CT_ACM_EAST_result.png used on input line 1406.
+Package pdftex.def Info: CT_ACM_EAST/CT_ACM_EAST_result.png used on input line 1431.
 (pdftex.def)             Requested size: 486.54057pt x 285.78215pt.
- [43 <./CT_ACM_EAST/CT_ACM_EAST_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1419--1420
+ [44 <./CT_ACM_EAST/CT_ACM_EAST_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1444--1445
 
  []
 
-<CT_ACM_WEST/CT_ACM_WEST_D.png, id=189, 809.0225pt x 816.04875pt>
+<CT_ACM_WEST/CT_ACM_WEST_D.png, id=192, 809.0225pt x 816.04875pt>
 File: CT_ACM_WEST/CT_ACM_WEST_D.png Graphic file (type png)
  <use CT_ACM_WEST/CT_ACM_WEST_D.png>
-Package pdftex.def Info: CT_ACM_WEST/CT_ACM_WEST_D.png used on input line 1421.
+Package pdftex.def Info: CT_ACM_WEST/CT_ACM_WEST_D.png used on input line 1446.
 (pdftex.def)             Requested size: 460.93153pt x 464.94095pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1423--1426
+Underfull \hbox (badness 10000) in paragraph at lines 1448--1451
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1423--1426
+Underfull \hbox (badness 10000) in paragraph at lines 1448--1451
 
  []
 
-[44 <./CT_ACM_WEST/CT_ACM_WEST_D.png>] [45] [46]
-Underfull \hbox (badness 10000) in paragraph at lines 1512--1513
+[45 <./CT_ACM_WEST/CT_ACM_WEST_D.png>] [46] [47]
+Underfull \hbox (badness 10000) in paragraph at lines 1537--1538
 
  []
 
-<CT_ACM_WEST/CT_ACM_WEST_I.png, id=199, 812.03375pt x 532.99126pt>
+<CT_ACM_WEST/CT_ACM_WEST_I.png, id=202, 812.03375pt x 532.99126pt>
 File: CT_ACM_WEST/CT_ACM_WEST_I.png Graphic file (type png)
  <use CT_ACM_WEST/CT_ACM_WEST_I.png>
-Package pdftex.def Info: CT_ACM_WEST/CT_ACM_WEST_I.png used on input line 1514.
+Package pdftex.def Info: CT_ACM_WEST/CT_ACM_WEST_I.png used on input line 1539.
 (pdftex.def)             Requested size: 460.93153pt x 302.53946pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1516--1519
+Underfull \hbox (badness 10000) in paragraph at lines 1541--1544
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1516--1519
+Underfull \hbox (badness 10000) in paragraph at lines 1541--1544
 
  []
 
-[47 <./CT_ACM_WEST/CT_ACM_WEST_I.png>] [48]
-Underfull \hbox (badness 10000) in paragraph at lines 1547--1548
+[48 <./CT_ACM_WEST/CT_ACM_WEST_I.png>] [49]
+Underfull \hbox (badness 10000) in paragraph at lines 1572--1573
 
  []
 
-<CT_ACM_WEST/CT_ACM_WEST_M1.png, id=207, 656.4525pt x 910.40125pt>
+<CT_ACM_WEST/CT_ACM_WEST_M1.png, id=211, 656.4525pt x 910.40125pt>
 File: CT_ACM_WEST/CT_ACM_WEST_M1.png Graphic file (type png)
  <use CT_ACM_WEST/CT_ACM_WEST_M1.png>
-Package pdftex.def Info: CT_ACM_WEST/CT_ACM_WEST_M1.png used on input line 1549.
+Package pdftex.def Info: CT_ACM_WEST/CT_ACM_WEST_M1.png used on input line 1574.
 (pdftex.def)             Requested size: 460.93153pt x 639.24913pt.
- <CT_ACM_WEST/CT_ACM_WEST_M2.png, id=208, 658.46pt x 495.8525pt>
+ <CT_ACM_WEST/CT_ACM_WEST_M2.png, id=212, 658.46pt x 495.8525pt>
 File: CT_ACM_WEST/CT_ACM_WEST_M2.png Graphic file (type png)
  <use CT_ACM_WEST/CT_ACM_WEST_M2.png>
-Package pdftex.def Info: CT_ACM_WEST/CT_ACM_WEST_M2.png used on input line 1550.
+Package pdftex.def Info: CT_ACM_WEST/CT_ACM_WEST_M2.png used on input line 1575.
 (pdftex.def)             Requested size: 460.93153pt x 347.10951pt.
- [49 <./CT_ACM_WEST/CT_ACM_WEST_M1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1552--1555
+ [50 <./CT_ACM_WEST/CT_ACM_WEST_M1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1577--1580
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1552--1555
+Underfull \hbox (badness 10000) in paragraph at lines 1577--1580
 
  []
 
-[50 <./CT_ACM_WEST/CT_ACM_WEST_M2.png>] [51]
-Underfull \hbox (badness 10000) in paragraph at lines 1617--1618
+[51 <./CT_ACM_WEST/CT_ACM_WEST_M2.png>] [52]
+Underfull \hbox (badness 10000) in paragraph at lines 1642--1643
 
  []
 
-<CT_ACM_WEST/CT_ACM_WEST_result.png, id=219, 893.3375pt x 559.08875pt>
+<CT_ACM_WEST/CT_ACM_WEST_result.png, id=222, 893.3375pt x 559.08875pt>
 File: CT_ACM_WEST/CT_ACM_WEST_result.png Graphic file (type png)
  <use CT_ACM_WEST/CT_ACM_WEST_result.png>
-Package pdftex.def Info: CT_ACM_WEST/CT_ACM_WEST_result.png used on input line 1619.
+Package pdftex.def Info: CT_ACM_WEST/CT_ACM_WEST_result.png used on input line 1644.
 (pdftex.def)             Requested size: 486.54057pt x 304.50537pt.
- [52 <./CT_ACM_WEST/CT_ACM_WEST_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1632--1633
+ [53 <./CT_ACM_WEST/CT_ACM_WEST_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1657--1658
 
  []
 
-[53]
-Underfull \hbox (badness 10000) in paragraph at lines 1644--1645
-
- []
-
-<CT_S02E07/CT_S02E07_C.png, id=226, 781.92125pt x 622.325pt>
-File: CT_S02E07/CT_S02E07_C.png Graphic file (type png)
- <use CT_S02E07/CT_S02E07_C.png>
-Package pdftex.def Info: CT_S02E07/CT_S02E07_C.png used on input line 1646.
-(pdftex.def)             Requested size: 460.93153pt x 366.8552pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1648--1650
-
- []
-
-[54 <./CT_S02E07/CT_S02E07_C.png>]
+[54]
 Underfull \hbox (badness 10000) in paragraph at lines 1669--1670
 
  []
 
-<CT_S02E07/CT_S02E07_H.png, id=231, 779.91376pt x 565.11125pt>
-File: CT_S02E07/CT_S02E07_H.png Graphic file (type png)
- <use CT_S02E07/CT_S02E07_H.png>
-Package pdftex.def Info: CT_S02E07/CT_S02E07_H.png used on input line 1671.
-(pdftex.def)             Requested size: 460.93153pt x 333.98186pt.
+<CT_S02E07/CT_S02E07_C.png, id=230, 781.92125pt x 622.325pt>
+File: CT_S02E07/CT_S02E07_C.png Graphic file (type png)
+ <use CT_S02E07/CT_S02E07_C.png>
+Package pdftex.def Info: CT_S02E07/CT_S02E07_C.png used on input line 1671.
+(pdftex.def)             Requested size: 460.93153pt x 366.8552pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1673--1675
 
  []
 
-[55 <./CT_S02E07/CT_S02E07_H.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1710--1711
+[55 <./CT_S02E07/CT_S02E07_C.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1695
 
  []
 
-<CT_S02E07/CT_S02E07_result.png, id=235, 891.33pt x 484.81125pt>
+<CT_S02E07/CT_S02E07_H.png, id=234, 779.91376pt x 565.11125pt>
+File: CT_S02E07/CT_S02E07_H.png Graphic file (type png)
+ <use CT_S02E07/CT_S02E07_H.png>
+Package pdftex.def Info: CT_S02E07/CT_S02E07_H.png used on input line 1696.
+(pdftex.def)             Requested size: 460.93153pt x 333.98186pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1698--1700
+
+ []
+
+[56 <./CT_S02E07/CT_S02E07_H.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1735--1736
+
+ []
+
+<CT_S02E07/CT_S02E07_result.png, id=238, 891.33pt x 484.81125pt>
 File: CT_S02E07/CT_S02E07_result.png Graphic file (type png)
  <use CT_S02E07/CT_S02E07_result.png>
-Package pdftex.def Info: CT_S02E07/CT_S02E07_result.png used on input line 1712.
+Package pdftex.def Info: CT_S02E07/CT_S02E07_result.png used on input line 1737.
 (pdftex.def)             Requested size: 486.54057pt x 264.64226pt.
- [56 <./CT_S02E07/CT_S02E07_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1725--1726
+ [57 <./CT_S02E07/CT_S02E07_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1750--1751
 
  []
 
-<CT_Crypto/CT_Crypto_B.png, id=239, 880.28876pt x 330.23375pt>
+<CT_Crypto/CT_Crypto_B.png, id=242, 880.28876pt x 330.23375pt>
 File: CT_Crypto/CT_Crypto_B.png Graphic file (type png)
  <use CT_Crypto/CT_Crypto_B.png>
-Package pdftex.def Info: CT_Crypto/CT_Crypto_B.png used on input line 1727.
+Package pdftex.def Info: CT_Crypto/CT_Crypto_B.png used on input line 1752.
 (pdftex.def)             Requested size: 460.93153pt x 172.91171pt.
- [57 <./CT_Crypto/CT_Crypto_B.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1763--1764
+ [58 <./CT_Crypto/CT_Crypto_B.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1788--1789
 
  []
 
-<CT_Crypto/CT_Crypto_C.png, id=243, 876.27374pt x 280.04625pt>
+<CT_Crypto/CT_Crypto_C.png, id=246, 876.27374pt x 280.04625pt>
 File: CT_Crypto/CT_Crypto_C.png Graphic file (type png)
  <use CT_Crypto/CT_Crypto_C.png>
-Package pdftex.def Info: CT_Crypto/CT_Crypto_C.png used on input line 1765.
+Package pdftex.def Info: CT_Crypto/CT_Crypto_C.png used on input line 1790.
 (pdftex.def)             Requested size: 460.93153pt x 147.3085pt.
- [58 <./CT_Crypto/CT_Crypto_C.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1786--1787
+ [59 <./CT_Crypto/CT_Crypto_C.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1811--1812
 
  []
 
-<CT_Crypto/CT_Crypto_H.png, id=247, 877.2775pt x 454.69875pt>
+<CT_Crypto/CT_Crypto_H.png, id=250, 877.2775pt x 454.69875pt>
 File: CT_Crypto/CT_Crypto_H.png Graphic file (type png)
  <use CT_Crypto/CT_Crypto_H.png>
-Package pdftex.def Info: CT_Crypto/CT_Crypto_H.png used on input line 1788.
+Package pdftex.def Info: CT_Crypto/CT_Crypto_H.png used on input line 1813.
 (pdftex.def)             Requested size: 460.93153pt x 238.90775pt.
- [59 <./CT_Crypto/CT_Crypto_H.png>] [60]
-Underfull \hbox (badness 10000) in paragraph at lines 1831--1832
+ [60 <./CT_Crypto/CT_Crypto_H.png>] [61]
+Underfull \hbox (badness 10000) in paragraph at lines 1856--1857
 
  []
 
-<CT_Crypto/CT_Crypto_I.png, id=255, 874.26625pt x 280.04625pt>
+<CT_Crypto/CT_Crypto_I.png, id=258, 874.26625pt x 280.04625pt>
 File: CT_Crypto/CT_Crypto_I.png Graphic file (type png)
  <use CT_Crypto/CT_Crypto_I.png>
-Package pdftex.def Info: CT_Crypto/CT_Crypto_I.png used on input line 1833.
+Package pdftex.def Info: CT_Crypto/CT_Crypto_I.png used on input line 1858.
 (pdftex.def)             Requested size: 460.93153pt x 147.64607pt.
- [61 <./CT_Crypto/CT_Crypto_I.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1863--1864
+ [62 <./CT_Crypto/CT_Crypto_I.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1888--1889
 
  []
 
-<CT_Crypto/CT_Crypto_J.png, id=259, 876.27374pt x 397.485pt>
+<CT_Crypto/CT_Crypto_J.png, id=262, 876.27374pt x 397.485pt>
 File: CT_Crypto/CT_Crypto_J.png Graphic file (type png)
  <use CT_Crypto/CT_Crypto_J.png>
-Package pdftex.def Info: CT_Crypto/CT_Crypto_J.png used on input line 1865.
+Package pdftex.def Info: CT_Crypto/CT_Crypto_J.png used on input line 1890.
 (pdftex.def)             Requested size: 460.93153pt x 209.08304pt.
- [62 <./CT_Crypto/CT_Crypto_J.png>] [63]
-Underfull \hbox (badness 10000) in paragraph at lines 1961--1962
+ [63 <./CT_Crypto/CT_Crypto_J.png>] [64]
+Underfull \hbox (badness 10000) in paragraph at lines 1986--1987
 
  []
 
-<CT_Crypto/CT_Crypto_M.png, id=266, 879.285pt x 381.425pt>
+<CT_Crypto/CT_Crypto_M.png, id=269, 879.285pt x 381.425pt>
 File: CT_Crypto/CT_Crypto_M.png Graphic file (type png)
  <use CT_Crypto/CT_Crypto_M.png>
-Package pdftex.def Info: CT_Crypto/CT_Crypto_M.png used on input line 1963.
+Package pdftex.def Info: CT_Crypto/CT_Crypto_M.png used on input line 1988.
 (pdftex.def)             Requested size: 460.93153pt x 199.94266pt.
- [64 <./CT_Crypto/CT_Crypto_M.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1985--1986
-
- []
-
-<CT_Crypto/CT_Crypto_N.png, id=270, 875.27pt x 379.4175pt>
-File: CT_Crypto/CT_Crypto_N.png Graphic file (type png)
- <use CT_Crypto/CT_Crypto_N.png>
-Package pdftex.def Info: CT_Crypto/CT_Crypto_N.png used on input line 1987.
-(pdftex.def)             Requested size: 460.93153pt x 199.81084pt.
- [65 <./CT_Crypto/CT_Crypto_N.png>]
+ [65 <./CT_Crypto/CT_Crypto_M.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 2010--2011
 
  []
 
-<CT_Crypto/CT_Crypto_Q.png, id=274, 878.28125pt x 396.48125pt>
+<CT_Crypto/CT_Crypto_N.png, id=273, 875.27pt x 379.4175pt>
+File: CT_Crypto/CT_Crypto_N.png Graphic file (type png)
+ <use CT_Crypto/CT_Crypto_N.png>
+Package pdftex.def Info: CT_Crypto/CT_Crypto_N.png used on input line 2012.
+(pdftex.def)             Requested size: 460.93153pt x 199.81084pt.
+ [66 <./CT_Crypto/CT_Crypto_N.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2035--2036
+
+ []
+
+<CT_Crypto/CT_Crypto_Q.png, id=278, 878.28125pt x 396.48125pt>
 File: CT_Crypto/CT_Crypto_Q.png Graphic file (type png)
  <use CT_Crypto/CT_Crypto_Q.png>
-Package pdftex.def Info: CT_Crypto/CT_Crypto_Q.png used on input line 2012.
+Package pdftex.def Info: CT_Crypto/CT_Crypto_Q.png used on input line 2037.
 (pdftex.def)             Requested size: 460.93153pt x 208.08316pt.
- [66 <./CT_Crypto/CT_Crypto_Q.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2037--2038
+ [67 <./CT_Crypto/CT_Crypto_Q.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2062--2063
 
  []
 
-<CT_Crypto/CT_Crypto_R.png, id=279, 876.27374pt x 398.48875pt>
+<CT_Crypto/CT_Crypto_R.png, id=282, 876.27374pt x 398.48875pt>
 File: CT_Crypto/CT_Crypto_R.png Graphic file (type png)
  <use CT_Crypto/CT_Crypto_R.png>
-Package pdftex.def Info: CT_Crypto/CT_Crypto_R.png used on input line 2039.
+Package pdftex.def Info: CT_Crypto/CT_Crypto_R.png used on input line 2064.
 (pdftex.def)             Requested size: 460.93153pt x 209.61104pt.
- [67 <./CT_Crypto/CT_Crypto_R.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2073--2074
+ [68 <./CT_Crypto/CT_Crypto_R.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2098--2099
 
  []
 
-<CT_Crypto/CT_Crypto_result.png, id=283, 890.32625pt x 750.805pt>
+<CT_Crypto/CT_Crypto_result.png, id=286, 890.32625pt x 750.805pt>
 File: CT_Crypto/CT_Crypto_result.png Graphic file (type png)
  <use CT_Crypto/CT_Crypto_result.png>
-Package pdftex.def Info: CT_Crypto/CT_Crypto_result.png used on input line 2075.
+Package pdftex.def Info: CT_Crypto/CT_Crypto_result.png used on input line 2100.
 (pdftex.def)             Requested size: 486.54057pt x 410.2976pt.
- [68 <./CT_Crypto/CT_Crypto_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2088--2089
+ [69 <./CT_Crypto/CT_Crypto_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2113--2114
 
  []
 
-<OC_Siberia/OC_Siberia_12.png, id=287, 661.47125pt x 705.63625pt>
+<OC_Siberia/OC_Siberia_12.png, id=290, 661.47125pt x 705.63625pt>
 File: OC_Siberia/OC_Siberia_12.png Graphic file (type png)
  <use OC_Siberia/OC_Siberia_12.png>
-Package pdftex.def Info: OC_Siberia/OC_Siberia_12.png used on input line 2090.
+Package pdftex.def Info: OC_Siberia/OC_Siberia_12.png used on input line 2115.
 (pdftex.def)             Requested size: 460.93153pt x 491.70244pt.
- [69 <./OC_Siberia/OC_Siberia_12.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2094--2099
+ [70 <./OC_Siberia/OC_Siberia_12.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2119--2124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2119--2120
+Underfull \hbox (badness 10000) in paragraph at lines 2144--2145
 
  []
 
-<OC_Siberia/OC_Siberia_13.png, id=291, 662.475pt x 344.28625pt>
+<OC_Siberia/OC_Siberia_13.png, id=294, 662.475pt x 344.28625pt>
 File: OC_Siberia/OC_Siberia_13.png Graphic file (type png)
  <use OC_Siberia/OC_Siberia_13.png>
-Package pdftex.def Info: OC_Siberia/OC_Siberia_13.png used on input line 2121.
+Package pdftex.def Info: OC_Siberia/OC_Siberia_13.png used on input line 2146.
 (pdftex.def)             Requested size: 460.93153pt x 239.54353pt.
- [70 <./OC_Siberia/OC_Siberia_13.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2125--2130
+ [71 <./OC_Siberia/OC_Siberia_13.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2150--2155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2156--2157
+Underfull \hbox (badness 10000) in paragraph at lines 2181--2182
 
  []
 
-<OC_Siberia/OC_Siberia_14_1.png, id=295, 663.47874pt x 506.89375pt>
+<OC_Siberia/OC_Siberia_14_1.png, id=298, 663.47874pt x 506.89375pt>
 File: OC_Siberia/OC_Siberia_14_1.png Graphic file (type png)
  <use OC_Siberia/OC_Siberia_14_1.png>
-Package pdftex.def Info: OC_Siberia/OC_Siberia_14_1.png used on input line 2158.
+Package pdftex.def Info: OC_Siberia/OC_Siberia_14_1.png used on input line 2183.
 (pdftex.def)             Requested size: 460.93153pt x 352.14705pt.
- <OC_Siberia/OC_Siberia_14_2.png, id=296, 604.2575pt x 299.1175pt> [71]
+ <OC_Siberia/OC_Siberia_14_2.png, id=299, 604.2575pt x 299.1175pt> [72]
 File: OC_Siberia/OC_Siberia_14_2.png Graphic file (type png)
  <use OC_Siberia/OC_Siberia_14_2.png>
-Package pdftex.def Info: OC_Siberia/OC_Siberia_14_2.png used on input line 2159.
+Package pdftex.def Info: OC_Siberia/OC_Siberia_14_2.png used on input line 2184.
 (pdftex.def)             Requested size: 460.93153pt x 228.16689pt.
- [72 <./OC_Siberia/OC_Siberia_14_1.png> <./OC_Siberia/OC_Siberia_14_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2164--2169
+ [73 <./OC_Siberia/OC_Siberia_14_1.png> <./OC_Siberia/OC_Siberia_14_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2189--2194
 
  []
 
-[73]
-Underfull \hbox (badness 10000) in paragraph at lines 2240--2241
+[74]
+Underfull \hbox (badness 10000) in paragraph at lines 2265--2266
 
  []
 
-<OC_Siberia/OC_Siberia_result.png, id=307, 717.68124pt x 44.165pt>
+<OC_Siberia/OC_Siberia_result.png, id=310, 717.68124pt x 44.165pt>
 File: OC_Siberia/OC_Siberia_result.png Graphic file (type png)
  <use OC_Siberia/OC_Siberia_result.png>
-Package pdftex.def Info: OC_Siberia/OC_Siberia_result.png used on input line 2242.
+Package pdftex.def Info: OC_Siberia/OC_Siberia_result.png used on input line 2267.
 (pdftex.def)             Requested size: 486.54057pt x 29.94148pt.
- [74 <./OC_Siberia/OC_Siberia_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2256--2257
+ [75 <./OC_Siberia/OC_Siberia_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2281--2282
 
  []
 
-<CT_S02E08/CT_S02E08_G1.png, id=311, 602.25pt x 738.76pt>
+<CT_S02E08/CT_S02E08_G1.png, id=314, 602.25pt x 738.76pt>
 File: CT_S02E08/CT_S02E08_G1.png Graphic file (type png)
  <use CT_S02E08/CT_S02E08_G1.png>
-Package pdftex.def Info: CT_S02E08/CT_S02E08_G1.png used on input line 2258.
+Package pdftex.def Info: CT_S02E08/CT_S02E08_G1.png used on input line 2283.
 (pdftex.def)             Requested size: 460.93153pt x 565.43137pt.
- <CT_S02E08/CT_S02E08_G2.png, id=312, 596.2275pt x 228.855pt>
+ <CT_S02E08/CT_S02E08_G2.png, id=315, 596.2275pt x 228.855pt>
 File: CT_S02E08/CT_S02E08_G2.png Graphic file (type png)
  <use CT_S02E08/CT_S02E08_G2.png>
-Package pdftex.def Info: CT_S02E08/CT_S02E08_G2.png used on input line 2259.
+Package pdftex.def Info: CT_S02E08/CT_S02E08_G2.png used on input line 2284.
 (pdftex.def)             Requested size: 460.93153pt x 176.92427pt.
- [75 <./CT_S02E08/CT_S02E08_G1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2261--2266
+ [76 <./CT_S02E08/CT_S02E08_G1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2286--2291
 
  []
 
-[76 <./CT_S02E08/CT_S02E08_G2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2303--2304
+[77 <./CT_S02E08/CT_S02E08_G2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2328--2329
 
  []
 
-<CT_S02E08/CT_S02E08_J1.png, id=319, 597.23125pt x 807.015pt>
+<CT_S02E08/CT_S02E08_J1.png, id=322, 597.23125pt x 807.015pt>
 File: CT_S02E08/CT_S02E08_J1.png Graphic file (type png)
  <use CT_S02E08/CT_S02E08_J1.png>
-Package pdftex.def Info: CT_S02E08/CT_S02E08_J1.png used on input line 2305.
+Package pdftex.def Info: CT_S02E08/CT_S02E08_J1.png used on input line 2330.
 (pdftex.def)             Requested size: 460.93153pt x 622.84422pt.
- <CT_S02E08/CT_S02E08_J2.png, id=320, 594.22pt x 463.7325pt>
+ <CT_S02E08/CT_S02E08_J2.png, id=323, 594.22pt x 463.7325pt>
 File: CT_S02E08/CT_S02E08_J2.png Graphic file (type png)
  <use CT_S02E08/CT_S02E08_J2.png>
-Package pdftex.def Info: CT_S02E08/CT_S02E08_J2.png used on input line 2306.
+Package pdftex.def Info: CT_S02E08/CT_S02E08_J2.png used on input line 2331.
 (pdftex.def)             Requested size: 460.93153pt x 359.7286pt.
- [77 <./CT_S02E08/CT_S02E08_J1.png>] [78 <./CT_S02E08/CT_S02E08_J2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2311--2312
+ [78 <./CT_S02E08/CT_S02E08_J1.png>] [79 <./CT_S02E08/CT_S02E08_J2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2336--2337
 
  []
 
-[79]
-Underfull \hbox (badness 10000) in paragraph at lines 2404--2405
+[80]
+Underfull \hbox (badness 10000) in paragraph at lines 2429--2430
 
  []
 
 File: CT_S02E05/CT_S02E05_result.png Graphic file (type png)
 <use CT_S02E05/CT_S02E05_result.png>
-Package pdftex.def Info: CT_S02E05/CT_S02E05_result.png used on input line 2406.
+Package pdftex.def Info: CT_S02E05/CT_S02E05_result.png used on input line 2431.
 (pdftex.def)             Requested size: 486.54057pt x 264.38963pt.
- [80]
-Underfull \hbox (badness 10000) in paragraph at lines 2419--2420
+ [81]
+Underfull \hbox (badness 10000) in paragraph at lines 2444--2445
 
  []
 
-<CT_S02E09/CT_S02E09_G.png, id=334, 657.45625pt x 735.74875pt>
+<CT_S02E09/CT_S02E09_G.png, id=337, 657.45625pt x 735.74875pt>
 File: CT_S02E09/CT_S02E09_G.png Graphic file (type png)
  <use CT_S02E09/CT_S02E09_G.png>
-Package pdftex.def Info: CT_S02E09/CT_S02E09_G.png used on input line 2421.
+Package pdftex.def Info: CT_S02E09/CT_S02E09_G.png used on input line 2446.
 (pdftex.def)             Requested size: 460.93153pt x 515.82893pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2423--2428
+Underfull \hbox (badness 10000) in paragraph at lines 2448--2453
 
  []
 
-[81 <./CT_S02E09/CT_S02E09_G.png>] [82]
-Underfull \hbox (badness 10000) in paragraph at lines 2489--2490
+[82 <./CT_S02E09/CT_S02E09_G.png>] [83]
+Underfull \hbox (badness 10000) in paragraph at lines 2514--2515
 
  []
 
-<CT_S02E09/CT_S02E09_J.png, id=341, 662.475pt x 664.4825pt>
+<CT_S02E09/CT_S02E09_J.png, id=344, 662.475pt x 664.4825pt>
 File: CT_S02E09/CT_S02E09_J.png Graphic file (type png)
  <use CT_S02E09/CT_S02E09_J.png>
-Package pdftex.def Info: CT_S02E09/CT_S02E09_J.png used on input line 2491.
+Package pdftex.def Info: CT_S02E09/CT_S02E09_J.png used on input line 2516.
 (pdftex.def)             Requested size: 460.93153pt x 462.32602pt.
- [83 <./CT_S02E09/CT_S02E09_J.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2496--2497
+ [84 <./CT_S02E09/CT_S02E09_J.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2521--2522
 
  []
 
-[84]
-Underfull \hbox (badness 10000) in paragraph at lines 2551--2552
+[85]
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2577
 
  []
 
-<CT_S02E09/CT_S02E09_K.png, id=349, 662.475pt x 864.22874pt>
+<CT_S02E09/CT_S02E09_K.png, id=352, 662.475pt x 864.22874pt>
 File: CT_S02E09/CT_S02E09_K.png Graphic file (type png)
  <use CT_S02E09/CT_S02E09_K.png>
-Package pdftex.def Info: CT_S02E09/CT_S02E09_K.png used on input line 2553.
+Package pdftex.def Info: CT_S02E09/CT_S02E09_K.png used on input line 2578.
 (pdftex.def)             Requested size: 460.93153pt x 601.30318pt.
- [85 <./CT_S02E09/CT_S02E09_K.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2558--2559
+ [86 <./CT_S02E09/CT_S02E09_K.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2583--2584
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2594--2595
+Underfull \hbox (badness 10000) in paragraph at lines 2639--2640
 
  []
 
-<CT_S02E09/CT_S02E09_result.png, id=353, 891.33pt x 484.81125pt>
+<CT_S02E09/CT_S02E09_result.png, id=356, 891.33pt x 484.81125pt>
 File: CT_S02E09/CT_S02E09_result.png Graphic file (type png)
  <use CT_S02E09/CT_S02E09_result.png>
-Package pdftex.def Info: CT_S02E09/CT_S02E09_result.png used on input line 2596.
+Package pdftex.def Info: CT_S02E09/CT_S02E09_result.png used on input line 2641.
 (pdftex.def)             Requested size: 486.54057pt x 264.64226pt.
- [86 <./CT_S02E09/CT_S02E09_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2609--2610
+ [87] [88 <./CT_S02E09/CT_S02E09_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2654--2655
 
  []
 
-<CT_school_nn/CT_school_nn_A.png, id=357, 877.2775pt x 585.18625pt>
+<CT_school_nn/CT_school_nn_A.png, id=363, 877.2775pt x 585.18625pt>
 File: CT_school_nn/CT_school_nn_A.png Graphic file (type png)
  <use CT_school_nn/CT_school_nn_A.png>
-Package pdftex.def Info: CT_school_nn/CT_school_nn_A.png used on input line 2611.
+Package pdftex.def Info: CT_school_nn/CT_school_nn_A.png used on input line 2656.
 (pdftex.def)             Requested size: 460.93153pt x 307.46846pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2618
+Underfull \hbox (badness 10000) in paragraph at lines 2658--2663
 
  []
 
-[87 <./CT_school_nn/CT_school_nn_A.png>] [88]
-Underfull \hbox (badness 10000) in paragraph at lines 2661--2662
+[89 <./CT_school_nn/CT_school_nn_A.png>] [90]
+Underfull \hbox (badness 10000) in paragraph at lines 2706--2707
 
  []
 
-<CT_school_nn/CT_school_nn_F.png, id=364, 878.28125pt x 390.45876pt>
+<CT_school_nn/CT_school_nn_F.png, id=371, 878.28125pt x 390.45876pt>
 File: CT_school_nn/CT_school_nn_F.png Graphic file (type png)
  <use CT_school_nn/CT_school_nn_F.png>
-Package pdftex.def Info: CT_school_nn/CT_school_nn_F.png used on input line 2663.
+Package pdftex.def Info: CT_school_nn/CT_school_nn_F.png used on input line 2708.
 (pdftex.def)             Requested size: 460.93153pt x 204.92241pt.
- [89 <./CT_school_nn/CT_school_nn_F.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2668--2669
+ [91 <./CT_school_nn/CT_school_nn_F.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2713--2714
 
  []
 
-[90]
-Underfull \hbox (badness 10000) in paragraph at lines 2682--2683
+[92]
+Underfull \hbox (badness 10000) in paragraph at lines 2727--2728
 
  []
 
-<CT_school_nn/CT_school_nn_I.png, id=372, 877.2775pt x 336.25626pt>
+<CT_school_nn/CT_school_nn_I.png, id=378, 877.2775pt x 336.25626pt>
 File: CT_school_nn/CT_school_nn_I.png Graphic file (type png)
  <use CT_school_nn/CT_school_nn_I.png>
-Package pdftex.def Info: CT_school_nn/CT_school_nn_I.png used on input line 2684.
+Package pdftex.def Info: CT_school_nn/CT_school_nn_I.png used on input line 2729.
 (pdftex.def)             Requested size: 460.93153pt x 176.6757pt.
- [91 <./CT_school_nn/CT_school_nn_I.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2689--2690
+ [93 <./CT_school_nn/CT_school_nn_I.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2734--2735
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2711--2712
+Underfull \hbox (badness 10000) in paragraph at lines 2756--2757
 
  []
 
-<CT_school_nn/CT_school_nn_result.png, id=376, 890.32625pt x 523.9575pt>
+<CT_school_nn/CT_school_nn_result.png, id=382, 890.32625pt x 523.9575pt>
 File: CT_school_nn/CT_school_nn_result.png Graphic file (type png)
  <use CT_school_nn/CT_school_nn_result.png>
-Package pdftex.def Info: CT_school_nn/CT_school_nn_result.png used on input line 2713.
+Package pdftex.def Info: CT_school_nn/CT_school_nn_result.png used on input line 2758.
 (pdftex.def)             Requested size: 486.54057pt x 286.33069pt.
- [92 <./CT_school_nn/CT_school_nn_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2726--2727
+ [94 <./CT_school_nn/CT_school_nn_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2771--2772
 
  []
 
-<OC_Central_Europe/OC_Central_Europe_A.png, id=380, 834.11626pt x 907.39pt>
+<OC_Central_Europe/OC_Central_Europe_A.png, id=386, 834.11626pt x 907.39pt>
 File: OC_Central_Europe/OC_Central_Europe_A.png Graphic file (type png)
  <use OC_Central_Europe/OC_Central_Europe_A.png>
-Package pdftex.def Info: OC_Central_Europe/OC_Central_Europe_A.png used on input line 2728.
+Package pdftex.def Info: OC_Central_Europe/OC_Central_Europe_A.png used on input line 2773.
 (pdftex.def)             Requested size: 460.93153pt x 501.43365pt.
- [93 <./OC_Central_Europe/OC_Central_Europe_A.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2732--2737
+ [95 <./OC_Central_Europe/OC_Central_Europe_A.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2777--2782
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2775--2776
+Underfull \hbox (badness 10000) in paragraph at lines 2820--2821
 
  []
 
-<OC_Central_Europe/OC_Central_Europe_result.png, id=384, 803.0pt x 36.135pt>
+<OC_Central_Europe/OC_Central_Europe_result.png, id=390, 803.0pt x 36.135pt>
 File: OC_Central_Europe/OC_Central_Europe_result.png Graphic file (type png)
  <use OC_Central_Europe/OC_Central_Europe_result.png>
-Package pdftex.def Info: OC_Central_Europe/OC_Central_Europe_result.png used on input line 2777.
+Package pdftex.def Info: OC_Central_Europe/OC_Central_Europe_result.png used on input line 2822.
 (pdftex.def)             Requested size: 486.54057pt x 21.89508pt.
- [94 <./OC_Central_Europe/OC_Central_Europe_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2790--2791
+ [96 <./OC_Central_Europe/OC_Central_Europe_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2835--2836
 
  []
 
-<CT_S02E10/CT_S02E10_A.png, id=388, 816.04875pt x 662.475pt>
+<CT_S02E10/CT_S02E10_A.png, id=395, 816.04875pt x 662.475pt>
 File: CT_S02E10/CT_S02E10_A.png Graphic file (type png)
  <use CT_S02E10/CT_S02E10_A.png>
-Package pdftex.def Info: CT_S02E10/CT_S02E10_A.png used on input line 2792.
+Package pdftex.def Info: CT_S02E10/CT_S02E10_A.png used on input line 2837.
 (pdftex.def)             Requested size: 460.93153pt x 374.18788pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2794--2799
+Underfull \hbox (badness 10000) in paragraph at lines 2839--2844
 
  []
 
-[95 <./CT_S02E10/CT_S02E10_A.png>] [96]
-Underfull \hbox (badness 10000) in paragraph at lines 2825--2826
+[97 <./CT_S02E10/CT_S02E10_A.png>] [98]
+Underfull \hbox (badness 10000) in paragraph at lines 2870--2871
 
  []
 
-<CT_S02E10/CT_S02E10_B.png, id=396, 817.0525pt x 748.7975pt>
+<CT_S02E10/CT_S02E10_B.png, id=402, 817.0525pt x 748.7975pt>
 File: CT_S02E10/CT_S02E10_B.png Graphic file (type png)
  <use CT_S02E10/CT_S02E10_B.png>
-Package pdftex.def Info: CT_S02E10/CT_S02E10_B.png used on input line 2827.
+Package pdftex.def Info: CT_S02E10/CT_S02E10_B.png used on input line 2872.
 (pdftex.def)             Requested size: 460.93153pt x 422.43153pt.
- [97 <./CT_S02E10/CT_S02E10_B.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2832--2833
-
- []
-
-[98]
-Underfull \hbox (badness 10000) in paragraph at lines 2871--2872
-
- []
-
-<CT_S02E10/CT_S02E10_G.png, id=403, 818.05624pt x 428.60126pt>
-File: CT_S02E10/CT_S02E10_G.png Graphic file (type png)
- <use CT_S02E10/CT_S02E10_G.png>
-Package pdftex.def Info: CT_S02E10/CT_S02E10_G.png used on input line 2873.
-(pdftex.def)             Requested size: 460.93153pt x 241.49962pt.
- [99 <./CT_S02E10/CT_S02E10_G.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2878--2879
+ [99 <./CT_S02E10/CT_S02E10_B.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2877--2878
 
  []
 
 [100]
-Underfull \hbox (badness 10000) in paragraph at lines 2945--2946
+Underfull \hbox (badness 10000) in paragraph at lines 2916--2917
 
  []
 
-<CT_S02E10/CT_S02E10_result.png, id=411, 892.33376pt x 485.815pt>
+<CT_S02E10/CT_S02E10_G.png, id=410, 818.05624pt x 428.60126pt>
+File: CT_S02E10/CT_S02E10_G.png Graphic file (type png)
+ <use CT_S02E10/CT_S02E10_G.png>
+Package pdftex.def Info: CT_S02E10/CT_S02E10_G.png used on input line 2918.
+(pdftex.def)             Requested size: 460.93153pt x 241.49962pt.
+ [101 <./CT_S02E10/CT_S02E10_G.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2923--2924
+
+ []
+
+[102]
+Underfull \hbox (badness 10000) in paragraph at lines 2990--2991
+
+ []
+
+<CT_S02E10/CT_S02E10_result.png, id=418, 892.33376pt x 485.815pt>
 File: CT_S02E10/CT_S02E10_result.png Graphic file (type png)
  <use CT_S02E10/CT_S02E10_result.png>
-Package pdftex.def Info: CT_S02E10/CT_S02E10_result.png used on input line 2947.
+Package pdftex.def Info: CT_S02E10/CT_S02E10_result.png used on input line 2992.
 (pdftex.def)             Requested size: 486.54057pt x 264.89365pt.
- [101 <./CT_S02E10/CT_S02E10_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2960--2961
+ [103 <./CT_S02E10/CT_S02E10_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3005--3006
 
  []
 
-<OC_Europe/OC_Europe_E.png, id=415, 953.5625pt x 652.4375pt>
+<OC_Europe/OC_Europe_E.png, id=422, 953.5625pt x 652.4375pt>
 File: OC_Europe/OC_Europe_E.png Graphic file (type png)
  <use OC_Europe/OC_Europe_E.png>
-Package pdftex.def Info: OC_Europe/OC_Europe_E.png used on input line 2962.
+Package pdftex.def Info: OC_Europe/OC_Europe_E.png used on input line 3007.
 (pdftex.def)             Requested size: 460.93153pt x 315.37653pt.
- [102 <./OC_Europe/OC_Europe_E.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2966--2971
-
- []
-
-[103]
-Underfull \hbox (badness 10000) in paragraph at lines 3034--3035
-
- []
-
-<OC_Europe/OC_Europe_F.png, id=423, 913.4125pt x 878.28125pt>
-File: OC_Europe/OC_Europe_F.png Graphic file (type png)
- <use OC_Europe/OC_Europe_F.png>
-Package pdftex.def Info: OC_Europe/OC_Europe_F.png used on input line 3036.
-(pdftex.def)             Requested size: 460.93153pt x 443.2002pt.
- [104 <./OC_Europe/OC_Europe_F.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3040--3045
+ [104 <./OC_Europe/OC_Europe_E.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3011--3016
 
  []
 
 [105]
-Underfull \hbox (badness 10000) in paragraph at lines 3141--3142
+Underfull \hbox (badness 10000) in paragraph at lines 3079--3080
 
  []
 
-<OC_Europe/OC_Europe_K.png, id=430, 915.42pt x 927.465pt>
+<OC_Europe/OC_Europe_F.png, id=429, 913.4125pt x 878.28125pt>
+File: OC_Europe/OC_Europe_F.png Graphic file (type png)
+ <use OC_Europe/OC_Europe_F.png>
+Package pdftex.def Info: OC_Europe/OC_Europe_F.png used on input line 3081.
+(pdftex.def)             Requested size: 460.93153pt x 443.2002pt.
+ [106 <./OC_Europe/OC_Europe_F.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3085--3090
+
+ []
+
+[107]
+Underfull \hbox (badness 10000) in paragraph at lines 3186--3187
+
+ []
+
+<OC_Europe/OC_Europe_K.png, id=436, 915.42pt x 927.465pt>
 File: OC_Europe/OC_Europe_K.png Graphic file (type png)
  <use OC_Europe/OC_Europe_K.png>
-Package pdftex.def Info: OC_Europe/OC_Europe_K.png used on input line 3143.
+Package pdftex.def Info: OC_Europe/OC_Europe_K.png used on input line 3188.
 (pdftex.def)             Requested size: 460.93153pt x 467.00046pt.
- [106] [107 <./OC_Europe/OC_Europe_K.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3147--3152
+ [108] [109 <./OC_Europe/OC_Europe_K.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3192--3197
 
  []
 
 
-Overfull \hbox (2591.12097pt too wide) in paragraph at lines 3201--3203
+Overfull \hbox (2591.12097pt too wide) in paragraph at lines 3246--3248
 [][] 
  []
 
-[108]
-Underfull \hbox (badness 10000) in paragraph at lines 3234--3235
+[110]
+Underfull \hbox (badness 10000) in paragraph at lines 3279--3280
 
  []
 
-<OC_Europe/OC_Europe_N.png, id=441, 912.40875pt x 459.7175pt>
+<OC_Europe/OC_Europe_N.png, id=447, 912.40875pt x 459.7175pt>
 File: OC_Europe/OC_Europe_N.png Graphic file (type png)
  <use OC_Europe/OC_Europe_N.png>
-Package pdftex.def Info: OC_Europe/OC_Europe_N.png used on input line 3236.
+Package pdftex.def Info: OC_Europe/OC_Europe_N.png used on input line 3281.
 (pdftex.def)             Requested size: 460.93153pt x 232.23616pt.
- [109 <./OC_Europe/OC_Europe_N.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3240--3245
+ [111 <./OC_Europe/OC_Europe_N.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3285--3290
 
  []
 
-[110]
-Underfull \hbox (badness 10000) in paragraph at lines 3308--3309
+[112]
+Underfull \hbox (badness 10000) in paragraph at lines 3353--3354
 
  []
 
-<OC_Europe/OC_Europe_O.png, id=448, 915.42pt x 568.1225pt>
+<OC_Europe/OC_Europe_O.png, id=454, 915.42pt x 568.1225pt>
 File: OC_Europe/OC_Europe_O.png Graphic file (type png)
  <use OC_Europe/OC_Europe_O.png>
-Package pdftex.def Info: OC_Europe/OC_Europe_O.png used on input line 3310.
+Package pdftex.def Info: OC_Europe/OC_Europe_O.png used on input line 3355.
 (pdftex.def)             Requested size: 460.93153pt x 286.06303pt.
- [111 <./OC_Europe/OC_Europe_O.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3314--3319
+ [113 <./OC_Europe/OC_Europe_O.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3359--3364
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3359--3360
+Underfull \hbox (badness 10000) in paragraph at lines 3404--3405
 
  []
 
-<OC_Europe/OC_Europe_result.png, id=452, 733.74126pt x 36.135pt>
+<OC_Europe/OC_Europe_result.png, id=458, 733.74126pt x 36.135pt>
 File: OC_Europe/OC_Europe_result.png Graphic file (type png)
  <use OC_Europe/OC_Europe_result.png>
-Package pdftex.def Info: OC_Europe/OC_Europe_result.png used on input line 3361.
+Package pdftex.def Info: OC_Europe/OC_Europe_result.png used on input line 3406.
 (pdftex.def)             Requested size: 486.54057pt x 23.96107pt.
- [112 <./OC_Europe/OC_Europe_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3374--3375
+ [114 <./OC_Europe/OC_Europe_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3419--3420
 
  []
 
-<OC_Peterhof/OC_Peterhof_H1.png, id=456, 933.4875pt x 738.76pt>
+<OC_Peterhof/OC_Peterhof_H1.png, id=463, 933.4875pt x 738.76pt>
 File: OC_Peterhof/OC_Peterhof_H1.png Graphic file (type png)
  <use OC_Peterhof/OC_Peterhof_H1.png>
-Package pdftex.def Info: OC_Peterhof/OC_Peterhof_H1.png used on input line 3376.
+Package pdftex.def Info: OC_Peterhof/OC_Peterhof_H1.png used on input line 3421.
 (pdftex.def)             Requested size: 460.93153pt x 364.77988pt.
- <OC_Peterhof/OC_Peterhof_H2.png, id=457, 821.0675pt x 401.5pt>
+ <OC_Peterhof/OC_Peterhof_H2.png, id=464, 821.0675pt x 401.5pt>
 File: OC_Peterhof/OC_Peterhof_H2.png Graphic file (type png)
  <use OC_Peterhof/OC_Peterhof_H2.png>
-Package pdftex.def Info: OC_Peterhof/OC_Peterhof_H2.png used on input line 3377.
+Package pdftex.def Info: OC_Peterhof/OC_Peterhof_H2.png used on input line 3422.
 (pdftex.def)             Requested size: 460.93153pt x 225.38983pt.
- [113 <./OC_Peterhof/OC_Peterhof_H1.png> <./OC_Peterhof/OC_Peterhof_H2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3381--3386
+ [115 <./OC_Peterhof/OC_Peterhof_H1.png> <./OC_Peterhof/OC_Peterhof_H2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3426--3431
 
  []
 
-[114]
-Underfull \hbox (badness 10000) in paragraph at lines 3481--3482
+[116]
+Underfull \hbox (badness 10000) in paragraph at lines 3526--3527
 
  []
 
-<OC_Peterhof/OC_Peterhof_result.png, id=465, 674.52pt x 38.1425pt>
+<OC_Peterhof/OC_Peterhof_result.png, id=471, 674.52pt x 38.1425pt>
 File: OC_Peterhof/OC_Peterhof_result.png Graphic file (type png)
  <use OC_Peterhof/OC_Peterhof_result.png>
-Package pdftex.def Info: OC_Peterhof/OC_Peterhof_result.png used on input line 3483.
+Package pdftex.def Info: OC_Peterhof/OC_Peterhof_result.png used on input line 3528.
 (pdftex.def)             Requested size: 486.54057pt x 27.5132pt.
- [115 <./OC_Peterhof/OC_Peterhof_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3496--3497
-
- []
-
-<OC_Japan/OC_Japan_K.png, id=469, 928.46875pt x 548.0475pt>
-File: OC_Japan/OC_Japan_K.png Graphic file (type png)
- <use OC_Japan/OC_Japan_K.png>
-Package pdftex.def Info: OC_Japan/OC_Japan_K.png used on input line 3498.
-(pdftex.def)             Requested size: 460.93153pt x 272.0746pt.
- [116 <./OC_Japan/OC_Japan_K.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3502--3507
-
- []
-
-
+ [117 <./OC_Peterhof/OC_Peterhof_result.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 3541--3542
 
  []
 
-<OC_Japan/OC_Japan_L.png, id=473, 931.48pt x 445.665pt>
-File: OC_Japan/OC_Japan_L.png Graphic file (type png)
- <use OC_Japan/OC_Japan_L.png>
-Package pdftex.def Info: OC_Japan/OC_Japan_L.png used on input line 3543.
-(pdftex.def)             Requested size: 460.93153pt x 220.53345pt.
- [117 <./OC_Japan/OC_Japan_L.png>]
+<OC_Japan/OC_Japan_K.png, id=475, 928.46875pt x 548.0475pt>
+File: OC_Japan/OC_Japan_K.png Graphic file (type png)
+ <use OC_Japan/OC_Japan_K.png>
+Package pdftex.def Info: OC_Japan/OC_Japan_K.png used on input line 3543.
+(pdftex.def)             Requested size: 460.93153pt x 272.0746pt.
+ [118 <./OC_Japan/OC_Japan_K.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 3547--3552
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3583--3584
+Underfull \hbox (badness 10000) in paragraph at lines 3586--3587
+
+ []
+
+<OC_Japan/OC_Japan_L.png, id=479, 931.48pt x 445.665pt>
+File: OC_Japan/OC_Japan_L.png Graphic file (type png)
+ <use OC_Japan/OC_Japan_L.png>
+Package pdftex.def Info: OC_Japan/OC_Japan_L.png used on input line 3588.
+(pdftex.def)             Requested size: 460.93153pt x 220.53345pt.
+ [119 <./OC_Japan/OC_Japan_L.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3592--3597
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3628--3629
 
  []
 
 File: OC_Japan/OC_Japan_L.png Graphic file (type png)
 <use OC_Japan/OC_Japan_L.png>
-Package pdftex.def Info: OC_Japan/OC_Japan_L.png used on input line 3585.
+Package pdftex.def Info: OC_Japan/OC_Japan_L.png used on input line 3630.
 (pdftex.def)             Requested size: 460.93153pt x 220.53345pt.
- [118]
-Underfull \hbox (badness 10000) in paragraph at lines 3589--3594
+ [120]
+Underfull \hbox (badness 10000) in paragraph at lines 3634--3639
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3625--3626
+Underfull \hbox (badness 10000) in paragraph at lines 3670--3671
 
  []
 
-<OC_Japan/OC_Japan_M.png, id=480, 933.4875pt x 839.135pt>
+<OC_Japan/OC_Japan_M.png, id=487, 933.4875pt x 839.135pt>
 File: OC_Japan/OC_Japan_M.png Graphic file (type png)
  <use OC_Japan/OC_Japan_M.png>
-Package pdftex.def Info: OC_Japan/OC_Japan_M.png used on input line 3627.
+Package pdftex.def Info: OC_Japan/OC_Japan_M.png used on input line 3672.
 (pdftex.def)             Requested size: 460.93153pt x 414.34236pt.
- [119] [120 <./OC_Japan/OC_Japan_M.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3631--3636
-
- []
-
-[121]
-Underfull \hbox (badness 10000) in paragraph at lines 3692--3693
-
- []
-
-<OC_Japan/OC_Japan_N.png, id=491, 930.47626pt x 788.9475pt>
-File: OC_Japan/OC_Japan_N.png Graphic file (type png)
- <use OC_Japan/OC_Japan_N.png>
-Package pdftex.def Info: OC_Japan/OC_Japan_N.png used on input line 3694.
-(pdftex.def)             Requested size: 460.93153pt x 390.81311pt.
- [122 <./OC_Japan/OC_Japan_N.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3698--3703
+ [121] [122 <./OC_Japan/OC_Japan_M.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3676--3681
 
  []
 
 [123]
-Underfull \hbox (badness 10000) in paragraph at lines 3769--3770
+Underfull \hbox (badness 10000) in paragraph at lines 3737--3738
 
  []
 
-<OC_Japan/OC_Japan_result.png, id=498, 674.52pt x 37.13875pt>
+<OC_Japan/OC_Japan_N.png, id=497, 930.47626pt x 788.9475pt>
+File: OC_Japan/OC_Japan_N.png Graphic file (type png)
+ <use OC_Japan/OC_Japan_N.png>
+Package pdftex.def Info: OC_Japan/OC_Japan_N.png used on input line 3739.
+(pdftex.def)             Requested size: 460.93153pt x 390.81311pt.
+ [124 <./OC_Japan/OC_Japan_N.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3743--3748
+
+ []
+
+[125]
+Underfull \hbox (badness 10000) in paragraph at lines 3814--3815
+
+ []
+
+<OC_Japan/OC_Japan_result.png, id=504, 674.52pt x 37.13875pt>
 File: OC_Japan/OC_Japan_result.png Graphic file (type png)
  <use OC_Japan/OC_Japan_result.png>
-Package pdftex.def Info: OC_Japan/OC_Japan_result.png used on input line 3771.
+Package pdftex.def Info: OC_Japan/OC_Japan_result.png used on input line 3816.
 (pdftex.def)             Requested size: 486.54057pt x 26.78917pt.
- [124 <./OC_Japan/OC_Japan_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3784--3785
+ [126 <./OC_Japan/OC_Japan_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3829--3830
 
  []
 
-<OC_Northern/OC_Northern_K1.png, id=502, 767.86874pt x 969.6225pt>
+<OC_Northern/OC_Northern_K1.png, id=509, 767.86874pt x 969.6225pt>
 File: OC_Northern/OC_Northern_K1.png Graphic file (type png)
  <use OC_Northern/OC_Northern_K1.png>
-Package pdftex.def Info: OC_Northern/OC_Northern_K1.png used on input line 3786.
+Package pdftex.def Info: OC_Northern/OC_Northern_K1.png used on input line 3831.
 (pdftex.def)             Requested size: 460.93153pt x 582.04431pt.
- <OC_Northern/OC_Northern_K2.png, id=503, 766.865pt x 548.0475pt>
+ <OC_Northern/OC_Northern_K2.png, id=510, 766.865pt x 548.0475pt>
 File: OC_Northern/OC_Northern_K2.png Graphic file (type png)
  <use OC_Northern/OC_Northern_K2.png>
-Package pdftex.def Info: OC_Northern/OC_Northern_K2.png used on input line 3787.
+Package pdftex.def Info: OC_Northern/OC_Northern_K2.png used on input line 3832.
 (pdftex.def)             Requested size: 460.93153pt x 329.41641pt.
- [125 <./OC_Northern/OC_Northern_K1.png>] [126 <./OC_Northern/OC_Northern_K2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3791--3796
+ [127 <./OC_Northern/OC_Northern_K1.png>] [128 <./OC_Northern/OC_Northern_K2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3836--3841
 
  []
 
-[127] [128]
-Underfull \hbox (badness 10000) in paragraph at lines 3921--3922
+[129] [130]
+Underfull \hbox (badness 10000) in paragraph at lines 3966--3967
 
  []
 
-<OC_Northern/OC_Northern_M.png, id=517, 924.45375pt x 853.1875pt>
+<OC_Northern/OC_Northern_M.png, id=523, 924.45375pt x 853.1875pt>
 File: OC_Northern/OC_Northern_M.png Graphic file (type png)
  <use OC_Northern/OC_Northern_M.png>
-Package pdftex.def Info: OC_Northern/OC_Northern_M.png used on input line 3923.
+Package pdftex.def Info: OC_Northern/OC_Northern_M.png used on input line 3968.
 (pdftex.def)             Requested size: 460.93153pt x 425.39499pt.
- [129 <./OC_Northern/OC_Northern_M.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3927--3932
+ [131 <./OC_Northern/OC_Northern_M.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3972--3977
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3976--3977
+Underfull \hbox (badness 10000) in paragraph at lines 4021--4022
 
  []
 
-<OC_Northern/OC_Northern_result.png, id=521, 664.4825pt x 38.1425pt>
+<OC_Northern/OC_Northern_result.png, id=527, 664.4825pt x 38.1425pt>
 File: OC_Northern/OC_Northern_result.png Graphic file (type png)
  <use OC_Northern/OC_Northern_result.png>
-Package pdftex.def Info: OC_Northern/OC_Northern_result.png used on input line 3978.
+Package pdftex.def Info: OC_Northern/OC_Northern_result.png used on input line 4023.
 (pdftex.def)             Requested size: 486.54057pt x 27.92876pt.
- [130 <./OC_Northern/OC_Northern_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3991--3992
-
- []
-
-<OC_Karelia/OC_Karelia_I.png, id=525, 853.1875pt x 723.70375pt>
-File: OC_Karelia/OC_Karelia_I.png Graphic file (type png)
- <use OC_Karelia/OC_Karelia_I.png>
-Package pdftex.def Info: OC_Karelia/OC_Karelia_I.png used on input line 3993.
-(pdftex.def)             Requested size: 460.93153pt x 390.98193pt.
- [131 <./OC_Karelia/OC_Karelia_I.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3997--4002
-
- []
-
-
+ [132 <./OC_Northern/OC_Northern_result.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 4036--4037
 
  []
 
-<OC_Karelia/OC_Karelia_J.png, id=529, 852.18375pt x 435.6275pt>
-File: OC_Karelia/OC_Karelia_J.png Graphic file (type png)
- <use OC_Karelia/OC_Karelia_J.png>
-Package pdftex.def Info: OC_Karelia/OC_Karelia_J.png used on input line 4038.
-(pdftex.def)             Requested size: 460.93153pt x 235.62752pt.
- [132 <./OC_Karelia/OC_Karelia_J.png>]
+<OC_Karelia/OC_Karelia_I.png, id=532, 853.1875pt x 723.70375pt>
+File: OC_Karelia/OC_Karelia_I.png Graphic file (type png)
+ <use OC_Karelia/OC_Karelia_I.png>
+Package pdftex.def Info: OC_Karelia/OC_Karelia_I.png used on input line 4038.
+(pdftex.def)             Requested size: 460.93153pt x 390.98193pt.
+ [133 <./OC_Karelia/OC_Karelia_I.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 4042--4047
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4078--4079
+Underfull \hbox (badness 10000) in paragraph at lines 4081--4082
 
  []
 
-<OC_Karelia/OC_Karelia_K.png, id=534, 752.8125pt x 925.4575pt>
+<OC_Karelia/OC_Karelia_J.png, id=536, 852.18375pt x 435.6275pt>
+File: OC_Karelia/OC_Karelia_J.png Graphic file (type png)
+ <use OC_Karelia/OC_Karelia_J.png>
+Package pdftex.def Info: OC_Karelia/OC_Karelia_J.png used on input line 4083.
+(pdftex.def)             Requested size: 460.93153pt x 235.62752pt.
+ [134 <./OC_Karelia/OC_Karelia_J.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4087--4092
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4123--4124
+
+ []
+
+<OC_Karelia/OC_Karelia_K.png, id=540, 752.8125pt x 925.4575pt>
 File: OC_Karelia/OC_Karelia_K.png Graphic file (type png)
  <use OC_Karelia/OC_Karelia_K.png>
-Package pdftex.def Info: OC_Karelia/OC_Karelia_K.png used on input line 4080.
+Package pdftex.def Info: OC_Karelia/OC_Karelia_K.png used on input line 4125.
 (pdftex.def)             Requested size: 460.93153pt x 566.66058pt.
- [133] [134 <./OC_Karelia/OC_Karelia_K.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4084--4089
+ [135] [136 <./OC_Karelia/OC_Karelia_K.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4129--4134
 
  []
 
-[135]
-Underfull \hbox (badness 10000) in paragraph at lines 4197--4198
+[137]
+Underfull \hbox (badness 10000) in paragraph at lines 4242--4243
 
  []
 
-<OC_Karelia/OC_Karelia_L1.png, id=544, 750.805pt x 616.3025pt>
+<OC_Karelia/OC_Karelia_L1.png, id=550, 750.805pt x 616.3025pt>
 File: OC_Karelia/OC_Karelia_L1.png Graphic file (type png)
  <use OC_Karelia/OC_Karelia_L1.png>
-Package pdftex.def Info: OC_Karelia/OC_Karelia_L1.png used on input line 4199.
+Package pdftex.def Info: OC_Karelia/OC_Karelia_L1.png used on input line 4244.
 (pdftex.def)             Requested size: 460.93153pt x 378.36081pt.
- <OC_Karelia/OC_Karelia_L2.png, id=545, 681.54625pt x 460.72125pt> [136]
+ <OC_Karelia/OC_Karelia_L2.png, id=551, 681.54625pt x 460.72125pt> [138]
 File: OC_Karelia/OC_Karelia_L2.png Graphic file (type png)
  <use OC_Karelia/OC_Karelia_L2.png>
-Package pdftex.def Info: OC_Karelia/OC_Karelia_L2.png used on input line 4200.
+Package pdftex.def Info: OC_Karelia/OC_Karelia_L2.png used on input line 4245.
 (pdftex.def)             Requested size: 460.93153pt x 311.59207pt.
- [137 <./OC_Karelia/OC_Karelia_L1.png> <./OC_Karelia/OC_Karelia_L2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4204--4209
+ [139 <./OC_Karelia/OC_Karelia_L1.png> <./OC_Karelia/OC_Karelia_L2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4249--4254
 
  []
 
-[138]
-Underfull \hbox (badness 10000) in paragraph at lines 4279--4280
+[140]
+Underfull \hbox (badness 10000) in paragraph at lines 4324--4325
 
  []
 
-<OC_Karelia/OC_Karelia_result.png, id=556, 620.3175pt x 39.14626pt>
+<OC_Karelia/OC_Karelia_result.png, id=562, 620.3175pt x 39.14626pt>
 File: OC_Karelia/OC_Karelia_result.png Graphic file (type png)
  <use OC_Karelia/OC_Karelia_result.png>
-Package pdftex.def Info: OC_Karelia/OC_Karelia_result.png used on input line 4281.
+Package pdftex.def Info: OC_Karelia/OC_Karelia_result.png used on input line 4326.
 (pdftex.def)             Requested size: 486.54057pt x 30.70358pt.
- [139 <./OC_Karelia/OC_Karelia_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4294--4295
+ [141 <./OC_Karelia/OC_Karelia_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4339--4340
 
  []
 
-<OC_Udmurtia/OC_Udmurtia_A1.png, id=560, 799.98875pt x 956.57375pt>
+<OC_Udmurtia/OC_Udmurtia_A1.png, id=566, 799.98875pt x 956.57375pt>
 File: OC_Udmurtia/OC_Udmurtia_A1.png Graphic file (type png)
  <use OC_Udmurtia/OC_Udmurtia_A1.png>
-Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_A1.png used on input line 4296.
+Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_A1.png used on input line 4341.
 (pdftex.def)             Requested size: 460.93153pt x 551.14954pt.
- <OC_Udmurtia/OC_Udmurtia_A2.png, id=561, 749.80125pt x 397.485pt>
+ <OC_Udmurtia/OC_Udmurtia_A2.png, id=567, 749.80125pt x 397.485pt>
 File: OC_Udmurtia/OC_Udmurtia_A2.png Graphic file (type png)
  <use OC_Udmurtia/OC_Udmurtia_A2.png>
-Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_A2.png used on input line 4297.
+Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_A2.png used on input line 4342.
 (pdftex.def)             Requested size: 460.93153pt x 244.35175pt.
- [140 <./OC_Udmurtia/OC_Udmurtia_A1.png>] [141 <./OC_Udmurtia/OC_Udmurtia_A2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4301--4306
+ [142 <./OC_Udmurtia/OC_Udmurtia_A1.png>] [143 <./OC_Udmurtia/OC_Udmurtia_A2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4346--4351
 
  []
 
-[142] [143] [144] [145]
-Underfull \hbox (badness 10000) in paragraph at lines 4568--4569
-
- []
-
-<OC_Udmurtia/OC_Udmurtia_K.png, id=581, 855.195pt x 742.775pt>
-File: OC_Udmurtia/OC_Udmurtia_K.png Graphic file (type png)
- <use OC_Udmurtia/OC_Udmurtia_K.png>
-Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_K.png used on input line 4570.
-(pdftex.def)             Requested size: 460.93153pt x 400.33316pt.
- [146 <./OC_Udmurtia/OC_Udmurtia_K.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4574--4579
-
- []
-
-
+[144] [145] [146] [147]
 Underfull \hbox (badness 10000) in paragraph at lines 4613--4614
 
  []
 
-<OC_Udmurtia/OC_Udmurtia_L.png, id=585, 849.1725pt x 676.5275pt>
-File: OC_Udmurtia/OC_Udmurtia_L.png Graphic file (type png)
- <use OC_Udmurtia/OC_Udmurtia_L.png>
-Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_L.png used on input line 4615.
-(pdftex.def)             Requested size: 460.93153pt x 367.21883pt.
- [147] [148 <./OC_Udmurtia/OC_Udmurtia_L.png>]
+<OC_Udmurtia/OC_Udmurtia_K.png, id=587, 855.195pt x 742.775pt>
+File: OC_Udmurtia/OC_Udmurtia_K.png Graphic file (type png)
+ <use OC_Udmurtia/OC_Udmurtia_K.png>
+Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_K.png used on input line 4615.
+(pdftex.def)             Requested size: 460.93153pt x 400.33316pt.
+ [148 <./OC_Udmurtia/OC_Udmurtia_K.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 4619--4624
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4663--4664
+Underfull \hbox (badness 10000) in paragraph at lines 4658--4659
 
  []
 
-<OC_Udmurtia/OC_Udmurtia_M.png, id=592, 803.0pt x 427.5975pt>
+<OC_Udmurtia/OC_Udmurtia_L.png, id=591, 849.1725pt x 676.5275pt>
+File: OC_Udmurtia/OC_Udmurtia_L.png Graphic file (type png)
+ <use OC_Udmurtia/OC_Udmurtia_L.png>
+Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_L.png used on input line 4660.
+(pdftex.def)             Requested size: 460.93153pt x 367.21883pt.
+ [149] [150 <./OC_Udmurtia/OC_Udmurtia_L.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4664--4669
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4708--4709
+
+ []
+
+<OC_Udmurtia/OC_Udmurtia_M.png, id=600, 803.0pt x 427.5975pt>
 File: OC_Udmurtia/OC_Udmurtia_M.png Graphic file (type png)
  <use OC_Udmurtia/OC_Udmurtia_M.png>
-Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_M.png used on input line 4665.
+Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_M.png used on input line 4710.
 (pdftex.def)             Requested size: 460.93153pt x 245.44907pt.
- [149] [150 <./OC_Udmurtia/OC_Udmurtia_M.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4669--4674
+ [151] [152 <./OC_Udmurtia/OC_Udmurtia_M.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4714--4719
 
  []
 
-[151] [152]
-Underfull \hbox (badness 10000) in paragraph at lines 4820--4821
+[153] [154]
+Underfull \hbox (badness 10000) in paragraph at lines 4865--4866
 
  []
 
-<OC_Udmurtia/OC_Udmurtia_result.png, id=607, 677.53125pt x 37.13875pt>
+<OC_Udmurtia/OC_Udmurtia_result.png, id=613, 677.53125pt x 37.13875pt>
 File: OC_Udmurtia/OC_Udmurtia_result.png Graphic file (type png)
  <use OC_Udmurtia/OC_Udmurtia_result.png>
-Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_result.png used on input line 4822.
+Package pdftex.def Info: OC_Udmurtia/OC_Udmurtia_result.png used on input line 4867.
 (pdftex.def)             Requested size: 486.54057pt x 26.67073pt.
- [153 <./OC_Udmurtia/OC_Udmurtia_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4835--4836
+ [155 <./OC_Udmurtia/OC_Udmurtia_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4880--4881
 
  []
 
-<OC_China/OC_China_N.png, id=611, 987.69pt x 591.20876pt>
+<OC_China/OC_China_N.png, id=617, 987.69pt x 591.20876pt>
 File: OC_China/OC_China_N.png Graphic file (type png)
  <use OC_China/OC_China_N.png>
-Package pdftex.def Info: OC_China/OC_China_N.png used on input line 4837.
+Package pdftex.def Info: OC_China/OC_China_N.png used on input line 4882.
 (pdftex.def)             Requested size: 460.93153pt x 275.90155pt.
- [154 <./OC_China/OC_China_N.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4841--4846
+ [156 <./OC_China/OC_China_N.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4886--4891
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4875--4876
+Underfull \hbox (badness 10000) in paragraph at lines 4920--4921
 
  []
 
-<OC_China/OC_China_result.png, id=615, 697.60625pt x 38.1425pt>
+<OC_China/OC_China_result.png, id=622, 697.60625pt x 38.1425pt>
 File: OC_China/OC_China_result.png Graphic file (type png)
  <use OC_China/OC_China_result.png>
-Package pdftex.def Info: OC_China/OC_China_result.png used on input line 4877.
+Package pdftex.def Info: OC_China/OC_China_result.png used on input line 4922.
 (pdftex.def)             Requested size: 486.54057pt x 26.60236pt.
- [155 <./OC_China/OC_China_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4890--4891
-
- []
-
-<OC_Tatarstan/OC_Tatarstan_M.png, id=619, 769.87625pt x 952.55875pt>
-File: OC_Tatarstan/OC_Tatarstan_M.png Graphic file (type png)
- <use OC_Tatarstan/OC_Tatarstan_M.png>
-Package pdftex.def Info: OC_Tatarstan/OC_Tatarstan_M.png used on input line 4892.
-(pdftex.def)             Requested size: 460.93153pt x 570.31874pt.
- [156 <./OC_Tatarstan/OC_Tatarstan_M.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4896--4901
-
- []
-
-
+ [157 <./OC_China/OC_China_result.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 4935--4936
 
  []
 
-<OC_Tatarstan/OC_Tatarstan_result.png, id=624, 725.71124pt x 37.13875pt>
+<OC_Tatarstan/OC_Tatarstan_M.png, id=626, 769.87625pt x 952.55875pt>
+File: OC_Tatarstan/OC_Tatarstan_M.png Graphic file (type png)
+ <use OC_Tatarstan/OC_Tatarstan_M.png>
+Package pdftex.def Info: OC_Tatarstan/OC_Tatarstan_M.png used on input line 4937.
+(pdftex.def)             Requested size: 460.93153pt x 570.31874pt.
+ [158 <./OC_Tatarstan/OC_Tatarstan_M.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4941--4946
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4980--4981
+
+ []
+
+<OC_Tatarstan/OC_Tatarstan_result.png, id=630, 725.71124pt x 37.13875pt>
 File: OC_Tatarstan/OC_Tatarstan_result.png Graphic file (type png)
  <use OC_Tatarstan/OC_Tatarstan_result.png>
-Package pdftex.def Info: OC_Tatarstan/OC_Tatarstan_result.png used on input line 4937.
+Package pdftex.def Info: OC_Tatarstan/OC_Tatarstan_result.png used on input line 4982.
 (pdftex.def)             Requested size: 486.54057pt x 24.89926pt.
- [157 <./OC_Tatarstan/OC_Tatarstan_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4950--4951
+ [159 <./OC_Tatarstan/OC_Tatarstan_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4995--4996
 
  []
 
-<OC_America/OC_America_J.png, id=628, 931.48pt x 780.9175pt>
+<OC_America/OC_America_J.png, id=634, 931.48pt x 780.9175pt>
 File: OC_America/OC_America_J.png Graphic file (type png)
  <use OC_America/OC_America_J.png>
-Package pdftex.def Info: OC_America/OC_America_J.png used on input line 4952.
+Package pdftex.def Info: OC_America/OC_America_J.png used on input line 4997.
 (pdftex.def)             Requested size: 460.93153pt x 386.43024pt.
- [158 <./OC_America/OC_America_J.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4956--4961
+ [160 <./OC_America/OC_America_J.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5001--5006
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4997--4998
+Underfull \hbox (badness 10000) in paragraph at lines 5042--5043
 
  []
 
-<OC_America/OC_America_K.png, id=632, 924.45375pt x 795.97375pt>
+<OC_America/OC_America_K.png, id=638, 924.45375pt x 795.97375pt>
 File: OC_America/OC_America_K.png Graphic file (type png)
  <use OC_America/OC_America_K.png>
-Package pdftex.def Info: OC_America/OC_America_K.png used on input line 4999.
+Package pdftex.def Info: OC_America/OC_America_K.png used on input line 5044.
 (pdftex.def)             Requested size: 460.93153pt x 396.86852pt.
- [159] [160 <./OC_America/OC_America_K.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5003--5008
+ [161] [162 <./OC_America/OC_America_K.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5048--5053
 
  []
 
-[161]
-Underfull \hbox (badness 10000) in paragraph at lines 5101--5102
+[163]
+Underfull \hbox (badness 10000) in paragraph at lines 5146--5147
 
  []
 
-<OC_America/OC_America_M1.png, id=642, 923.45pt x 573.14125pt>
+<OC_America/OC_America_M1.png, id=649, 923.45pt x 573.14125pt>
 File: OC_America/OC_America_M1.png Graphic file (type png)
  <use OC_America/OC_America_M1.png>
-Package pdftex.def Info: OC_America/OC_America_M1.png used on input line 5103.
+Package pdftex.def Info: OC_America/OC_America_M1.png used on input line 5148.
 (pdftex.def)             Requested size: 460.93153pt x 286.08017pt.
- <OC_America/OC_America_M2.png, id=643, 844.15375pt x 353.32pt> [162]
+ <OC_America/OC_America_M2.png, id=650, 844.15375pt x 353.32pt> [164]
 File: OC_America/OC_America_M2.png Graphic file (type png)
  <use OC_America/OC_America_M2.png>
-Package pdftex.def Info: OC_America/OC_America_M2.png used on input line 5104.
+Package pdftex.def Info: OC_America/OC_America_M2.png used on input line 5149.
 (pdftex.def)             Requested size: 460.93153pt x 192.92488pt.
- [163 <./OC_America/OC_America_M1.png> <./OC_America/OC_America_M2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5108--5113
+ [165 <./OC_America/OC_America_M1.png> <./OC_America/OC_America_M2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5153--5158
 
  []
 
-[164]
-Underfull \hbox (badness 10000) in paragraph at lines 5173--5174
+[166]
+Underfull \hbox (badness 10000) in paragraph at lines 5218--5219
 
  []
 
-<OC_America/OC_America_N.png, id=654, 920.43875pt x 789.95125pt>
+<OC_America/OC_America_N.png, id=660, 920.43875pt x 789.95125pt>
 File: OC_America/OC_America_N.png Graphic file (type png)
  <use OC_America/OC_America_N.png>
-Package pdftex.def Info: OC_America/OC_America_N.png used on input line 5175.
+Package pdftex.def Info: OC_America/OC_America_N.png used on input line 5220.
 (pdftex.def)             Requested size: 460.93153pt x 395.58939pt.
- [165 <./OC_America/OC_America_N.png>] (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+ [167 <./OC_America/OC_America_N.png>] (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
-Underfull \hbox (badness 10000) in paragraph at lines 5179--5184
+Underfull \hbox (badness 10000) in paragraph at lines 5224--5229
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5207--5208
+Underfull \hbox (badness 10000) in paragraph at lines 5252--5253
 
  []
 
-<OC_America/OC_America_result.png, id=658, 678.535pt x 38.1425pt>
+<OC_America/OC_America_result.png, id=664, 678.535pt x 38.1425pt>
 File: OC_America/OC_America_result.png Graphic file (type png)
  <use OC_America/OC_America_result.png>
-Package pdftex.def Info: OC_America/OC_America_result.png used on input line 5209.
+Package pdftex.def Info: OC_America/OC_America_result.png used on input line 5254.
 (pdftex.def)             Requested size: 486.54057pt x 27.34966pt.
- [166 <./OC_America/OC_America_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5222--5223
+ [168 <./OC_America/OC_America_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5267--5268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5224--5225
+Underfull \hbox (badness 10000) in paragraph at lines 5269--5270
 
  []
 
-<Vekua_team/Vekua_team_result.png, id=662, 862.22125pt x 37.13875pt>
+<Vekua_team/Vekua_team_result.png, id=669, 862.22125pt x 37.13875pt>
 File: Vekua_team/Vekua_team_result.png Graphic file (type png)
  <use Vekua_team/Vekua_team_result.png>
-Package pdftex.def Info: Vekua_team/Vekua_team_result.png used on input line 5226.
+Package pdftex.def Info: Vekua_team/Vekua_team_result.png used on input line 5271.
 (pdftex.def)             Requested size: 486.54057pt x 20.95679pt.
- [167 <./Vekua_team/Vekua_team_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5239--5240
+ [169 <./Vekua_team/Vekua_team_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5284--5285
 
  []
 
-<OC_Ural/OC_Ural_C.png, id=666, 828.09375pt x 729.72626pt>
+<OC_Ural/OC_Ural_C.png, id=673, 828.09375pt x 729.72626pt>
 File: OC_Ural/OC_Ural_C.png Graphic file (type png)
  <use OC_Ural/OC_Ural_C.png>
-Package pdftex.def Info: OC_Ural/OC_Ural_C.png used on input line 5241.
+Package pdftex.def Info: OC_Ural/OC_Ural_C.png used on input line 5286.
 (pdftex.def)             Requested size: 460.93153pt x 406.18315pt.
- [168 <./OC_Ural/OC_Ural_C.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5245--5247
+ [170 <./OC_Ural/OC_Ural_C.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5290--5292
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5265--5266
+Underfull \hbox (badness 10000) in paragraph at lines 5310--5311
 
  []
 
-<OC_Ural/OC_Ural_F.png, id=671, 825.0825pt x 554.07pt>
+<OC_Ural/OC_Ural_F.png, id=677, 825.0825pt x 554.07pt>
 File: OC_Ural/OC_Ural_F.png Graphic file (type png)
  <use OC_Ural/OC_Ural_F.png>
-Package pdftex.def Info: OC_Ural/OC_Ural_F.png used on input line 5267.
+Package pdftex.def Info: OC_Ural/OC_Ural_F.png used on input line 5312.
 (pdftex.def)             Requested size: 460.93153pt x 309.5331pt.
- [169 <./OC_Ural/OC_Ural_F.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5271--5273
+ [171 <./OC_Ural/OC_Ural_F.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5316--5318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5303--5304
+Underfull \hbox (badness 10000) in paragraph at lines 5348--5349
 
  []
 
-<OC_Ural/OC_Ural_result.png, id=675, 710.655pt x 35.13126pt>
+<OC_Ural/OC_Ural_result.png, id=681, 710.655pt x 35.13126pt>
 File: OC_Ural/OC_Ural_result.png Graphic file (type png)
  <use OC_Ural/OC_Ural_result.png>
-Package pdftex.def Info: OC_Ural/OC_Ural_result.png used on input line 5305.
+Package pdftex.def Info: OC_Ural/OC_Ural_result.png used on input line 5350.
 (pdftex.def)             Requested size: 486.54057pt x 24.05295pt.
- [170 <./OC_Ural/OC_Ural_result.png>] [171]
-Underfull \hbox (badness 10000) in paragraph at lines 5330--5331
+ [172 <./OC_Ural/OC_Ural_result.png>] [173]
+Underfull \hbox (badness 10000) in paragraph at lines 5375--5376
 
  []
 
-<C_267/C_267_A.png, id=682, 876.27374pt x 466.74374pt>
+<C_267/C_267_A.png, id=688, 876.27374pt x 466.74374pt>
 File: C_267/C_267_A.png Graphic file (type png)
  <use C_267/C_267_A.png>
-Package pdftex.def Info: C_267/C_267_A.png used on input line 5332.
+Package pdftex.def Info: C_267/C_267_A.png used on input line 5377.
 (pdftex.def)             Requested size: 460.93153pt x 245.51418pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5334--5336
+Underfull \hbox (badness 10000) in paragraph at lines 5379--5381
 
  []
 
-[172 <./C_267/C_267_A.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5360--5361
-
- []
-
-<C_267/C_267_B.png, id=687, 880.28876pt x 579.16376pt>
-File: C_267/C_267_B.png Graphic file (type png)
- <use C_267/C_267_B.png>
-Package pdftex.def Info: C_267/C_267_B.png used on input line 5362.
-(pdftex.def)             Requested size: 460.93153pt x 303.25249pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 5364--5368
-
- []
-
-[173 <./C_267/C_267_B.png>]
+[174 <./C_267/C_267_A.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 5405--5406
 
  []
 
-<C_267/C_267_result.png, id=691, 889.3225pt x 255.95625pt>
+<C_267/C_267_B.png, id=694, 880.28876pt x 579.16376pt>
+File: C_267/C_267_B.png Graphic file (type png)
+ <use C_267/C_267_B.png>
+Package pdftex.def Info: C_267/C_267_B.png used on input line 5407.
+(pdftex.def)             Requested size: 460.93153pt x 303.25249pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5413
+
+ []
+
+[175 <./C_267/C_267_B.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5450--5451
+
+ []
+
+<C_267/C_267_result.png, id=698, 889.3225pt x 255.95625pt>
 File: C_267/C_267_result.png Graphic file (type png)
  <use C_267/C_267_result.png>
-Package pdftex.def Info: C_267/C_267_result.png used on input line 5407.
+Package pdftex.def Info: C_267/C_267_result.png used on input line 5452.
 (pdftex.def)             Requested size: 486.54057pt x 140.0304pt.
- [174 <./C_267/C_267_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5421--5422
+ [176 <./C_267/C_267_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5466--5467
 
  []
 
-<C_268/C_268_A.png, id=696, 875.27pt x 493.845pt>
+<C_268/C_268_A.png, id=702, 875.27pt x 493.845pt>
 File: C_268/C_268_A.png Graphic file (type png)
  <use C_268/C_268_A.png>
-Package pdftex.def Info: C_268/C_268_A.png used on input line 5423.
+Package pdftex.def Info: C_268/C_268_A.png used on input line 5468.
 (pdftex.def)             Requested size: 460.93153pt x 260.07126pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5425--5427
+Underfull \hbox (badness 10000) in paragraph at lines 5470--5472
 
  []
 
-[175 <./C_268/C_268_A.png>] [176]
-Underfull \hbox (badness 10000) in paragraph at lines 5461--5462
+[177 <./C_268/C_268_A.png>] [178]
+Underfull \hbox (badness 10000) in paragraph at lines 5506--5507
 
  []
 
-<C_268/C_268_B.png, id=703, 873.2625pt x 601.24625pt>
+<C_268/C_268_B.png, id=709, 873.2625pt x 601.24625pt>
 File: C_268/C_268_B.png Graphic file (type png)
  <use C_268/C_268_B.png>
-Package pdftex.def Info: C_268/C_268_B.png used on input line 5463.
+Package pdftex.def Info: C_268/C_268_B.png used on input line 5508.
 (pdftex.def)             Requested size: 460.93153pt x 317.35623pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5465--5469
+Underfull \hbox (badness 10000) in paragraph at lines 5510--5514
 
  []
 
-[177 <./C_268/C_268_B.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5522--5523
+[179 <./C_268/C_268_B.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5567--5568
 
  []
 
-<C_268/C_268_result.png, id=707, 890.32625pt x 255.95625pt>
+<C_268/C_268_result.png, id=713, 890.32625pt x 255.95625pt>
 File: C_268/C_268_result.png Graphic file (type png)
  <use C_268/C_268_result.png>
-Package pdftex.def Info: C_268/C_268_result.png used on input line 5524.
+Package pdftex.def Info: C_268/C_268_result.png used on input line 5569.
 (pdftex.def)             Requested size: 486.54057pt x 139.87418pt.
- [178 <./C_268/C_268_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5538--5539
+ [180 <./C_268/C_268_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5583--5584
 
  []
 
-<CT_SGAU/CT_SGAU_D.png, id=711, 816.04875pt x 840.13875pt>
+<CT_SGAU/CT_SGAU_D.png, id=718, 816.04875pt x 840.13875pt>
 File: CT_SGAU/CT_SGAU_D.png Graphic file (type png)
  <use CT_SGAU/CT_SGAU_D.png>
-Package pdftex.def Info: CT_SGAU/CT_SGAU_D.png used on input line 5540.
+Package pdftex.def Info: CT_SGAU/CT_SGAU_D.png used on input line 5585.
 (pdftex.def)             Requested size: 460.93153pt x 474.53827pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5542--5545
+Underfull \hbox (badness 10000) in paragraph at lines 5587--5590
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5542--5545
+Underfull \hbox (badness 10000) in paragraph at lines 5587--5590
 
  []
 
-[179 <./CT_SGAU/CT_SGAU_D.png>] [180]
-Underfull \hbox (badness 10000) in paragraph at lines 5609--5610
+[181 <./CT_SGAU/CT_SGAU_D.png>] [182]
+Underfull \hbox (badness 10000) in paragraph at lines 5654--5655
 
  []
 
-<CT_SGAU/CT_SGAU_F.png, id=719, 815.045pt x 517.935pt>
+<CT_SGAU/CT_SGAU_F.png, id=725, 815.045pt x 517.935pt>
 File: CT_SGAU/CT_SGAU_F.png Graphic file (type png)
  <use CT_SGAU/CT_SGAU_F.png>
-Package pdftex.def Info: CT_SGAU/CT_SGAU_F.png used on input line 5611.
+Package pdftex.def Info: CT_SGAU/CT_SGAU_F.png used on input line 5656.
 (pdftex.def)             Requested size: 460.93153pt x 292.91042pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5613--5617
+Underfull \hbox (badness 10000) in paragraph at lines 5658--5662
 
  []
 
-[181 <./CT_SGAU/CT_SGAU_F.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5632--5633
+[183 <./CT_SGAU/CT_SGAU_F.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5677--5678
 
  []
 
-<CT_SGAU/CT_SGAU_G.png, id=723, 814.04124pt x 463.7325pt>
+<CT_SGAU/CT_SGAU_G.png, id=729, 814.04124pt x 463.7325pt>
 File: CT_SGAU/CT_SGAU_G.png Graphic file (type png)
  <use CT_SGAU/CT_SGAU_G.png>
-Package pdftex.def Info: CT_SGAU/CT_SGAU_G.png used on input line 5634.
+Package pdftex.def Info: CT_SGAU/CT_SGAU_G.png used on input line 5679.
 (pdftex.def)             Requested size: 460.93153pt x 262.57542pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5636--5640
+Underfull \hbox (badness 10000) in paragraph at lines 5681--5685
 
  []
 
-[182 <./CT_SGAU/CT_SGAU_G.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5670--5671
+[184 <./CT_SGAU/CT_SGAU_G.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5715--5716
 
  []
 
-<CT_SGAU/CT_SGAU_result.png, id=727, 891.33pt x 558.085pt>
+<CT_SGAU/CT_SGAU_result.png, id=733, 891.33pt x 558.085pt>
 File: CT_SGAU/CT_SGAU_result.png Graphic file (type png)
  <use CT_SGAU/CT_SGAU_result.png>
-Package pdftex.def Info: CT_SGAU/CT_SGAU_result.png used on input line 5672.
+Package pdftex.def Info: CT_SGAU/CT_SGAU_result.png used on input line 5717.
 (pdftex.def)             Requested size: 486.54057pt x 304.63995pt.
- [183 <./CT_SGAU/CT_SGAU_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5686--5687
+ [185 <./CT_SGAU/CT_SGAU_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5731--5732
 
  []
 
-<C_270/C_270_A.png, id=731, 875.27pt x 460.72125pt>
+<C_270/C_270_A.png, id=737, 875.27pt x 460.72125pt>
 File: C_270/C_270_A.png Graphic file (type png)
  <use C_270/C_270_A.png>
-Package pdftex.def Info: C_270/C_270_A.png used on input line 5688.
+Package pdftex.def Info: C_270/C_270_A.png used on input line 5733.
 (pdftex.def)             Requested size: 460.93153pt x 242.62746pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5690--5692
+Underfull \hbox (badness 10000) in paragraph at lines 5735--5737
 
  []
 
-[184 <./C_270/C_270_A.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5720--5721
+[186 <./C_270/C_270_A.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5765--5766
 
  []
 
-<C_270/C_270_B.png, id=735, 872.25874pt x 529.98pt>
+<C_270/C_270_B.png, id=742, 872.25874pt x 529.98pt>
 File: C_270/C_270_B.png Graphic file (type png)
  <use C_270/C_270_B.png>
-Package pdftex.def Info: C_270/C_270_B.png used on input line 5722.
+Package pdftex.def Info: C_270/C_270_B.png used on input line 5767.
 (pdftex.def)             Requested size: 460.93153pt x 280.0551pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5724--5728
+Underfull \hbox (badness 10000) in paragraph at lines 5769--5773
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5755--5756
+Underfull \hbox (badness 10000) in paragraph at lines 5800--5801
 
  []
 
-[185 <./C_270/C_270_B.png>] <C_270/C_270_result.png, id=739, 892.33376pt x 332.24126pt>
+[187 <./C_270/C_270_B.png>] <C_270/C_270_result.png, id=746, 892.33376pt x 332.24126pt>
 File: C_270/C_270_result.png Graphic file (type png)
  <use C_270/C_270_result.png>
-Package pdftex.def Info: C_270/C_270_result.png used on input line 5757.
+Package pdftex.def Info: C_270/C_270_result.png used on input line 5802.
 (pdftex.def)             Requested size: 486.54057pt x 181.1566pt.
- [186 <./C_270/C_270_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5771--5772
+ [188 <./C_270/C_270_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5816--5817
 
  []
 
-<C_273/C_273_A.png, id=744, 875.27pt x 450.68375pt>
+<C_273/C_273_A.png, id=750, 875.27pt x 450.68375pt>
 File: C_273/C_273_A.png Graphic file (type png)
  <use C_273/C_273_A.png>
-Package pdftex.def Info: C_273/C_273_A.png used on input line 5773.
+Package pdftex.def Info: C_273/C_273_A.png used on input line 5818.
 (pdftex.def)             Requested size: 460.93153pt x 237.34145pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5775--5777
+Underfull \hbox (badness 10000) in paragraph at lines 5820--5822
 
  []
 
-[187 <./C_273/C_273_A.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5802--5803
+[189 <./C_273/C_273_A.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5847--5848
 
  []
 
-<C_273/C_273_B.png, id=748, 875.27pt x 387.4475pt>
+<C_273/C_273_B.png, id=754, 875.27pt x 387.4475pt>
 File: C_273/C_273_B.png Graphic file (type png)
  <use C_273/C_273_B.png>
-Package pdftex.def Info: C_273/C_273_B.png used on input line 5804.
+Package pdftex.def Info: C_273/C_273_B.png used on input line 5849.
 (pdftex.def)             Requested size: 460.93153pt x 204.03964pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5806--5810
+Underfull \hbox (badness 10000) in paragraph at lines 5851--5855
 
  []
 
-[188 <./C_273/C_273_B.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5844--5845
+[190 <./C_273/C_273_B.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5889--5890
 
  []
 
-<C_273/C_273_result.png, id=752, 889.3225pt x 255.95625pt>
+<C_273/C_273_result.png, id=758, 889.3225pt x 255.95625pt>
 File: C_273/C_273_result.png Graphic file (type png)
  <use C_273/C_273_result.png>
-Package pdftex.def Info: C_273/C_273_result.png used on input line 5846.
+Package pdftex.def Info: C_273/C_273_result.png used on input line 5891.
 (pdftex.def)             Requested size: 486.54057pt x 140.0304pt.
- [189 <./C_273/C_273_result.png>] [190] [191]
-Underfull \hbox (badness 10000) in paragraph at lines 5882--5883
+ [191 <./C_273/C_273_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5905--5906
 
  []
 
-File: C_273/C_273_A.png Graphic file (type png)
-<use C_273/C_273_A.png>
-Package pdftex.def Info: C_273/C_273_A.png used on input line 5884.
-(pdftex.def)             Requested size: 460.93153pt x 237.34145pt.
+<C_274/C_274_B.png, id=762, 873.2625pt x 745.78625pt>
+File: C_274/C_274_B.png Graphic file (type png)
+ <use C_274/C_274_B.png>
+Package pdftex.def Info: C_274/C_274_B.png used on input line 5907.
+(pdftex.def)             Requested size: 460.93153pt x 393.64891pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5886--5888
-
- []
-
-[192]
-Underfull \hbox (badness 10000) in paragraph at lines 5923--5924
+Underfull \hbox (badness 10000) in paragraph at lines 5909--5911
 
  []
 
-File: C_273/C_273_A.png Graphic file (type png)
-<use C_273/C_273_A.png>
-Package pdftex.def Info: C_273/C_273_A.png used on input line 5925.
-(pdftex.def)             Requested size: 460.93153pt x 237.34145pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 5927--5929
+[192 <./C_274/C_274_B.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5961--5962
 
  []
 
-[193]
-Underfull \hbox (badness 10000) in paragraph at lines 5963--5964
+<C_274/C_274_C.png, id=767, 874.26625pt x 615.29875pt>
+File: C_274/C_274_C.png Graphic file (type png)
+ <use C_274/C_274_C.png>
+Package pdftex.def Info: C_274/C_274_C.png used on input line 5963.
+(pdftex.def)             Requested size: 460.93153pt x 324.39804pt.
+ [193]
+Underfull \hbox (badness 10000) in paragraph at lines 5965--5967
+
+ []
+
+[194 <./C_274/C_274_C.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 6003--6004
+
+ []
+
+<C_274/C_274_result.png, id=774, 890.32625pt x 257.96375pt>
+File: C_274/C_274_result.png Graphic file (type png)
+ <use C_274/C_274_result.png>
+Package pdftex.def Info: C_274/C_274_result.png used on input line 6005.
+(pdftex.def)             Requested size: 486.54057pt x 140.97122pt.
+ [195 <./C_274/C_274_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 6019--6020
+
+ []
+
+<C_275/C_275_C.png, id=778, 875.27pt x 352.31625pt>
+File: C_275/C_275_C.png Graphic file (type png)
+ <use C_275/C_275_C.png>
+Package pdftex.def Info: C_275/C_275_C.png used on input line 6021.
+(pdftex.def)             Requested size: 460.93153pt x 185.53864pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6023--6025
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5965--5966
+Underfull \hbox (badness 10000) in paragraph at lines 6051--6052
 
  []
 
-<Vekua_personal/Vekua_personal_result.png, id=769, 687.56876pt x 36.135pt>
+<C_275/C_275_result.png, id=779, 889.3225pt x 254.9525pt>
+File: C_275/C_275_result.png Graphic file (type png)
+ <use C_275/C_275_result.png>
+Package pdftex.def Info: C_275/C_275_result.png used on input line 6053.
+(pdftex.def)             Requested size: 486.54057pt x 139.48125pt.
+ [196 <./C_275/C_275_C.png>] [197 <./C_275/C_275_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 6068--6069
+
+ []
+
+<VK_Qual/VK_Qual_A.png, id=786, 873.2625pt x 605.26125pt>
+File: VK_Qual/VK_Qual_A.png Graphic file (type png)
+ <use VK_Qual/VK_Qual_A.png>
+Package pdftex.def Info: VK_Qual/VK_Qual_A.png used on input line 6070.
+(pdftex.def)             Requested size: 460.93153pt x 319.47548pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6072--6074
+
+ []
+
+[198 <./VK_Qual/VK_Qual_A.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 6143--6144
+
+ []
+
+<VK_Qual/VK_Qual_B.png, id=791, 873.2625pt x 574.145pt>
+File: VK_Qual/VK_Qual_B.png Graphic file (type png)
+ <use VK_Qual/VK_Qual_B.png>
+Package pdftex.def Info: VK_Qual/VK_Qual_B.png used on input line 6145.
+(pdftex.def)             Requested size: 460.93153pt x 303.05138pt.
+ [199]
+Underfull \hbox (badness 10000) in paragraph at lines 6147--6149
+
+ []
+
+[200 <./VK_Qual/VK_Qual_B.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 6196--6197
+
+ []
+
+<VK_Qual/VK_Qual_result.png, id=799, 890.32625pt x 217.81375pt>
+File: VK_Qual/VK_Qual_result.png Graphic file (type png)
+ <use VK_Qual/VK_Qual_result.png>
+Package pdftex.def Info: VK_Qual/VK_Qual_result.png used on input line 6198.
+(pdftex.def)             Requested size: 486.54057pt x 119.03018pt.
+ [201 <./VK_Qual/VK_Qual_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 6213--6214
+
+ []
+
+<VK_1/VK_1_A.png, id=803, 875.27pt x 316.18124pt>
+File: VK_1/VK_1_A.png Graphic file (type png)
+ <use VK_1/VK_1_A.png>
+Package pdftex.def Info: VK_1/VK_1_A.png used on input line 6215.
+(pdftex.def)             Requested size: 460.93153pt x 166.50903pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6217--6219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6248--6249
+
+ []
+
+<VK_1/VK_1_result.png, id=804, 888.31876pt x 406.51875pt>
+File: VK_1/VK_1_result.png Graphic file (type png)
+ <use VK_1/VK_1_result.png>
+Package pdftex.def Info: VK_1/VK_1_result.png used on input line 6250.
+(pdftex.def)             Requested size: 486.54057pt x 222.64934pt.
+ [202 <./VK_1/VK_1_A.png>] [203 <./VK_1/VK_1_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 6263--6264
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6265--6266
+
+ []
+
+<Vekua_personal/Vekua_personal_result.png, id=811, 687.56876pt x 36.135pt>
 File: Vekua_personal/Vekua_personal_result.png Graphic file (type png)
  <use Vekua_personal/Vekua_personal_result.png>
-Package pdftex.def Info: Vekua_personal/Vekua_personal_result.png used on input line 5967.
+Package pdftex.def Info: Vekua_personal/Vekua_personal_result.png used on input line 6267.
 (pdftex.def)             Requested size: 486.54057pt x 25.56999pt.
- [194 <./Vekua_personal/Vekua_personal_result.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5980--5981
+ [204 <./Vekua_personal/Vekua_personal_result.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 6280--6281
 
  []
 
-<RCC/RCC_A.png, id=773, 941.5175pt x 787.94376pt>
+<RCC/RCC_A.png, id=816, 941.5175pt x 787.94376pt>
 File: RCC/RCC_A.png Graphic file (type png)
  <use RCC/RCC_A.png>
-Package pdftex.def Info: RCC/RCC_A.png used on input line 5982.
+Package pdftex.def Info: RCC/RCC_A.png used on input line 6282.
 (pdftex.def)             Requested size: 460.93153pt x 385.74715pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5984--5986
+Underfull \hbox (badness 10000) in paragraph at lines 6284--6286
 
  []
 
-[195 <./RCC/RCC_A.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 6015--6016
+[205 <./RCC/RCC_A.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 6315--6316
 
  []
 
-<RCC/RCC_result.png, id=777, 759.83875pt x 309.155pt>
+<RCC/RCC_result.png, id=820, 759.83875pt x 309.155pt>
 File: RCC/RCC_result.png Graphic file (type png)
  <use RCC/RCC_result.png>
-Package pdftex.def Info: RCC/RCC_result.png used on input line 6017.
+Package pdftex.def Info: RCC/RCC_result.png used on input line 6317.
 (pdftex.def)             Requested size: 486.54057pt x 197.9623pt.
- [196 <./RCC/RCC_result.png>] [197] (/Users/air/Desktop/Contests-Report/.texpadtmp/main.aux) ) 
+ [206 <./RCC/RCC_result.png>] [207] (/Users/air/Desktop/Contests-Report/.texpadtmp/main.aux) ) 
 Here is how much of TeX's memory you used:
- 18753 strings out of 493089
- 335662 string characters out of 6134842
+ 18882 strings out of 493089
+ 337647 string characters out of 6134842
  743388 words of memory out of 5000000
- 21695 multiletter control sequences out of 15000+600000
+ 21810 multiletter control sequences out of 15000+600000
  20537 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,94p,897b,1769s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb>
-Output written on /Users/air/Desktop/Contests-Report/.texpadtmp/main.pdf (198 pages, 8673481 bytes).
+Output written on /Users/air/Desktop/Contests-Report/.texpadtmp/main.pdf (208 pages, 9270325 bytes).
 PDF statistics:
- 843 PDF objects out of 1000 (max. 8388607)
- 490 compressed objects within 5 object streams
+ 886 PDF objects out of 1000 (max. 8388607)
+ 512 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 668 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 718 words of extra memory for PDF output out of 10000 (max. 10000000)
 
