@@ -179,7 +179,7 @@
 
 7 & 05.10.2014 & \begin{tabular}[c]{@{}c@{}}XV Открытая Всесибирская\\ Олимпиада по\\ Программированию\end{tabular} & МАИ & 3 & 1 & 0.33 \\ \hline
 
-8 & 09.10.2014 & Codeforces Training S02E05 & МАИ & 3 & 4 & 1.33 \\ \hline
+8 & 09.10.2014 & Codeforces Training S02E05 & МАИ & 3 & 2 & 0.66 \\ \hline
 
 9 & 16.10.2014 & Codeforces Round 273 Div 2 & Дом & 1 & 2 & 2 \\ \hline
 
@@ -189,7 +189,7 @@
 
 12 & 19.10.2014 & OpenCup GP of SPb. Div 2 & МАИ & 3 & 1 & 0.33 \\ \hline
 
-13 & 20.10.2014 & Codeforces Round 274 Div 2 & МАИ & 1 & 3 & 3 \\ \hline
+13 & 20.10.2014 & Codeforces Round 274 Div 2 & Дом & 1 & 3 & 3 \\ \hline
 
 14 & 23.10.2014 & \begin{tabular}[c]{@{}c@{}}Codeforces Самарский\\Аэрокосмический Лицей\\ тренировка №1\end{tabular} & Дом & 2 & 1 & 0.5 \\ \hline
 
@@ -211,7 +211,7 @@
 
 23 & 13.11.2014 & Codeforces Training S02E09 & МАИ & 3 & 3 & 1 \\ \hline
 
-24 & 15.11.2014 & \begin{tabular}[c]{@{}c@{}}Codeforces Олимпиада\\ школьников\\ Нижегородской области\end{tabular} & Дом & 3 & 3 & 1 \\ \hline
+24 & 15.11.2014 & \begin{tabular}[c]{@{}c@{}}Codeforces Олимпиада\\ школьников\\ Нижегородской области\end{tabular} & Дом & 2 & 3 & 1.5 \\ \hline
 
 25 & 16.11.2014 & \begin{tabular}[c]{@{}c@{}}OpenCup GP\\ of Central Europe. Div 2\end{tabular} & МАИ & 3 & 1 & 0.33 \\ \hline
 
@@ -253,11 +253,11 @@
 
 33 & 01.03.2015 & OpenCup GP of China Div 2 & МАИ & 3 & 1 & 0.33 \\ \hline
 
-34 & 08.02.2015 & OpenCup GP of Tatarstan Div 2 & МАИ & 3 & 1 & 0.33 \\ \hline
+34 & 07.03.2015 & VK Cup 2015 Квалификация & Дом & 1 & 2 & 2 \\ \hline
 
-35 & 07.03.2015 & VK Cup 2015 Квалификация & Дом & 2 & 2 & 1 \\ \hline
+35 & 15.03.2015 & OpenCup GP of Tatarstan Div 2 & МАИ & 3 & 1 & 0.33 \\ \hline
 
-36 & 21.03.2015 & VK Cup 2015 Раунд 1 & Дом & 2 & 2 & 1 \\ \hline
+36 & 21.03.2015 & VK Cup 2015 Раунд 1 & Дом & 1 & 2 & 2 \\ \hline
 
 37 & 29.03.2015 & OpenCup Gp of America Div 2 & МАИ & 3 & 4 & 1.33 \\ \hline
 
@@ -5251,7 +5251,7 @@ print join "\n", sort @r;
 %
 %----------------------------------------------------------------------------------------
 \newpage
-\subsection{Vekua Cup Командный этап}
+\subsection{Vekua Cup 2015 Командный этап}
 
 Так как соревнование проводилось в центре 1С, исходные коды программ не доступны. \\
 
@@ -5354,10 +5354,219 @@ print $r;
 
 %----------------------------------------------------------------------------------------
 %
+%	Codeforces 267
+%
+%----------------------------------------------------------------------------------------
+
+\newpage
+\subsection{Codeforces Round 267 Div 2}
+
+\textbf{{\large Задача A - Юра и заселение}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{C_267/C_267_A.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+Задача на простую реализацию. Достаточно пройти по всем $p_i$ и $q_i$, проверить выполнение условия $p_i + 2 \leq q_i$ и если оно выполняется, то инкрементировать счетчик. Решается за $O(n)$. \\
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int n = 0;
+    cin >> n;
+    int p = 0, q = 0;
+    int res = 0;
+    for (int i = 0; i < n; i++) {
+        cin >> p >> q;
+        if (p + 2 <= q)
+            res++;
+    }
+    cout << res << endl;
+    return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача B - Федя и новая игра}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{C_267/C_267_B.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+В этой задаче нужно побитово сравнивать число Феди и числа других игроков и инкрементировать счетчик, если количество различных бит меньше $k$. Задача решается за $O(nb)$, где $b$ -- максимальная разрядность числа.\\ 
+\\
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <cmath>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    long n, m, k;
+    cin >> n >> m >> k;
+    vector<long> gamers(m + 1);
+    
+    for (int i = 0; i < m + 1; i++)
+        cin >> gamers[i];
+    
+    long fedya = gamers[m];
+    long friends = 0;
+    long diffBits = 0;
+    
+    for (int i = 0; i < m; i++) {
+        diffBits = 0;
+        for (int j = 0; j < 20; j++) {
+            if (((fedya >> j) & 1) != ((gamers[i] >> j) & 1))
+                diffBits++;
+            if (diffBits > k)
+                break;
+        }
+        if (diffBits <= k)
+            friends++;
+    }
+    
+    cout << friends << endl;
+    
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{C_267/C_267_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces 268
+%
+%----------------------------------------------------------------------------------------
+
+\newpage
+\subsection{Codeforces Round 268 Div 2}
+
+\textbf{{\large Задача A - I Wanna Be the Guy}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{C_268/C_268_A.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+В этой задаче нужно проверить, дает ли объединение чисел $a_1, a_2, ... , a_p$ и $a_1, a_2, ... , a_q$ множество чисел $1, 2, ... , n$. Решается за $O(n)$.\\
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    int n, p, q, num;
+    cin >> n;
+    long sum = ((1 + n) * n) / 2;
+    vector<bool> v(n + 1, false);
+    cin >> p;
+    for (int i = 0; i < p; i++) {
+        cin >> num;
+        sum -= num;
+        v[num] = true;
+    }
+    cin >> q;
+    for (int i = 0; i < q; i++) {
+        cin >> num;
+        if (!v[num]) sum -= num;
+        v[num] = true;
+    }
+    if (sum)
+        cout << "Oh, my keyboard!" << endl;
+    else
+        cout << "I become the guy." << endl;
+    return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача B - Онлайн чат}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{C_268/C_268_B.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+Создадим вектор всех моментов времени и пометим все моменты, когда не спит Little Z. Далее будем смотреть время Little X и инкрементировать ответ, если у Little Z помечено время, в которое не спит Little X. Решается за $O(rq)$.\\ 
+\\
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <cmath>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+
+    int p, q, l, r;
+    cin >> p >> q >> l >> r;
+    
+    vector< pair<int, int> > timesX(q);
+    vector<bool> timesZ(1002, false);
+    pair<int, int> z;
+    
+    for (int i = 0; i < p; i++) {
+        cin >> z.first >> z.second;
+        for (int j = z.first; j <= z.second; j++)
+            timesZ[j] = true;
+    }
+    
+    for (int i = 0; i < q; i++)
+        cin >> timesX[i].first >> timesX[i].second;
+    
+    bool marker = false;
+    int answer = 0;
+    
+    for (int i = l; i <= r; i++) {
+        marker = false;
+        for (int j = 0; j < q; j++) {
+            for (int k = timesX[j].first + i; k <= timesX[j].second + i; k++) {
+                if (k > 1000) {
+                    marker = true;
+                    break;
+                }
+                if (timesZ[k] == true) {
+                    marker = true;
+                    answer++;
+                }
+                if (marker) break;
+            }
+            if (marker) break;
+        }
+    }
+    
+    cout << answer << endl;
+    
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{C_268/C_268_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
 %	Codeforces Отборочный контест СГАУ на четвертьфинал ACM ICPC
 %
 %----------------------------------------------------------------------------------------
 
+\newpage
 \subsection{Codeforces Отборочный контест СГАУ на четвертьфинал ACM-ICPC}
 
 \textbf{{\large Задача D - Игрушечные солдатики}} \\
@@ -5365,7 +5574,7 @@ print $r;
 \includegraphics[width=0.9\textwidth]{CT_SGAU/CT_SGAU_D.png}\\ [1cm]
 \end{center}
 \textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
+Запомним цвета всех солдатиков. Затем будем идти по всем солдатикам, перекрашивать его в новый цвет и проверять, совпадают ли цвета всех солдатиков после перекраски. Если найдено состояние, когда все цвета совпадают -- нужно завершить проход и вывести ответ. Работает за $O(nm)$.\\ 
 \\
 \newpage
 \textbf{{\large Исходный код}}
@@ -5436,7 +5645,7 @@ ll n, m;
 \includegraphics[width=0.9\textwidth]{CT_SGAU/CT_SGAU_F.png}\\ [1cm]
 \end{center}
 \textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
+Задача на теорию вероятности. Если в открытом конверте денег больше чем $b$, то не нужно менять выбор, иначе нужно поменять, потому что вероятность того, что в другом конверте в 2 раза меньше денег такая же, как и вероятность того, что в другом конверте в 2 раза больше денег. Сложность $O(1)$.\\ 
 \\
 \textbf{{\large Исходный код}}
 \begin{lstlisting}[language=C]
@@ -5459,18 +5668,13 @@ int main() {
 \includegraphics[width=0.9\textwidth]{CT_SGAU/CT_SGAU_G.png}\\ [1cm]
 \end{center}
 \textbf{{\large Алгоритм}} \\
-{\Huge ???????????????????} \\ 
+Для начала нужно найти, где находится самая дорогая монета, которая не дороже необходимой суммы $s$. После этого будем набирать сумму последовательно с наибольшей монеты. Работает за $O(n)$. \\ 
 \\
-\newpage
 \textbf{{\large Исходный код}}
 \begin{lstlisting}[language=C]
 #include <iostream>
-#include <cmath>
 #include <vector>
-#include <algorithm>
-
 using namespace std;
-
 int main() {
     unsigned long long n, s, startIndex, coinsNeeded = 0;
     cin >> n >> s;
@@ -5501,6 +5705,354 @@ int main() {
 \begin{center}
 \includegraphics[width=0.95\textwidth]{CT_SGAU/CT_SGAU_result.png}\\ [1cm]
 \end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces 270
+%
+%----------------------------------------------------------------------------------------
+
+\newpage
+\subsection{Codeforces Round 270 Div 2}
+
+\textbf{{\large Задача A - Уроки дизайна задач: учимся у математики}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{C_270/C_270_A.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+Нужно найти такие числа $a$ и $b$, чтобы они не были простыми, а $a + b = n$. Для этого положим $a = 4$, а $b = n - 4$. Далее будем проверять, являются ли числа простыми. Если хоть одно из них простое, то инкрементирум $a$ и декрементируем $b$. В конце концов таким образом найдутся искомые $a$ и $b$. Сложность $O(n)$.\\
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+bool prime(long long n) {
+    long long sq = sqrt(n);
+    for (long long i = 2; i <= sq; i++)
+        if (n % i == 0)
+            return false;
+    return true;
+}
+using namespace std;
+int main() {
+    long long n;
+    cin >> n;   
+    long long a = 4;
+    long long b = n - a;
+    bool ok = false;
+    while (!ok) {
+        if (!prime(a) && !prime(b))
+            ok = true;
+        else { a++; b--; }
+    } 
+    cout << a << " " << b << endl;
+    return 0;
+}\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача B - Уроки дизайна задач: учимся у жизни}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{C_270/C_270_B.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+Чтобы доставить всех людей на нужные этажи за наименьшее количество времени, отсортируем всех по номеру этажа и будем доставлять их порциями по вместимости лифта. Сложность $O(nlog(n))$.\\ 
+\\
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    long n, k;
+    cin >> n >> k;    
+    vector<long> floor(n);
+    for (long i = 0; i < n; i++) {
+        cin >> floor[i];
+    }
+    sort(floor.begin(), floor.end(), greater<long>());
+    
+    long answer = 0;
+    
+    for (long long i = 0; i < n; i += k) {
+        answer += 2 * (floor[i] - 1);
+    }
+        
+    cout << answer << endl;
+    
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{C_270/C_270_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces 273
+%
+%----------------------------------------------------------------------------------------
+
+\newpage
+\subsection{Codeforces Round 273 Div 2}
+
+\textbf{{\large Задача A - Начальная ставка}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{C_273/C_273_A.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+В этой задаче достаточно заметить, что суммарное количество монет должно без остатка делиться на 5. Иначе исход игры невозможен. Сложность $O(1)$.\\
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+
+#define LL  long long
+#define ULL unsigned long long
+using namespace std;
+
+int main() {
+    LL c1, c2, c3, c4, c5;
+    cin >> c1 >> c2 >> c3 >> c4 >> c5;
+    
+    c1 = c1 + c2 + c3 + c4 + c5;
+    
+    if (c1 % 5 == 0 && c1) {
+        cout << c1 / 5 << endl;
+    }
+    else cout << "-1" << endl;
+
+    return 0;
+}
+\end{lstlisting}
+
+\newpage
+\textbf{{\large Задача B - Случайные команды}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{C_273/C_273_B.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+Задача на комбинаторику. Минимальное количество получается если всех разделить на команды поровну, а максимальное если в одну из команд поместить максимально возможное количество участников. Сложность $O(nlog(1))$.\\ 
+\\
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+
+#define LL  long long
+using namespace std;
+
+LL fun(LL n) {
+    return (n * n - n) / 2;
+}
+
+int main() {
+    LL n, m;
+    cin >> n >> m;
+    
+    LL min, max;
+    
+    LL k = n - (m - 1);
+    max = fun(k);
+    
+    LL g = n / m;
+    if (n % m == 0) {
+        min = m * fun(g);
+    }
+    else {
+        min = (m - (n % m)) * fun(g);
+        min += (n % m) * fun(g + 1);
+    }
+    
+    cout << min << " " << max << endl;
+    
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{C_273/C_273_result.png}\\ [1cm]
+\end{center}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces 274
+%
+%----------------------------------------------------------------------------------------
+
+\newpage
+\subsection{Codeforces Round 274 Div 2 (не доступно пока)}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Codeforces 275
+%
+%----------------------------------------------------------------------------------------
+
+\newpage
+\subsection{Codeforces Round 275 Div 2 (не доступно пока)}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	VK Cup Квалификация
+%
+%----------------------------------------------------------------------------------------
+
+\newpage
+\subsection{VK Cup 2015 Квалификация (не доступно пока)}
+
+\textbf{{\large Задача A - Начальная ставка}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{C_273/C_273_A.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+В этой задаче достаточно заметить, что суммарное количество монет должно без остатка делиться на 5. Иначе исход игры невозможен. Сложность $O(1)$.\\
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+
+#define LL  long long
+#define ULL unsigned long long
+using namespace std;
+
+int main() {
+    LL c1, c2, c3, c4, c5;
+    cin >> c1 >> c2 >> c3 >> c4 >> c5;
+    
+    c1 = c1 + c2 + c3 + c4 + c5;
+    
+    if (c1 % 5 == 0 && c1) {
+        cout << c1 / 5 << endl;
+    }
+    else cout << "-1" << endl;
+
+    return 0;
+}
+\end{lstlisting}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	VK Cup Раунд 1
+%
+%----------------------------------------------------------------------------------------
+
+\newpage
+\subsection{VK Cup 2015 Раунд 1 (не доступно пока)}
+
+\textbf{{\large Задача A - Начальная ставка}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{C_273/C_273_A.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+В этой задаче достаточно заметить, что суммарное количество монет должно без остатка делиться на 5. Иначе исход игры невозможен. Сложность $O(1)$.\\
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+
+#define LL  long long
+#define ULL unsigned long long
+using namespace std;
+
+int main() {
+    LL c1, c2, c3, c4, c5;
+    cin >> c1 >> c2 >> c3 >> c4 >> c5;
+    
+    c1 = c1 + c2 + c3 + c4 + c5;
+    
+    if (c1 % 5 == 0 && c1) {
+        cout << c1 / 5 << endl;
+    }
+    else cout << "-1" << endl;
+
+    return 0;
+}
+\end{lstlisting}
+
+
+
+%----------------------------------------------------------------------------------------
+%
+%	Vekua Cup personal
+%
+%----------------------------------------------------------------------------------------
+\newpage
+\subsection{Vekua Cup 2015 Личный этап}
+
+Так как соревнование проводилось в центре 1С, исходные коды программ не доступны. \\
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{Vekua_personal/Vekua_personal_result.png}\\ [1cm]
+\end{center}
+
+
+%----------------------------------------------------------------------------------------
+%
+%	RCC Квалификация
+%
+%----------------------------------------------------------------------------------------
+
+\newpage
+\subsection{Mail.ru Russian Code Cup 2015 Квалификация}
+
+\textbf{{\large Задача A - Покупка велосипеда}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{RCC/RCC_A.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+В этой задаче по числам $a$, $b$ и $c$ нужно определить, существуют ли такие $a_1$ и $b_1$, что $a_1 \leq a$, $b_1 \leq b$ и $a_1 + 2b_1 = c$. Для этого достаточно проверить, что $a + 2b \geq c$, а если $c$ -- нечетное, то проверить условие $a \geq 1$. Сложность $O(1)$.\\
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+using namespace std;
+int main() {
+	long t, a, b, c;
+	cin >> t;
+	while (t--) {
+		cin >> a >> b >> c;
+		if (c % 2) {
+			if (a + 2*b >= c && a >= 1) {
+				cout << "YES";
+			} else {
+				cout << "NO";
+			}
+		} else {
+			if (a + 2*b >= c && a >= 1) {
+				cout << "YES";
+			} else {
+				cout << "NO";
+			}
+		}
+		cout << endl;
+	}
+	return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{RCC/RCC_result.png}\\ [1cm]
+\end{center}
+
+
+
 
 
 
