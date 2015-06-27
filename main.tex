@@ -49,6 +49,16 @@
 }
 \lstset{style=mystyle}
 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+ 
+\urlstyle{same}
+
 \usepackage{geometry}
 \geometry{top=2cm}
 \geometry{bottom=2cm}
@@ -272,7 +282,7 @@
 \end{tabular}
 \end{table}
 
-Итого: 41 контест, 47 решенных задач.
+Итого: 41 контест, $\approx$49 решенных задач.
 \newpage
 
 % Отчет Антона
@@ -299,13 +309,19 @@
 \includegraphics[width=0.95\textwidth]{CT_S02E03/CT_S02E03_result.png}\\ [1cm]
 \end{center}
 
+\textbf{{\large Ссылка на контест: \url{http://codeforces.com/gym/100494}}}
+
 \newpage
-\textbf{{\large Задача B - Best Compression Ever}} \\
+\textbf{{\large Задача B - Best Compression Ever}}
+
 \begin{center}
 \includegraphics[width=0.9\textwidth]{CT_S02E03/CT_S02E03_B.png}\\ [1cm]
 \end{center}
-\textbf{{\large Алгоритм}} \\
+
+\textbf{{\large Алгоритм}}
+
 Решение довольно простое. Можно заметить, что если логарифм по основаню 2 числа n меньше или равен b, то ответ yes, иначе ответ no. Cложность $O(1)$.
+
 \newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
@@ -334,12 +350,16 @@ int main() {
 
 
 \newpage
-\textbf{{\large Задача E - Event Planning}} \\
+\textbf{{\large Задача E - Event Planning}}
+
 \begin{center}
 \includegraphics[width=0.9\textwidth]{CT_S02E03/CT_S02E03_E.png}\\ [1cm]
 \end{center}
-\textbf{{\large Алгоритм}} \\
+
+\textbf{{\large Алгоритм}}
+
 {\Huge ???????????????????}
+
 \newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
@@ -374,12 +394,17 @@ int main () {
 
 
 \newpage
-\textbf{{\large Задача K - Best Cow Line}} \\
+\textbf{{\large Задача K - Best Cow Line}}
+
 \begin{center}
 \includegraphics[width=0.9\textwidth]{CT_S02E03/CT_S02E03_K.png}\\ [1cm]
 \end{center}
-\textbf{{\large Алгоритм}} \\
+
+\textbf{{\large Алгоритм}}
+
 Для решения этой задачи нужно чтобы построить последовательность букв по заданным правилам. Будем смотреть на первую и последнюю буквы и брать лексикографически наименьую. Если буквы совпадают, то надо посмотреть следующие буквы до первого несовпадения и взять букву с той стороны, с которой несовпавшая буква оказалась лексикографически меньше. Сложность $O(n)$.
+
+
 \newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
@@ -461,6 +486,7 @@ int main() {
 %	XV Открытая Всесибирская олимпиада по программированию им И.В. Поттосина
 %
 %----------------------------------------------------------------------------------------
+
 \newpage
 \subsection{XV Открытая Всесибирская олимпиада по программированию им И.В. Поттосина}
 
@@ -469,16 +495,22 @@ int main() {
 \includegraphics[width=0.95\textwidth]{Siberia/Siberia_result.png}\\ [1cm]
 \end{center}
 
-%\newpage
-\textbf{{\large Задача 2 - Копировальный аппарат}} \\
+\textbf{{\large Ссылка на контест: \url{https://olympic.nsu.ru/nsuts-new/news.cgi}}}
+
+\newpage
+\textbf{{\large Задача 2 - Копировальный аппарат}}
+
 \begin{center}
 \includegraphics[width=0.9\textwidth]{Siberia/Siberia_1.png}\\ [1cm]
 \includegraphics[width=0.6\textwidth]{Siberia/Siberia_2.png}\\ [1cm]
 \end{center}
-\textbf{{\large Алгоритм}} \\
-Задача на реализацию. Нужно считать входные данные в двумерный массив символов, затем пройтись по всем элементам и запомнить наибольшие позиции, на которых находятся решетки. \\ \\
-%\newpage
-\textbf{{\large Исходный код}}
+
+\textbf{{\large Алгоритм}}
+
+Задача на реализацию. Нужно считать входные данные в двумерный массив символов, затем пройтись по всем элементам и запомнить наибольшие позиции, на которых находятся решетки.
+
+\newpage
+\textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
 #include <iostream>
 #include <algorithm>
@@ -534,6 +566,7 @@ int main() {
 %	Codeforces Training S02E05
 %
 %----------------------------------------------------------------------------------------
+
 \newpage
 \subsection{Codeforces Training S02E05}
 
@@ -542,17 +575,21 @@ int main() {
 \includegraphics[width=0.95\textwidth]{CT_S02E05/CT_S02E05_result.png}\\ [1cm]
 \end{center}
 
+\textbf{{\large Ссылка на контест: \url{http://codeforces.com/gym/100503}}}
+
 \newpage
-\textbf{{\large Задача A - Walking around Berhattan}} \\
+\textbf{{\large Задача A - Walking around Berhattan}}
+
 \begin{center}
 \includegraphics[width=0.9\textwidth]{CT_S02E05/CT_S02E05_A1.png}\\ [1cm]
 \includegraphics[width=0.9\textwidth]{CT_S02E05/CT_S02E05_A2.png}\\ [1cm]
 \end{center}
-\textbf{{\large Алгоритм}} \\
-Задача на реализацию. Нужно построить матрицу заданного размера и симулировать передвижение между элементами, записывая изменения. Сложность алгоритма $O(nm)$. \\ 
-\\
-%\newpage
-\textbf{{\large Исходный код}}
+
+\textbf{{\large Алгоритм}}
+
+Задача на реализацию. Нужно построить матрицу заданного размера и симулировать передвижение между элементами, записывая изменения. Сложность алгоритма $O(nm)$. \\
+
+\textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
 #include <iostream>
 #include <algorithm>
@@ -675,12 +712,16 @@ int main() {
 
 
 \newpage
-\textbf{{\large Задача G - Plural Form of Nouns}} \\
+\textbf{{\large Задача G - Plural Form of Nouns}}
+
 \begin{center}
 \includegraphics[width=0.9\textwidth]{CT_S02E05/CT_S02E05_G.png}\\ [1cm]
 \end{center}
-\textbf{{\large Алгоритм}} \\
+
+\textbf{{\large Алгоритм}}
+
 Задача на реализацию. Нужно считать слова и в зависимости от окончания изменить его на нужное. Сложность $O(n)$.
+
 \newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
@@ -5875,7 +5916,110 @@ int main() {
 %----------------------------------------------------------------------------------------
 
 \newpage
-\subsection{Codeforces Round 274 Div 2 (не доступно пока)}
+\subsection{Codeforces Round 274 Div 2}
+
+\textbf{{\large Задача B - Башни}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{C_274/C_274_B.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+Отсортируем башни по высоте и будем перекладывать кубик с самой высокой на самую низкую. После этого нужно снова отсортировать новые высоты. Это нужно проделать $k$ раз. Сложность алгоритма $O(knlog(n))$\\
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+using namespace std;
+
+typedef struct {
+    int n, h;
+} tow;
+
+bool cmp(const tow &a, const tow &b) {
+    return a.h > b.h;
+}
+
+int main() {
+    int n, k;
+    cin >> n >> k;
+    vector<tow> t(n);
+    vector<pair<int, int>> actions;
+    for (int i = 0; i < n; i++) {
+        cin >> t[i].h;
+        t[i].n = i + 1;
+    }
+    pair<int, int> move;
+    int min = inf;
+    vector<int> states(k + 1);
+    sort(t.begin(), t.end(), cmp);
+    states[0] = t[0].h - t[n - 1].h;
+    for (int i = 1; i <= k; i++) {
+        t[0].h--;
+        t[n - 1].h++;
+        move.first = t[0].n;
+        move.second = t[n - 1].n;
+        actions.push_back(move);
+        sort(t.begin(), t.end(), cmp);
+        states[i] = t[0].h - t[n - 1].h;
+    }
+    int minPos = -1;
+    for (int i = 0; i < k + 1; i++) {
+        if (states[i] < min) {
+            min = states[i];
+            minPos = i;
+        }
+    }
+    cout << min << " " << minPos << endl;
+    for (int i = 0; i < minPos; i++) cout << actions[i].first << " " << actions[i].second << endl;
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача C - Экзамены}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{C_274/C_274_C.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+Для решения этой задачи нужно отсортировать экзамены сначала по дате сдачи по расписанию, а затем устойчиво отсортировать по датам досрочной сдачи. Потом нужно пройти по отсортированным датам и если у текущего экзамена досрочная дата раньше чем досрочная предыдущего, то текущий нужно сдавать по расписанию. Сложность алгоритма $O(nlog(n))$.\\
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+using namespace std;
+
+bool cmp_pair_first(const pair<LL, LL> &a, const pair<LL, LL> &b) {
+    return a.first < b.first;
+}
+
+bool cmp_pair_second(const pair<LL, LL> &a, const pair<LL, LL> &b) {
+    return (a.second < b.second) && (a.first == b.first);
+}
+
+int main() {
+    int n;
+    cin >> n;
+    vector<pair<LL, LL>> e(n);
+    LL maxFirst = -1, maxSecond = -1;
+    for (int i = 0; i < n; i++) {
+        cin >> e[i].first >> e[i].second;
+        if (e[i].first  > maxFirst)  maxFirst  = e[i].first;
+        if (e[i].second > maxSecond) maxSecond = e[i].second;
+    }
+    sort(e.begin(), e.end(), cmp_pair_first);
+    stable_sort(e.begin(), e.end(), cmp_pair_second);
+    for (int i = 1; i < n; i++) {
+        if (e[i].second < e[i - 1].second) {
+            e[i].second = e[i].first;
+        }
+    }
+    cout << e[n - 1].second << endl;
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{C_274/C_274_result.png}\\ [1cm]
+\end{center}
 
 
 
@@ -5886,7 +6030,45 @@ int main() {
 %----------------------------------------------------------------------------------------
 
 \newpage
-\subsection{Codeforces Round 275 Div 2 (не доступно пока)}
+\subsection{Codeforces Round 275 Div 2}
+
+\textbf{{\large Задача C - Разнообразная перестановка}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{C_275/C_275_C.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+Получить искомую перестановку можно записывая поочередно $b = 1$ и $e = n$. После записи $b$ нужно инкрементировать, а $e$ декрементировать. В результате будет получена искомая перестановка. Сложность алгоритма $O(n)$.\\
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    long n, k;
+    cin >> n >> k;
+    vector<long> v(n, 0);
+    long b = 1, e = n;
+    for (long i = 0; i < k; i++) {
+        if (i % 2 == 0) v[i] = b++;
+        else v[i] = e--;
+    }
+    for (long i = k; i < n; i++) {
+        if (k % 2 == 1) v[i] = b++;
+        else v[i] = e--;
+    }
+    for (auto n : v) cout << n << " ";
+    cout << endl;
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{C_275/C_275_result.png}\\ [1cm]
+\end{center}
+
 
 
 
@@ -5897,14 +6079,89 @@ int main() {
 %----------------------------------------------------------------------------------------
 
 \newpage
-\subsection{VK Cup 2015 Квалификация (не доступно пока)}
+\subsection{VK Cup 2015 Квалификация}
 
-\textbf{{\large Задача A - Начальная ставка}} \\
+\textbf{{\large Задача A - Репосты}} \\
 \begin{center}
-\includegraphics[width=0.9\textwidth]{C_273/C_273_A.png}\\ [1cm]
+\includegraphics[width=0.9\textwidth]{VK_Qual/VK_Qual_A.png}\\ [1cm]
 \end{center}
 \textbf{{\large Алгоритм}} \\
-В этой задаче достаточно заметить, что суммарное количество монет должно без остатка делиться на 5. Иначе исход игры невозможен. Сложность $O(1)$.\\
+Так как требуется найти наибольшую цепочку, то задачу можно решить поиском в глубину и запомнить наибольшую длину пути. Сложность $O(N+M)$.\\
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+
+#define LL  long long
+#define ULL unsigned long long
+using namespace std;
+
+vector<vector<int>> g;
+vector<bool> used;
+int depth = 0;
+int maxDepth = 0;
+
+void dfs(int v) {
+    used[v] = true;
+    depth++;
+    for (vector<int>::iterator i = g[v].begin(); i != g[v].end(); ++i) {
+        if (!used[*i]) {
+            dfs (*i);
+        }
+    }
+    if (depth > maxDepth) {
+        maxDepth = depth;
+    }
+    depth--;
+}
+
+int main(int argc, const char * argv[]) {
+    int n;
+    cin >> n;
+    
+    map<string, int> names;
+    vector<pair<string, string> > log(n);
+    string left, right, dummy;
+    int nameNumber = 0;
+    
+    for (int i = 0; i < n; i++) {
+        cin >> left >> dummy >> right;
+        transform(left.begin(), left.end(), left.begin(), ::tolower);
+        transform(right.begin(), right.end(), right.begin(), ::tolower);
+        if (names.find(left) == names.end()) {
+            names[left] = nameNumber++;
+        }
+        if (names.find(right) == names.end()) {
+            names[right] = nameNumber++;
+        }
+        log[i].first = left;
+        log[i].second = right;
+    }
+    
+    g.resize(names.size(), vector<int>());
+    used.resize(g.size());
+    map<string, int>::iterator from, to;
+    
+    for (size_t i = 0; i < log.size(); i++) {
+        from = names.find(log[i].second);
+        to = names.find(log[i].first);
+        g[from->second].push_back(to->second);
+    }
+
+    int start = names.find("polycarp")->second;
+    dfs(start);
+    cout << maxDepth << endl;
+    
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{{\large Задача B - Фото на память}} \\
+\begin{center}
+\includegraphics[width=0.9\textwidth]{VK_Qual/VK_Qual_B.png}\\ [1cm]
+\end{center}
+\textbf{{\large Алгоритм}} \\
+В этой задаче нужно знать высоту самого высокого и второго по высоте. Это можно сделать с помощью $k$-й порядковой статистики. А потом нужно посчитать количество пикселей. Можно заметить, что высота фотографии всегда будет равна высоте самого высокого из друзей, и один раз высоте второго по высоте.\\
 
 \textbf{{\large Исходный код}}
 \begin{lstlisting}[language=C]
@@ -5915,19 +6172,48 @@ int main() {
 using namespace std;
 
 int main() {
-    LL c1, c2, c3, c4, c5;
-    cin >> c1 >> c2 >> c3 >> c4 >> c5;
-    
-    c1 = c1 + c2 + c3 + c4 + c5;
-    
-    if (c1 % 5 == 0 && c1) {
-        cout << c1 / 5 << endl;
-    }
-    else cout << "-1" << endl;
+	int temp = 0;
 
-    return 0;
+	LL n;
+	cin >> n;
+
+	vector <int> width(n);
+	vector <int> height(n);
+	vector <int> height_2(n);
+
+	int max_h = 0, premax_h = 0;
+	LL sum_w = 0;
+
+	for (int i = 0; i < n; i++) {
+
+		cin >> width[i] >> height[i];
+		height_2[i] = height[i];
+
+		sum_w += width[i];
+	}
+
+	nth_element(height_2.begin(), height_2.end() - 1, height_2.end());
+	max_h = height_2[n - 1];
+	nth_element(height_2.begin(), height_2.end() - 2, height_2.end());
+	premax_h = height_2[n - 2];
+	
+	LL temp_sum, temp_max;
+	for (int i = 0; i < n; i++) {
+		temp_sum = sum_w - width[i];
+		if (height[i] == max_h)
+			temp_max = premax_h;
+		else temp_max = max_h;
+		cout << temp_sum * temp_max << " ";
+	}
+	return 0;
 }
 \end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{VK_Qual/VK_Qual_result.png}\\ [1cm]
+\end{center}
+
 
 
 
@@ -5938,37 +6224,47 @@ int main() {
 %----------------------------------------------------------------------------------------
 
 \newpage
-\subsection{VK Cup 2015 Раунд 1 (не доступно пока)}
+\subsection{ VK Cup 2015 - Уайлд-кард раунд 1}
 
-\textbf{{\large Задача A - Начальная ставка}} \\
+\textbf{{\large Задача A - Квадратное уравнение}} \\
 \begin{center}
-\includegraphics[width=0.9\textwidth]{C_273/C_273_A.png}\\ [1cm]
+\includegraphics[width=0.9\textwidth]{VK_1/VK_1_A.png}\\ [1cm]
 \end{center}
 \textbf{{\large Алгоритм}} \\
-В этой задаче достаточно заметить, что суммарное количество монет должно без остатка делиться на 5. Иначе исход игры невозможен. Сложность $O(1)$.\\
+Сложность этой задачи состоит в том, что написать ее нужно на эзотерическом языке $Picat$.\\
 
 \textbf{{\large Исходный код}}
 \begin{lstlisting}[language=C]
-#include <iostream>
+ main =>
+  A = read_int(),
+  B = read_int(),
+  C = read_int(),
+  
+  D = (B * B) - (4 * A * C),
+  
+  X1 = ((-1)* B + sqrt(D)) / (2 *A ),
+  
+  X2 = ((-1)* B - sqrt(D)) / (2 * A),
+  
+  
+  if(X1 < X2) then
+      println(X1),
+      println(X2)
+      end,
 
-#define LL  long long
-#define ULL unsigned long long
-using namespace std;
-
-int main() {
-    LL c1, c2, c3, c4, c5;
-    cin >> c1 >> c2 >> c3 >> c4 >> c5;
-    
-    c1 = c1 + c2 + c3 + c4 + c5;
-    
-    if (c1 % 5 == 0 && c1) {
-        cout << c1 / 5 << endl;
-    }
-    else cout << "-1" << endl;
-
-    return 0;
-}
+  if(X1 > X2) then
+      println(X2),
+      println(X1)
+      end,
+  if(X1 == X2) then
+      println(X2)
+      end.
 \end{lstlisting}
+
+\textbf{{\large Результаты}} \\
+\begin{center}
+\includegraphics[width=0.95\textwidth]{VK_1/VK_1_result.png}\\ [1cm]
+\end{center}
 
 
 
