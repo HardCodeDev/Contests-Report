@@ -88,7 +88,7 @@
 %	LOGO SECTION
 %----------------------------------------------------------------------------------------
 
-\includegraphics[width=0.25\textwidth]{mai_logo.png}\\[1cm]
+\includegraphics[width=0.25\textwidth]{mai.png}\\[1cm]
 % Include a department/university logo - this will require the graphicx package
  
 %----------------------------------------------------------------------------------------
@@ -118,7 +118,7 @@
 \begin{flushleft} \large
 \emph{Студенты:}\\
 %John \textsc{Smith} % Your name
-Макаров Никита\\Якименко Антон
+Макаров Никита, 8о-306Б\\Якименко Антон, 8о-306Б
 \end{flushleft}
 \end{minipage}
 ~
@@ -539,7 +539,7 @@ int main () {
 
 \textbf{{\large Алгоритм}}
 
-Для решения этой задачи нужно чтобы построить последовательность букв по заданным правилам. Будем смотреть на первую и последнюю буквы и брать лексикографически наименьшую. Если буквы совпадают, то надо посмотреть следующие буквы до первого несовпадения и взять букву с той стороны, с которой несовпавшая буква оказалась лексикографически меньше. Сложность $O(n)$.
+Для решения этой задачи нужно построить последовательность букв по заданным правилам. Будем смотреть на первую и последнюю буквы и брать лексикографически наименьшую. Если буквы совпадают, то надо посмотреть следующие буквы до первого несовпадения и взять букву с той стороны, с которой несовпавшая буква оказалась лексикографически меньше. Сложность $O(n)$.
 
 
 \newpage
@@ -1660,9 +1660,8 @@ int main() {
 
 \textbf{{\large Алгоритм}}
 
-В этой задаче нужно отсортировать массив стоимостей по убыванию и сложить первые $k$ чисел. Это и будет ответом.
+В этой задаче нужно отсортировать массив стоимостей по убыванию и сложить первые $k$ чисел. Это и будет ответом. \\
 
-\newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
 #include <iostream>
@@ -1747,7 +1746,7 @@ int main(int argc, const char * argv[]) {
 
 \textbf{{\large Алгоритм}}
 
-Для решения задачи сразу при считывании найдем лучшеие однокомнатные и двухкомнатные квартиры по комфорту, если Женя будет жить один. Затем отсортируем все квартиры по комфорту и для каждого друга Жени будем подбирать лучший вариант при совместной покупке. После этого сравним найденные варианты и выберем лучший. Сложность алгоритма $O(n^2)$.
+Для решения задачи сразу при считывании найдем лучшеие однокомнатные и двухкомнатные квартиры по комфорту, если Женя будет жить один. Затем отсортируем все квартиры по комфорту и для каждого друга Жени будем подбирать лучший вариант при совместной покупке. После этого сравним найденные варианты и выберем лучший. Сложность алгоритма $O(n^2)$. \\
 
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
@@ -1770,15 +1769,12 @@ typedef struct {
     long ad;
     int num;
 }apartment;
-
 bool cmp_ap(const apartment &a1, const apartment &a2) {
     return a1.ad > a2.ad;
 }
-
 bool cmp_fr(const frd &f1, const frd &f2) {
     return f1.ad > f2.ad;
 }
-
 int find_good_ap(const vector<apartment> &a, long money1, long money2) {
     for (int i = 0; i < a.size(); i++) {
         long price_for_each = a[i].price / 2;
@@ -1850,17 +1846,14 @@ int main() {
         }
         can_buy_alone = true;
     }
-    
     if (found_ap == -1 && !can_buy_alone) {
         cout << "Forget about apartments. Live in the dormitory." << endl;
         return 0;
     }
-    
     if (alone > max_ad_tog)
         cout << "You should rent the apartment #" << whereAlone << " alone." << endl;
     else
-        cout << "You should rent the apartment #" << ans_ap << " with the friend #" << ans_fr << "." << endl;
-        
+        cout << "You should rent the apartment #" << ans_ap << " with the friend #" << ans_fr << "." << endl;   
     return 0;
 }
 \end{lstlisting}
@@ -1942,7 +1935,7 @@ int main()
 Задача на реализацию. Нужно симулировать перемещение между состояниями в зависимости от первой буквы имени. Сложность $O(n)$.
 
 \newpage
-\textbf{{\large Исходный код}}
+\textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
 #include <iostream>
 
@@ -2118,7 +2111,7 @@ int main() {
 
 \textbf{{\large Алгоритм}}
 
-Отсортируем цены по возрастанию. Затем будем складывать цены по порядку из возрастания и будем считать количество сложений, пока сумма не станет больше максимальной цены. В ответе выведем значение счётчика сложений. Сложность $O(n)$.
+Отсортируем цены по возрастанию. Затем будем складывать цены по порядку из возрастания и будем считать количество сложений, пока сумма не станет больше максимальной цены. В ответе выведем значение счётчика сложений. Сложность $O(n)$. \\
 
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
@@ -2247,6 +2240,7 @@ int main() {
 
 \textbf{{\large Ссылка на контест: \url{http://codeforces.com/gym/100523}}}
 
+\newpage
 \textbf{{\large Задача C - Will It Stop?}}
 
 \begin{center}
@@ -2281,11 +2275,12 @@ int main()
 \includegraphics[width=0.9\textwidth]{CT_S02E07/CT_S02E07_H.png}\\ [1cm]
 \end{center}
 
+\newpage
 \textbf{{\large Алгоритм}}
 
 Создадим две переменные одну для чая, другую для молока и будем последовательно, для каждой буквы, добавлять к ним значение зависящее от позиции текущей буквы, и посчитанное по выведенной формуле. Сложность O(n). \\ 
 
-\textbf{{\large Исходный код}}
+\textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
 #include <iostream>
 #include <cmath>
@@ -2329,7 +2324,6 @@ int main()
 \newpage
 \subsection{Codeforces Crypto Cup 1.0}
 
-\newpage
 \textbf{{\large Результаты}} \\
 \begin{center}
 \includegraphics[width=0.95\textwidth]{CT_Crypto/CT_Crypto_result.png}\\ [1cm]
@@ -2337,6 +2331,7 @@ int main()
 
 \textbf{{\large Ссылка на контест: \url{http://codeforces.com/gym/100514}}}
 
+\newpage
 \textbf{{\large Задача B - :-P}}
 
 \begin{center}
@@ -2709,6 +2704,7 @@ int main() {
 
 \textbf{{\large Ссылка на контест: \url{http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=10282}}}
 
+\newpage
 \textbf{{\large Задача 12 - Construction of Chand Baori}}
 
 \begin{center}
@@ -2747,7 +2743,6 @@ int main(int argc, const char * argv[]) {
 \begin{center}
 \includegraphics[width=0.9\textwidth]{OC_Siberia/OC_Siberia_13.png}\\ [1cm]
 \end{center}
-\newpage
 
 \textbf{{\large Алгоритм}}
 
@@ -2876,14 +2871,15 @@ int main(int argc, const char * argv[]) {
 \newpage
 \subsection{Codeforces Training S02E08}
 
-\textbf{{\large Задача G - Growling Gears}}
-
 \textbf{{\large Результаты}} \\
 \begin{center}
 \includegraphics[width=0.95\textwidth]{CT_S02E08/CT_S02E08_result.png}\\ [1cm]
 \end{center}
 
 \textbf{{\large Ссылка на контест: \url{http://codeforces.com/gym/100526}}}
+
+\newpage
+\textbf{{\large Задача G - Growling Gears}}
 
 \begin{center}
 \includegraphics[width=0.9\textwidth]{CT_S02E08/CT_S02E08_G1.png}\\ [1cm]
@@ -3053,6 +3049,7 @@ int main(int argc, const char * argv[]) {
 
 \textbf{{\large Ссылка на контест: \url{http://codeforces.com/gym/100532}}}
 
+\newpage
 \textbf{{\large Задача G - Graveyard}}
 
 \begin{center}
@@ -3061,8 +3058,9 @@ int main(int argc, const char * argv[]) {
 
 \textbf{{\large Алгоритм}}
 
-Для того, чтобы решить эту задачу, нужно представить окружность в виде отрезка с длиной $10000$. Разобьём отрезок сначала на $n$ частей и запишем точки в вектор $a$, затем разобьём отрезок на $n+m$ частей и запишем точки в вектор $b$. Найдём пару ближайших точек из векторов $a$ и $b$, расстояние между ними и будет ответом. Сложность $O(n^2+nm)$. \\ 
+Для того, чтобы решить эту задачу, нужно представить окружность в виде отрезка с длиной $10000$. Разобьём отрезок сначала на $n$ частей и запишем точки в вектор $a$, затем разобьём отрезок на $n+m$ частей и запишем точки в вектор $b$. Найдём пару ближайших точек из векторов $a$ и $b$, расстояние между ними и будет ответом. Сложность $O(n^2+nm)$.
 
+\newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
 #include <iostream>
@@ -3275,6 +3273,7 @@ int main() {
 
 \textbf{{\large Ссылка на контест: \url{http://codeforces.com/gym/100528}}}
 
+\newpage
 \textbf{{\large Задача A - Выравнивание вещественных чисел}}
 
 \begin{center}
@@ -3337,9 +3336,8 @@ int main()
 
 \textbf{{\large Алгоритм}}
 
-В этой задаче можно заметить закономерность и предпосчитать ответ, так как всего может быть 20 различных входных данных. Таким образом, сложность составляет $O(1)$.
+В этой задаче можно заметить закономерность и предпосчитать ответ, так как всего может быть 20 различных входных данных. Таким образом, сложность составляет $O(1)$. \\
 
-\newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
 #include <iostream>
@@ -3362,9 +3360,8 @@ int main() {
 
 \textbf{{\large Алгоритм}}
 
-В задаче просто нужно вывести $n - 1$.
+В задаче просто нужно вывести $n - 1$. \\
 
-\newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
 #include <iostream>
@@ -3486,18 +3483,13 @@ int main()
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
 #include <iostream>
-#include <vector>
-#include <algorithm
-#include <iomanip>
-#define ll long long
-#define ull unsigned long long
+#define LL long long
 using namespace std;
 int main() {
     LL n;
     cin >> n;
     LL count = 0;
     LL sum = 0;
-    
     for (LL i = 3; ; i++) {
         sum += i;
         if (sum > n) break;
@@ -3574,16 +3566,9 @@ int main() {
 \begin{lstlisting}[language=C]
 #include <iostream>
 #include <vector>
-#include <map>
-#include <cmath>
 #include <algorithm>
-#include <iomanip>
-#include <list>
-#include <iterator>
 using namespace std;
 #define ll long long
-#define ull unsigned long long
-
 int main()
 {
     char a[25001], b[25001], c;
@@ -3654,23 +3639,23 @@ int main()
 
 \textbf{{\large Ссылка на контест: \url{http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=10284}}}
 
+\newpage
 \textbf{{\large Задача E - Express As The Sum}}
 
 \begin{center}
 \includegraphics[width=0.9\textwidth]{OC_Europe/OC_Europe_E.png}\\ [1cm]
 \end{center}
 
-\newpage
 \textbf{{\large Алгоритм}}
 
-Перебираем разложения для всех $N$ пока не найдём нужное, начиная от $2$. с помощью формулы $N/i$ можно сразу найти одно из чисел, входящее в возможное разложение, а затем просто перебрать $i$ вариантов. Сложность $O(n*log(n))$.  \\ 
+Перебираем разложения для всех $N$ пока не найдём нужное, начиная от $2$. с помощью формулы $N/i$ можно сразу найти одно из чисел, входящее в возможное разложение, а затем просто перебрать $i$ вариантов. Сложность $O(n*log(n))$.
 
+\newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C++]
 #include <iostream>
 using namespace std;
 #define ll long long
-#define ull unsigned long long
 void answer(ll n, ll l, ll r) {
     cout << n << " = " << l;
     for(ll i=l+1; i<=r; ++i) {
@@ -3678,8 +3663,7 @@ void answer(ll n, ll l, ll r) {
     }
     cout.put('\n');
 }
-int main()
-{
+int main() {
     ll T;
     cin >> T;
     while (T--) {
@@ -3937,7 +3921,7 @@ int main() {
 \textbf{{\large Задача O - Allo}}
 
 \begin{center}
-\includegraphics[width=0.9\textwidth]{OC_Europe/OC_Europe_N.png}\\ [1cm]
+\includegraphics[width=0.9\textwidth]{OC_Europe/OC_Europe_O.png}\\ [1cm]
 \end{center}
 
 \newpage
@@ -3990,23 +3974,20 @@ int main()
 \textbf{{\large Задача N - C\,-\,-}}
 
 \begin{center}
-\includegraphics[width=0.9\textwidth]{OC_Europe/OC_Europe_O.png}\\ [1cm]
+\includegraphics[width=0.9\textwidth]{OC_Europe/OC_Europe_N.png}\\ [1cm]
 \end{center}
 
-\newpage
 \textbf{{\large Алгоритм}}
 
-Задача на реализацию. При объявлении переменной, она добавляется в стек в виде структуры $pair$, в которой первый элемент - значение переменной, а второй - номер области видимости. При выходе из текущей области видимости, все переменный, созданные в ней, удаляются из стека. Сложность $O(n)$. \\ 
+Задача на реализацию. При объявлении переменной, она добавляется в стек в виде структуры $pair$, в которой первый элемент - значение переменной, а второй - номер области видимости. При выходе из текущей области видимости, все переменный, созданные в ней, удаляются из стека. Сложность $O(n)$.
 
+\newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C++]
 #include <iostream>
 #include <vector>
 using namespace std;
 #define ll long long
-#define ull unsigned long long
-ll min(ll a, ll b){return (a<b?a:b);}
-ll max(ll a, ll b){return (a>b?a:b);}
 int main()
 {
     ll n;
@@ -4212,12 +4193,11 @@ int main()
 \includegraphics[width=0.9\textwidth]{OC_Japan/OC_Japan_K.png}\\ [1cm]
 \end{center}
 
-\newpage
 \textbf{{\large Алгоритм}}
 
-Для того чтобы решить задачу, нужно найти минимальный циклический сдвиг, для этого мы применим алгоритм Дюваля. Сложность $O(n)$. \\ 
+Для того чтобы решить задачу, нужно найти минимальный циклический сдвиг, для этого мы применим алгоритм Дюваля. Сложность $O(n)$.
 
-%\newpage
+\newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C++]
 #include <iostream>
@@ -4259,7 +4239,6 @@ int main(int argc, const char * argv[]) {
 \begin{center}
 \includegraphics[width=0.9\textwidth]{OC_Japan/OC_Japan_L.png}\\ [1cm]
 \end{center}
-\newpage
 
 \textbf{{\large Алгоритм}}
 
@@ -4268,21 +4247,17 @@ int main(int argc, const char * argv[]) {
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C++]
 #include <iomanip>
-#include <limits>
 #include <iostream>
 #include <algorithm>
-
 int main() {
     int n, M;
 	cin >> n >> M;
-
 	vector <int> num;
 	int temp;
 	for (int i = 0; i < n; i++) {
 		cin >> temp;
 		num.push_back(temp);
 	}
-
 	int max_sum = 0;
 	for(int i = 0; i < n; i++)
 		for(int j = i + 1; j < n; j++) {
@@ -4290,7 +4265,6 @@ int main() {
 			if(temp <= M && temp > max_sum)
 				max_sum = temp;
 		}
-
 	cout << max_sum << endl;
     cin >> n;
     return 0;
@@ -4303,12 +4277,12 @@ int main() {
 \begin{center}
 \includegraphics[width=0.9\textwidth]{OC_Japan/OC_Japan_M.png}\\ [1cm]
 \end{center}
-\newpage
 
 \textbf{{\large Алгоритм}}
 
-Просто сравним все входные слова через $strcmp$, и если будет совпадение, то инкрементируем счётчик ошибок для строки. Сложность $O(n)$. \\ 
+Просто сравним все входные слова через $strcmp$, и если будет совпадение, то инкрементируем счётчик ошибок для строки. Сложность $O(n)$.
 
+\newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C++]
 #include <iostream>
@@ -4372,20 +4346,18 @@ int main()
 \begin{center}
 \includegraphics[width=0.9\textwidth]{OC_Japan/OC_Japan_N.png}\\ [1cm]
 \end{center}
-\newpage
 
 \textbf{{\large Алгоритм}}
 
-Составляем граф связей между смартфонами. Затем с помощью поиска в ширину пытаемся добраться до смартфона друга. Если получилось, то выводим $y$, если нет, то $n$. Сложность $O(n^2+n)$. \\ 
+Составляем граф связей между смартфонами. Затем с помощью поиска в ширину пытаемся добраться до смартфона друга. Если получилось, то выводим $y$, если нет, то $n$. Сложность $O(n^2+n)$.
 
+\newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C++]
 #include <iomanip>
 #include <limits>
 #include <iostream>
 #include <algorithm>
-
-
 double dist(const pair<int, int> &a, const pair<int, int> &b) {
     double x, y;
     x = (a.first - b.first);
@@ -4394,19 +4366,14 @@ double dist(const pair<int, int> &a, const pair<int, int> &b) {
     y *= y;
     return sqrt(x + y);
 }
-
 int main() {
-
-    more_speed
     int n, d;
     cin >> n >> d;
     vector<pair<int, int> > points(n);
     for (int i = 0; i < n; i++) {
         cin >> points[i].first >> points[i].second;
     }
-
     vector<vector<int> > g(n, vector<int>());
-
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             if (i != j) {
@@ -4417,9 +4384,7 @@ int main() {
             }
         }
     }
-
     int s = 0;
-
     queue<int> q;
     q.push(s);
     vector<bool> used (n);
@@ -4439,7 +4404,6 @@ int main() {
             }
         }
     }
-
     cout << "n" << endl;
     return 0;
 }
@@ -4472,11 +4436,11 @@ int main() {
 \includegraphics[width=0.9\textwidth]{OC_Northern/OC_Northern_K2.png}\\ [1cm]
 \end{center}
 
-\newpage
 \textbf{{\large Алгоритм}}
 
-Задача на реализацию. Нужно построить что-то на подобии экспертной системы по заданным правилам. Сложность $O(n)$. \\ 
+Задача на реализацию. Нужно построить что-то на подобии экспертной системы по заданным правилам. Сложность $O(n)$.
 
+\newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C++]
 #include <iomanip>
@@ -4484,11 +4448,8 @@ int main() {
 #include <algorithm>
 #include <vector>
 #include <fstream>
-
 #define LL  long long
-#define ULL unsigned long long
 using namespace std;
-
 ifstream in("killthepsu.in");
 ofstream out("killthepsu.out");
 
@@ -4497,7 +4458,6 @@ public:
     string name;
     virtual void message() = 0;
 };
-
 class cat1 : public item {
 public:
     void message() {
@@ -4507,7 +4467,6 @@ public:
         name = n;
     }
 };
-
 class cat2 : public item {
 public:
     bool load;
@@ -4527,10 +4486,8 @@ public:
         load = false;
     }
 };
-
 int reserve = 20;
 bool nextIter = false;
-
 class cat3 : public item {
 public:
     int power;
@@ -4558,7 +4515,6 @@ public:
 int main() {
     int t;
     in >> t;
-
     for (int k = 0; k < t; k++) {
         reserve = 20;
         map<string, item *> system;
@@ -4572,19 +4528,16 @@ int main() {
             item *newItem = new cat1(name);
             system[name] = newItem;
         }
-
         for (int i = 0; i < b; i++) {
             getline(in, name);
             item *newItem = new cat2(name);
             system[name] = newItem;
         }
-
         for (int i = 0; i < c; i++) {
             getline(in, name);
             item *newItem = new cat3(name);
             system[name] = newItem;
         }
-
         for (int i = 0; i < d; i++) {
             getline(in, name);
             if (!nextIter) {
@@ -4595,10 +4548,8 @@ int main() {
         }
         nextIter = false;
     }
-
     in.close();
     out.close();
-
     return 0;
 }
 \end{lstlisting}
@@ -4677,6 +4628,7 @@ int main() {
 
 \textbf{{\large Ссылка на контест: \url{http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=10288}}}
 
+\newpage
 \textbf{{\large Задача I - Jam}}
 
 \begin{center}
@@ -4730,7 +4682,6 @@ int main() {
 \includegraphics[width=0.9\textwidth]{OC_Karelia/OC_Karelia_J.png}\\ [1cm]
 \end{center}
 
-\newpage
 \textbf{{\large Алгоритм}}
 
 Задача решается прямой симуляцией процесса игры по довольно простым правилам, заданным в условии задачи. Сложность $O(log(n))$. \\ 
@@ -4896,30 +4847,21 @@ int main()
 \includegraphics[width=0.9\textwidth]{OC_Karelia/OC_Karelia_L2.png}\\ [1cm]
 \end{center}
 
-\newpage
 \textbf{{\large Алгоритм}}
 
-Создаём матрицу, изначально заполненную решётками. Воспроизводим путь робота согласно входным символам и отмечаем путь точками, в процессе запоминая максимальную и минимальную координаты. Используя найденные граничные координаты, вычисляем размер поля и выводим само поле. Сложность $O(n)$. \\ 
+Создаём матрицу, изначально заполненную решётками. Воспроизводим путь робота согласно входным символам и отмечаем путь точками, в процессе запоминая максимальную и минимальную координаты. Используя найденные граничные координаты, вычисляем размер поля и выводим само поле. Сложность $O(n)$.
 
+\newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C++]
 #include <iostream>
 using namespace std;
-#define ll long long
-#define ull unsigned long long
-#define eps 0.00001
-ll min(ll a, ll b){return (a<b?a:b);}
-ll max(ll a, ll b){return (a>b?a:b);}
-
-int main()
-{
+int main() {
     ifstream in("maze.in");
-
     long T;
     in >> T;
     in.get();
     while (T--) {
-
         char map[210][210];
         for (ll i=0; i<210; ++i) {
             for (ll j=0; j<210; ++j) {
@@ -4966,8 +4908,6 @@ int main()
             cout.put('\n');
         }
     }
-
-    in.close();
     return 0;
 }
 \end{lstlisting}
@@ -4996,7 +4936,6 @@ int main()
 \includegraphics[width=0.9\textwidth]{OC_Udmurtia/OC_Udmurtia_A1.png}\\ [1cm]
 \includegraphics[width=0.9\textwidth]{OC_Udmurtia/OC_Udmurtia_A2.png}\\ [1cm]
 \end{center}
-\newpage
 
 \textbf{{\large Алгоритм}}
 
@@ -5540,6 +5479,7 @@ int main()
 
 \textbf{{\large Ссылка на контест: \url{http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=10300}}}
 
+\newpage
 \textbf{{\large Задача N - Ordered Sequences}}
 
 \begin{center}
@@ -5598,6 +5538,7 @@ int main()
 
 \textbf{{\large Ссылка на контест: \url{http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=10301}}}
 
+\newpage
 \textbf{{\large Задача M - The Dress}}
 
 \begin{center}
@@ -5661,6 +5602,7 @@ int main(){
 
 \textbf{{\large Ссылка на контест: \url{http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=10302}}}
 
+\newpage
 \textbf{{\large Задача J - Zig Zag Nametag}}
 
 \begin{center}
@@ -5823,11 +5765,11 @@ int main(){
 \includegraphics[width=0.9\textwidth]{OC_America/OC_America_M2.png}\\ [1cm]
 \end{center}
 
-\newpage
 \textbf{{\large Алгоритм}}
 
-Считываем буквы обоих команд в два вектора в виде номера буквы. Далее циклом проходим одновременно по двум векторам и сравниваем буквы. Если буквы равны, то выводим $1$, а если буквы различны, то для каждого вектора начинаем считать сумму букв тем самым добавляя их в два множества (для каждого вектора своё) и подсчитываем количество букв в этих множествах. Делаем это до тех пор пока сумма обоих множеств не станет равна и соответственно оба множества будут равны. Когда они станут равны, выводим количество элементов во множествах и обнуляем их. Сложность $O(n)$.\\ 
+Считываем буквы обоих команд в два вектора в виде номера буквы. Далее циклом проходим одновременно по двум векторам и сравниваем буквы. Если буквы равны, то выводим $1$, а если буквы различны, то для каждого вектора начинаем считать сумму букв тем самым добавляя их в два множества (для каждого вектора своё) и подсчитываем количество букв в этих множествах. Делаем это до тех пор пока сумма обоих множеств не станет равна и соответственно оба множества будут равны. Когда они станут равны, выводим количество элементов во множествах и обнуляем их. Сложность $O(n)$.
 
+\newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C++]
 #include <iostream>
@@ -6046,7 +5988,6 @@ print $r;
 %
 %----------------------------------------------------------------------------------------
 
-\newpage
 \subsection{Codeforces Round 267 Div 2}
 
 \textbf{{\large Результаты}} \\
@@ -6098,8 +6039,9 @@ int main() {
 
 \textbf{{\large Алгоритм}}
 
-В этой задаче нужно побитово сравнивать число Феди и числа других игроков и инкрементировать счетчик, если количество различных бит меньше $k$. Задача решается за $O(nb)$, где $b$ -- максимальная разрядность числа.\\ 
+В этой задаче нужно побитово сравнивать число Феди и числа других игроков и инкрементировать счетчик, если количество различных бит меньше $k$. Задача решается за $O(nb)$, где $b$ -- максимальная разрядность числа.
 
+\newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
 #include <iostream>
@@ -6171,9 +6113,7 @@ int main() {
 \begin{lstlisting}[language=C]
 #include <iostream>
 #include <vector>
-
 using namespace std;
-
 int main() {
     int n, p, q, num;
     cin >> n;
@@ -6583,23 +6523,17 @@ int main() {
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
 #include <iostream>
-
 #define LL  long long
 using namespace std;
-
 LL fun(LL n) {
     return (n * n - n) / 2;
 }
-
 int main() {
     LL n, m;
     cin >> n >> m;
-    
     LL min, max;
-    
     LL k = n - (m - 1);
     max = fun(k);
-    
     LL g = n / m;
     if (n % m == 0) {
         min = m * fun(g);
@@ -6608,9 +6542,7 @@ int main() {
         min = (m - (n % m)) * fun(g);
         min += (n % m) * fun(g + 1);
     }
-    
     cout << min << " " << max << endl;
-    
     return 0;
 }
 \end{lstlisting}
@@ -6632,6 +6564,43 @@ int main() {
 \end{center}
 
 \textbf{{\large Ссылка на контест: \url{http://codeforces.com/contest/480}}}
+
+\newpage
+\textbf{{\large Задача А - Выражение}}
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{C_274/C_274_A.png}\\ [1cm]
+\end{center}
+
+\textbf{{\large Алгоритм}}
+
+Всего может быть 6 вариантов выражения, поэтому просто переберем все варианты и выберем наибольший ответ. Сложность алгоритма $O(1)$.\\
+
+\textbf{{\large Исходный код}}
+\begin{lstlisting}[language=C]
+#include <iostream>
+using namespace std;
+int main() {
+    int a, b, c;
+    cin >> a >> b >> c;
+    int s;
+    int answer = 0;
+    s = a + b + c;
+    if (s > answer) answer = s;
+    s = a * b + c;
+    if (s > answer) answer = s;
+    s = a + b  * c;
+    if (s > answer) answer = s;
+    s = a * b * c;
+    if (s > answer) answer = s;
+    s = (a + b) * c;
+    if (s > answer) answer = s;
+    s = a * (b + c);
+    if (s > answer) answer = s;
+    cout << answer << endl;
+    return 0;
+}
+\end{lstlisting}
 
 \newpage
 \textbf{{\large Задача B - Башни}}
@@ -6702,8 +6671,9 @@ int main() {
 
 \textbf{{\large Алгоритм}}
 
-Для решения этой задачи нужно отсортировать экзамены сначала по дате сдачи по расписанию, а затем устойчиво отсортировать по датам досрочной сдачи. Потом нужно пройти по отсортированным датам и если у текущего экзамена досрочная дата раньше чем досрочная предыдущего, то текущий нужно сдавать по расписанию. Сложность алгоритма $O(nlog(n))$.\\
+Для решения этой задачи нужно отсортировать экзамены сначала по дате сдачи по расписанию, а затем устойчиво отсортировать по датам досрочной сдачи. Потом нужно пройти по отсортированным датам и если у текущего экзамена досрочная дата раньше чем досрочная предыдущего, то текущий нужно сдавать по расписанию. Сложность алгоритма $O(nlog(n))$.
 
+\newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
 #include <iostream>
@@ -6899,8 +6869,9 @@ int main(int argc, const char * argv[]) {
 
 \textbf{{\large Алгоритм}}
 
-В этой задаче нужно знать высоту самого высокого и второго по высоте. Это можно сделать с помощью $k$-й порядковой статистики. А потом нужно посчитать количество пикселей. Можно заметить, что высота фотографии всегда будет равна высоте самого высокого из друзей, и один раз высоте второго по высоте.\\
+В этой задаче нужно знать высоту самого высокого и второго по высоте. Это можно сделать с помощью $k$-й порядковой статистики. А потом нужно посчитать количество пикселей. Можно заметить, что высота фотографии всегда будет равна высоте самого высокого из друзей, и один раз высоте второго по высоте.
 
+\newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
 #include <iostream>
@@ -7052,8 +7023,9 @@ int main() {
 
 \textbf{{\large Алгоритм}}
 
-В этой задаче по числам $a$, $b$ и $c$ нужно определить, существуют ли такие $a_1$ и $b_1$, что $a_1 \leq a$, $b_1 \leq b$ и $a_1 + 2b_1 = c$. Для этого достаточно проверить, что $a + 2b \geq c$, а если $c$ -- нечетное, то проверить условие $a \geq 1$. Сложность $O(1)$.\\
+В этой задаче по числам $a$, $b$ и $c$ нужно определить, существуют ли такие $a_1$ и $b_1$, что $a_1 \leq a$, $b_1 \leq b$ и $a_1 + 2b_1 = c$. Для этого достаточно проверить, что $a + 2b \geq c$, а если $c$ -- нечетное, то проверить условие $a \geq 1$. Сложность $O(1)$.
 
+\newpage
 \textbf{{\large Исходный код}} \\
 \begin{lstlisting}[language=C]
 #include <iostream>
